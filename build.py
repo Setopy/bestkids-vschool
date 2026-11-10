@@ -380,18 +380,20 @@ self.addEventListener('activate', (e) => {
 });
 
 // Network first, so new lessons appear as soon as you are online; cache when offline.
+// Only this site's own files are handled. Web fonts are left to the browser, and
+// the pages fall back to built-in fonts when offline.
 self.addEventListener('fetch', (e) => {
-  if (e.request.method !== 'GET') return;
+  if (e.request.method !== 'GET' || new URL(e.request.url).origin !== self.location.origin) return;
   e.respondWith(
     fetch(e.request)
       .then((res) => {
-        if (res && (res.ok || res.type === 'opaque')) {
+        if (res && res.status === 200) {
           const copy = res.clone();
           caches.open(CACHE).then((c) => c.put(e.request, copy));
         }
         return res;
       })
-      .catch(() => caches.match(e.request, {ignoreSearch: true}).then((hit) => hit || caches.match('./index.html')))
+      .catch(() => caches.match(e.request, {ignoreSearch: true}).then((hit) => hit || (e.request.mode === 'navigate' ? caches.match('./index.html') : Response.error())))
   );
 });
 """
@@ -402,7 +404,7 @@ def write_pwa():
     import json
     files = ["./", "index.html", "guide.html", "manifest.webmanifest", "assets/style.css", "assets/app.js"]
     files += sorted(str(p.relative_to(ROOT)) for d in ("lessons", "weeks", "assets/icons") for p in (ROOT / d).glob("*"))
-    digest = hashlib.sha1()
+    digest = hashlib.sha1(SW.encode())
     for f in files[1:]:
         if f != "manifest.webmanifest":
             digest.update((ROOT / f).read_bytes())
