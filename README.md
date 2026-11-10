@@ -10,6 +10,7 @@ A world-class Grade 5 homeschool curriculum: 36 weeks, five disciplines, built o
 - **Quarter 1 complete: Weeks 1–9, 45 full lessons.** Each has a big question, goals, core teaching, worked examples, a hands-on activity, practice with an answer key that explains *why*, a scholar's challenge, vocabulary and Socratic discussion questions.
 - A parent guide with a weekly rhythm.
 - Per-device progress tracking and a print layout (20pt body text).
+- Installable as an app (PWA) with offline reading. `build.py` regenerates `sw.js` and `manifest.webmanifest`, so new lessons are cached automatically.
 
 ## How it is built
 

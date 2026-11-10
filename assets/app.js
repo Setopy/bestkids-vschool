@@ -42,4 +42,25 @@
       tog.textContent = open ? 'Hide all answers' : 'Show all answers';
     });
   }
+
+  // Installable app: offline cache + install button.
+  if ('serviceWorker' in navigator && window.SW_PATH) {
+    navigator.serviceWorker.register(window.SW_PATH).catch(function () { /* offline mode unavailable */ });
+  }
+  var installBtn = document.querySelector('[data-install]');
+  var deferred = null;
+  window.addEventListener('beforeinstallprompt', function (e) {
+    e.preventDefault();
+    deferred = e;
+    if (installBtn) installBtn.hidden = false;
+  });
+  if (installBtn) {
+    installBtn.addEventListener('click', function () {
+      if (!deferred) return;
+      deferred.prompt();
+      deferred = null;
+      installBtn.hidden = true;
+    });
+  }
+  window.addEventListener('appinstalled', function () { if (installBtn) installBtn.hidden = true; });
 })();

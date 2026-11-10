@@ -9,11 +9,17 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#0f1b33">
+<link rel="icon" type="image/png" href="assets/icons/icon-192.png">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="BestKids">
 </head>
 <body class="">
 <header class="top">
   <a class="brand" href="index.html"><span class="crest">B</span><span>BestKids <em>V-School</em></span></a>
-  <nav><a href="index.html#map">Curriculum</a><a href="guide.html">Parent guide</a></nav>
+  <nav><button class="install" data-install hidden>Install app</button><a href="index.html#map">Curriculum</a><a href="guide.html">Parent guide</a></nav>
 </header>
 <main class="lesson guide">
 <h1>Parent guide</h1>
@@ -39,13 +45,16 @@
 <p>Keep one bound notebook per discipline. Date every page. Never erase a mistake: draw one line through it and write the correction beside it. At the end of each quarter the notebooks are the portfolio.</p></section>
 <section class="core"><h2><span class="num">4</span>Mastery before speed</h2>
 <p>Move on when your child can teach the idea back to you without the page. If a lesson needs two days, give it two days. The Singapore approach moves from concrete objects, to pictures, to symbols. If the symbols are shaky, go back to the objects.</p></section>
-<section class="core"><h2><span class="num">5</span>Tracking progress</h2>
+<section class="core"><h2><span class="num">5</span>Install it as an app</h2>
+<p>BestKids V-School can be installed and then works without internet. On Android or a computer (Chrome or Edge), press <strong>Install app</strong> in the top bar, or choose "Install" from the browser menu. On iPhone or iPad, open the site in Safari, tap <strong>Share</strong>, then <strong>Add to Home Screen</strong>. Open the app once while online so every lesson is saved to the device.</p></section>
+<section class="core"><h2><span class="num">6</span>Tracking progress</h2>
 <p>Press <strong>Mark lesson complete</strong> at the end of a lesson. The curriculum map then shows a tick for that lesson. Progress is stored in the browser on that device only.</p></section>
 </main>
 <footer class="foot">
   <p><strong>BestKids V-School</strong> · Grade 5 · Built on Cambridge International, Singapore Primary Mathematics and the Classical Trivium.</p>
   <p class="small">Ask why. Show your working. Check your answer.</p>
 </footer>
+<script>window.SW_PATH="sw.js";</script>
 <script src="assets/app.js"></script>
 </body>
 </html>
