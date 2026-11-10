@@ -1,0 +1,408 @@
+@lesson 5 math Bar Modeling II: Multi-Step Problems
+@hook Two friends start with the same amount of money. One spends $45 and the other spends $120. Now the first has four times as much as the second. With no algebra at all, can you find what they started with?
+@goals
+- Model before-and-after problems with two sets of bars.
+- Model "a fraction of the remainder" problems.
+- Use what stays constant (a total or a difference) to find one unit.
+- Solve transfer problems where something moves from one person to another.
+@section Find what does not change
+Multi-step problems describe a change. The secret is to ask: **what stays the same?**
+| Situation | What stays constant |
+| Both people spend or gain different amounts | Nothing obvious: compare the bars **after** |
+| Both people age | The **difference** in their ages |
+| One person gives to the other | The **total** |
+| Only one quantity changes | The **other** quantity |
+Draw a **before** model and an **after** model, one above the other, and mark the constant.
+@section Fraction of the remainder
+When a problem says "then spent half of **the remainder**", the second fraction is taken from what is left, not from the original amount. Draw the first cut, then cut only the leftover part.
+%bar Money | book 1/3:1 | game:1 | left $24:1
+Here one third is spent first. The remainder is two thirds, and half of it is one of the original thirds. So all three pieces are equal, and each is $24.
+@section Transfers
+When Kim gives stickers to Pat, Kim's bar shrinks and Pat's grows by the same amount. The total does not change. To make two unequal amounts equal, you move **half of the difference**.
+@example Ana and Ben had the same amount of money. Ana spent $45 and Ben spent $120. Then Ana had 4 times as much as Ben. How much did each have at first?
+- After: Ben is 1 unit and Ana is 4 units.
+- Ben spent 120 − 45 = $75 more than Ana, so Ana now has $75 more. That difference is 3 units.
+- 3 units = 75, so 1 unit = 25. Ben now has $25.
+- Ben at first: 25 + 120 = 145.
+- Check with Ana: 4 × 25 = 100, and 100 + 45 = 145. ✓
+= Each had $145 at first.
+@example Li spent 1/3 of her money on a book and 1/2 of the remainder on a game. She had $24 left. How much did she have at first?
+- After the book, 2/3 remains.
+- Half of 2/3 is 1/3, spent on the game. So 1/3 is left.
+- 1/3 of her money = $24, so the whole is 3 × 24 = 72.
+- Check: book 24, remainder 48, game 24, left 24. ✓
+= She had $72 at first.
+@example A father is 36 and his son is 8. In how many years will the father be 3 times as old as his son?
+- The difference in their ages is always 36 − 8 = 28.
+- When the father is 3 units and the son 1 unit, the difference is 2 units.
+- 2 units = 28, so 1 unit = 14. The son will be 14.
+- 14 − 8 = 6 years. Check: the father will be 42 = 3 × 14. ✓
+= In 6 years.
+@activity The Problem Workshop | notebook, ruler, two coloured pencils
+- Choose one worked example. Change only the numbers so that the answer is still a whole number. Solve your new problem with a full model.
+- Write one transfer problem about two members of your family and something they collect.
+- Draw the before model in one colour and the after model in another.
+- Ask a parent to solve it using only your drawing, without reading the words.
+- If they cannot, improve the labels on the drawing, not the words.
+@practice
+? A baker made 240 rolls. He sold 3/8 of them in the morning and 1/3 of the remainder in the afternoon. How many were left?
+= 100 rolls
+! Morning: 3/8 of 240 = 90, leaving 150. Afternoon: 1/3 of 150 = 50. Then 150 − 50 = 100.
+? Kim has 80 stickers and Pat has 32. How many must Kim give Pat so that they have the same number?
+= 24 stickers
+! The total, 112, stays constant, so each ends with 56. Kim gives 80 − 56 = 24, which is half the difference of 48.
+? Rosa had 5 times as many stamps as Dan. After Rosa gave Dan 30 stamps, they had the same number. How many did Rosa have at first?
+= 75 stamps
+! The difference was 4 units, and giving 30 closes a gap of 60. So 4 units = 60 and 1 unit = 15. Rosa had 5 × 15 = 75. Check: 75 − 30 = 45 and 15 + 30 = 45.
+? In a class, 2/5 of the pupils are boys. There are 12 more girls than boys. How many pupils are in the class?
+= 60 pupils
+! Boys are 2 units and girls 3 units. The difference, 1 unit, is 12. The class is 5 units = 60.
+? Three pens and two notebooks cost $19. A notebook costs $2 more than a pen. What does a pen cost?
+= $3
+! Swap each notebook for a pen plus $2: five pens plus $4 cost $19, so five pens cost $15. Check: 3 × 3 + 2 × 5 = 19.
+? Mei spent 1/4 of her money on lunch and $18 on a book. She then had half of her money left. How much did she have at first?
+= $72
+! Half was spent in all. Lunch was one quarter, so the book was the other quarter: 1/4 = $18, and the whole is $72.
+@challenge
+? Alma and Bruno have $200 between them. After Alma gives Bruno $30, she still has $20 more than he does. How much did each have at first?
+= Alma $140, Bruno $60
+! The total stays $200. Afterwards, removing the extra 20 leaves two equal bars: 180 ÷ 2 = 90 for Bruno and 110 for Alma. Undo the gift: Alma 110 + 30 = 140, Bruno 90 − 30 = 60.
+@vocab
+Before-and-after model: Two bar models showing a situation at two moments.
+Remainder: What is left after part has been taken away.
+Constant: A quantity that does not change.
+Transfer: Moving an amount from one quantity to another.
+Unit: One of the equal pieces of a bar model.
+@talk
+- Why does the difference between two people's ages never change, while the ratio does?
+- In a transfer, the gap closes by twice the amount moved. Explain why in your own words.
+- Would you sooner solve these problems with bars or with letters such as x? What does each method make easy?
+
+@lesson 5 science Molecular Bonds
+@hook Sodium is a metal that explodes in water. Chlorine is a poisonous green gas. Join them and you get table salt, which you sprinkle on your dinner. How can two dangerous things make something safe?
+@goals
+- Explain why atoms form bonds.
+- Describe ionic bonding as a transfer of electrons and covalent bonding as a sharing of electrons.
+- Tell an element from a compound and an atom from a molecule.
+- Read a chemical formula and count its atoms.
+@section Why atoms bond
+Last week you saw that the noble gases have full outer shells and almost never react. A full outer shell is a stable arrangement. Other atoms reach it by **giving away, taking or sharing** electrons. When they do, they become held together by a **chemical bond**.
+A substance made of two or more different elements bonded together is a **compound**. A compound's properties can be completely unlike those of its elements. That is why salt is nothing like sodium or chlorine.
+@section Ionic bonds: give and take
+Sodium is 2, 8, 1. Losing one electron leaves a full shell: 2, 8. Chlorine is 2, 8, 7. Gaining one electron fills its shell: 2, 8, 8.
+So sodium hands its outer electron to chlorine. Each atom now has unequal numbers of protons and electrons, so it carries a charge. A charged atom is an **ion**.
+| Atom | Does what | Becomes |
+| Sodium, Na | Loses 1 electron | Na⁺, a positive ion |
+| Chlorine, Cl | Gains 1 electron | Cl⁻, a negative ion |
+Opposite charges attract. That attraction is an **ionic bond**. Ionic bonds form between a **metal** and a **non-metal**. The ions stack in a regular grid called a **crystal lattice**, which is why salt grains are tiny cubes.
+@section Covalent bonds: sharing
+Two non-metals both want to gain electrons, so neither will give one up. They **share**. A shared pair of electrons is a **covalent bond**, and a group of atoms joined this way is a **molecule**.
+Oxygen is 2, 6 and needs two more electrons. Hydrogen has one and needs one more. One oxygen shares a pair with each of two hydrogens. All three atoms now have full outer shells. The result is water, H₂O.
+| | Ionic compounds | Covalent compounds |
+| Formed between | Metal and non-metal | Non-metals |
+| Electrons are | Transferred | Shared |
+| Made of | Ions in a lattice | Separate molecules |
+| Melting point | High | Usually low |
+| Examples | NaCl, MgO | H₂O, CO₂, CH₄ |
+@section Reading a formula
+A **chemical formula** lists the elements in a compound and how many atoms of each. The small number written after a symbol is a **subscript**. No subscript means one atom.
+| Formula | Name | Atoms |
+| H₂O | Water | 2 hydrogen, 1 oxygen |
+| CO₂ | Carbon dioxide | 1 carbon, 2 oxygen |
+| CH₄ | Methane | 1 carbon, 4 hydrogen |
+| NaCl | Sodium chloride | 1 sodium, 1 chlorine |
+| C₆H₁₂O₆ | Glucose | 6 carbon, 12 hydrogen, 6 oxygen |
+Some elements travel as molecules of two identical atoms, such as oxygen gas, O₂. That is a molecule but not a compound, because only one element is present.
+@example Magnesium is 2, 8, 2 and oxygen is 2, 6. What kind of bond forms, and what ions result?
+- Magnesium is a metal and oxygen a non-metal, so the bond is ionic.
+- Magnesium loses 2 electrons to reach 2, 8. It becomes Mg²⁺.
+- Oxygen gains 2 electrons to reach 2, 8. It becomes O²⁻.
+- One magnesium supplies exactly what one oxygen needs.
+= An ionic bond, forming magnesium oxide, MgO
+@example How many atoms are in one molecule of sulfuric acid, H₂SO₄?
+- H₂ means 2 hydrogen atoms.
+- S has no subscript: 1 sulfur atom.
+- O₄ means 4 oxygen atoms.
+= 2 + 1 + 4 = 7 atoms
+@activity Sweet Molecules and Salt Crystals | soft sweets or clay balls in three colours, toothpicks, table salt, a magnifying glass, a dark plate, warm water
+- Choose a colour each for hydrogen, oxygen and carbon. Build H₂O, CO₂, CH₄ and O₂ with toothpicks as bonds.
+- For each model, say which atoms are sharing and how many bonds each atom has made.
+- Sprinkle salt on the dark plate and look through the magnifier. Draw the shape of the grains.
+- Dissolve two spoonfuls of salt in a little warm water and leave it in a sunny place for several days.
+- Examine the new crystals. Why do they always form the same shape?
+@practice
+? Why do atoms form bonds?
+= To reach a stable, full outer shell of electrons.
+! Atoms with incomplete outer shells become more stable by losing, gaining or sharing electrons.
+? What is an ion?
+= An atom that has gained or lost electrons and so carries an electric charge.
+! Its protons and electrons are no longer equal in number, so the charges no longer cancel.
+? Which type of bond forms between potassium (a metal) and fluorine (a non-metal)?
+= An ionic bond
+! The metal gives up its outer electron and the non-metal takes it, making oppositely charged ions that attract.
+? How many atoms of each element are in glucose, C₆H₁₂O₆, and how many altogether?
+= 6 carbon, 12 hydrogen, 6 oxygen: 24 atoms
+! Each subscript counts the atoms of the element just before it: 6 + 12 + 6.
+? Is O₂ a compound? Explain.
+= No. It is a molecule of an element.
+! A compound must contain at least two different elements. O₂ contains only oxygen.
+? Why does table salt have a high melting point?
+= Its ions are held in a lattice by strong attractions in every direction.
+! A great deal of energy is needed to pull so many strongly attracted ions apart.
+@challenge
+? Magnesium forms the ion Mg²⁺ and chlorine forms Cl⁻. Work out the formula of magnesium chloride and explain your reasoning.
+= MgCl₂
+! Magnesium must lose two electrons, but each chlorine atom can accept only one. Two chlorine atoms are needed for each magnesium, so the charges balance: +2 and two of −1.
+@vocab
+Chemical bond: A force that holds atoms together.
+Ion: An atom with an electric charge from gaining or losing electrons.
+Ionic bond: Attraction between oppositely charged ions.
+Covalent bond: A bond formed when atoms share a pair of electrons.
+Molecule: Two or more atoms joined by covalent bonds.
+Compound: A substance made of two or more different elements bonded together.
+@talk
+- Salt is nothing like sodium or chlorine. Is a compound "made of" its elements in the same way a wall is made of bricks?
+- Why can you not tell what a compound will be like just by knowing its elements?
+- Water is H₂O everywhere in the universe. What does that suggest about the laws of chemistry?
+
+@lesson 5 history The Agricultural Revolution
+@hook For nearly all of human history every person was a hunter or a gatherer. Then, in several far-apart places within a few thousand years, people began to plant seeds. It changed everything. Was it the best decision humans ever made, or a trap?
+@goals
+- Describe the hunter-gatherer way of life.
+- Explain what domestication is and where the first farming began.
+- Trace the chain from farming to surplus to cities.
+- Weigh the gains and costs of the change.
+@section Life before farming
+For hundreds of thousands of years people lived as **hunter-gatherers**. They moved with the seasons in bands of a few dozen, following animals and ripening plants. They owned only what they could carry. They knew hundreds of plants and the habits of every animal around them. This long period is the **Palaeolithic**, or Old Stone Age.
+@section The great change
+About 12,000 years ago the last Ice Age ended and the climate became warmer and steadier. In a few regions people began to **domesticate** plants and animals: to breed them, generation after generation, for the features humans wanted. This was the **Neolithic Revolution**, the start of the New Stone Age.
+It was not one event. It happened independently in several parts of the world.
+| Region | Began about | Plants | Animals |
+| Fertile Crescent (Southwest Asia) | 9500 BC | Wheat, barley, lentils | Sheep, goats, cattle, pigs |
+| China | 7000 BC | Rice, millet | Pigs, chickens |
+| Mesoamerica (Mexico) | 7000 BC | Maize, beans, squash | Turkey |
+| Andes (South America) | 5000 BC | Potato, quinoa | Llama, alpaca |
+| West Africa and the Sahel | 3000 BC | Sorghum, yams, African rice | Cattle |
+The **Fertile Crescent** is an arc of well-watered land from the eastern Mediterranean to the Persian Gulf. In Mexico, farmers slowly turned a wild grass called teosinte, with ears the size of a finger, into maize. The dog had been domesticated from the wolf much earlier, by hunters.
+@section The chain reaction
+Farming set off a sequence of changes, each causing the next.
+- **Settlement.** Fields cannot be carried, so people stayed in one place and built permanent villages.
+- **Surplus.** A good harvest gave more food than the farmers needed.
+- **Population growth.** More food fed more children.
+- **Specialisation.** Not everyone had to farm. Some became potters, weavers, toolmakers, priests and soldiers.
+- **Property and trade.** Stored grain and land could be owned, counted, exchanged and stolen.
+- **Government and classes.** Someone had to organise storage, defence and irrigation. Rulers and ranks appeared.
+Early farming towns such as **Jericho**, near the River Jordan, and **Çatalhöyük**, in what is now Turkey, held thousands of people by 7000 BC.
+@section Gains and costs
+| Gains | Costs |
+| A steadier, storable food supply | Harder, longer work |
+| Far larger populations | A narrower diet and poorer teeth and bones |
+| Time for crafts, learning and invention | New diseases caught from crowded living and animals |
+| Villages, then cities | Inequality, and war over land and stores |
+Skeletons show that early farmers were often shorter and less healthy than the hunter-gatherers before them. Yet farming peoples multiplied, and once a population had grown it could not go back. Every city, book and laboratory since then has depended on the farmer's surplus.
+@example Explain how farming led to the invention of writing. Use at least three links of the chain.
+- Farming produced a surplus of grain.
+- Surplus had to be stored and shared out, so someone had to keep records.
+- Surplus also fed specialists who did not farm, including full-time record-keepers.
+- Marks for counting sacks and animals grew, over centuries, into written signs.
+= Farming, then surplus, then storage and specialists, then records, then writing. You will see this happen in Mesopotamia next week.
+@activity Forager or Farmer? | paper, pencils, a few seeds (beans or maize) and a pot of soil
+- Draw two columns: a day in the life of a 10-year-old forager and of a 10-year-old early farmer. Fill each with at least six activities.
+- For each life list what you own, what you eat, and what you fear.
+- Plant the seeds. Each day for two weeks, record what care they needed. How does a crop tie you to one place?
+- Hold a family vote: which life would each person choose? Each voter must give one reason.
+- Write a paragraph that begins: "The Agricultural Revolution was mostly a gain (or loss) because…"
+@practice
+? What does it mean to domesticate a plant or animal?
+= To breed it over many generations for traits that are useful to humans.
+! By choosing which seeds to plant or which animals to keep, people slowly changed wild species into crops and livestock.
+? Where is the Fertile Crescent and which crops began there?
+= In Southwest Asia, from the eastern Mediterranean to the Persian Gulf. Wheat and barley.
+! Its wild grasses, rivers and rainfall made it one of the first places where farming began.
+? Which three crops were domesticated in Mesoamerica?
+= Maize, beans and squash
+! These "three sisters" were developed in ancient Mexico, with maize bred from the wild grass teosinte.
+? What is a surplus, and why does it matter?
+= More food than the producers need. It frees some people to do other work.
+! Specialists, rulers, trade and cities are all fed from the surplus.
+? Give two ways in which early farmers were worse off than hunter-gatherers.
+= They worked harder, ate a narrower diet and caught more diseases (any two).
+! Evidence from skeletons shows shorter height and more illness after the change to farming.
+? Why did farming begin when it did and not 50,000 years earlier?
+= The climate became warmer and more stable after the last Ice Age.
+! Crops need dependable seasons. Before about 12,000 years ago the climate was too cold and changeable.
+@challenge
+? Farming began separately in at least five regions that had no contact with each other. What does that suggest about why it happened? Give two possible explanations.
+= It suggests shared causes, not one clever inventor: for example the worldwide change in climate, and growing populations that needed more food.
+! When the same change appears independently in many places, the explanation must lie in conditions common to all of them. A strong answer also notes that each region used the plants and animals that happened to live there.
+@vocab
+Hunter-gatherer: A person who lives by hunting animals and collecting wild plants.
+Neolithic: The New Stone Age, when farming began.
+Domestication: Changing wild plants or animals by selective breeding.
+Surplus: An amount beyond what is needed.
+Specialisation: Different people doing different kinds of work.
+Sedentary: Living in one place; not moving with the seasons.
+@talk
+- One writer called farming "the worst mistake in the history of the human race". Do you agree?
+- Did humans domesticate wheat, or did wheat domesticate humans?
+- Could civilisation have developed without inequality? What would have been needed?
+
+@lesson 5 literature Fables & Aesop
+@hook A story of six sentences about a tortoise and a hare has been told for 2,500 years and is known on every continent. Why do the shortest stories last the longest?
+@goals
+- Identify the features of a fable.
+- State the moral of a fable and support it with evidence.
+- Distinguish a fable from a myth and a parable.
+- Write an original fable.
+@section What makes a fable
+A **fable** is a very short story that teaches a lesson about how to live. It has four marks.
+- It is **brief**: a single scene and a single problem.
+- Its characters are usually **animals that behave like people**. Giving human qualities to animals or things is **anthropomorphism**.
+- Each character stands for **one trait**: the fox is cunning, the ant hard-working, the lion proud.
+- It ends with a **moral**, a lesson that can be stated in one sentence.
+The most famous teller is **Aesop**, who by tradition was a slave in Greece around 600 BC. He probably wrote nothing down. The fables were collected under his name long afterwards.
+Why animals? An audience will laugh at a vain crow, and only later notice that the crow is themselves. A fable lets a storyteller criticise the powerful safely.
+@section Five fables to know
+| Fable | What happens | Moral |
+| The Tortoise and the Hare | The swift hare naps during a race, and the steady tortoise wins. | Slow and steady wins the race. |
+| The Ant and the Grasshopper | The ant stores food all summer while the grasshopper sings. In winter the grasshopper goes hungry. | Prepare today for the needs of tomorrow. |
+| The Boy Who Cried Wolf | A shepherd boy lies about a wolf for fun. When a wolf really comes, nobody believes him. | Liars are not believed even when they tell the truth. |
+| The Fox and the Grapes | A fox cannot reach some grapes and declares they must be sour. | It is easy to scorn what you cannot have. |
+| The Lion and the Mouse | A lion spares a mouse. Later the mouse gnaws through the net that traps the lion. | No act of kindness is wasted, and the small can help the great. |
+"Sour grapes" and "crying wolf" are now everyday English phrases. They are allusions, like the mythological ones in Week 3.
+@section Fables around the world
+The fable belongs to every culture. India has the **Panchatantra**, animal tales composed more than 2,000 years ago to teach young princes how to rule. West Africa and the Caribbean have the tales of **Anansi** the spider, a trickster who beats stronger animals with his wits. In France, **Jean de La Fontaine** turned Aesop into elegant verse in the 1600s.
+@section Fable, parable, myth
+| | Characters | Purpose | Example |
+| Fable | Usually talking animals | Teach a practical lesson about behaviour | The Lion and the Mouse |
+| Parable | Ordinary people | Teach a moral or spiritual truth by comparison | The Good Samaritan |
+| Myth | Gods and heroes | Explain the world and a people's beliefs | Demeter and Persephone |
+@example State the moral of this fable and give your evidence. "A crow found a piece of cheese and flew to a branch. A fox below said, 'What glossy feathers! Surely your voice is as beautiful. Sing for me.' The crow, delighted, opened her beak to caw. The cheese fell, and the fox ate it."
+- Problem: the fox wants the cheese but cannot reach the crow.
+- Method: he praises her, although he cares only about the cheese.
+- Turning point: "delighted", she opens her beak. Her vanity makes her forget the cheese.
+- Result: she loses it to the one who praised her.
+= Moral: do not trust flatterers. The evidence is that the fox's praise was a tool to get the cheese, and it worked only because the crow enjoyed it.
+@activity Write Your Own Fable | paper and pencil
+- Choose a moral first. Pick a proverb you believe, such as "Look before you leap."
+- Choose two animals whose natures fit the lesson. Give each exactly one trait.
+- Plan three beats: a situation, a mistake or clever act, and a result.
+- Write the fable in no more than 120 words. Put the moral on its own line at the end.
+- Read it aloud. Then read it again with the moral hidden, and ask your listener to guess it.
+@practice
+? Name three features of a fable.
+= It is short, has animal characters with human traits, and ends with a moral.
+! Every part of a fable serves its single lesson, so nothing extra is included.
+? What is anthropomorphism?
+= Giving human qualities, speech or behaviour to animals or objects.
+! In fables animals talk, plan and boast like people, so that the tale is really about human behaviour.
+? What does it mean to say someone's criticism is "sour grapes"?
+= They are pretending to despise something only because they could not get it.
+! The fox calls the grapes sour after failing to reach them, to protect his pride.
+? Why did the villagers not come when the wolf really appeared?
+= The boy had lied before, so they no longer trusted him.
+! Trust, once broken by lying, is not available when it is most needed. That is the moral.
+? How is a parable different from a fable?
+= A parable uses ordinary human characters and teaches a moral or spiritual truth.
+! Fables usually use animals and aim at practical wisdom about everyday conduct.
+? In "The Lion and the Mouse", which two different lessons can a reader draw?
+= Kindness is repaid, and even the weak can help the strong.
+! The lion's mercy is returned, and the tiny mouse does what the mighty lion cannot.
+@challenge
+? Some readers say the ant in "The Ant and the Grasshopper" is wise. Others say the ant is cruel for refusing to share. Rewrite the last two sentences of the fable to teach a different moral, and state that moral.
+= Example: "The ant opened her door and said, 'Come in and eat. In spring you will teach my children to sing.' Moral: a community needs both the worker and the artist."
+! Changing the ending shows that the moral is the author's choice, not a fact. The same events can teach thrift or generosity depending on how the story is closed.
+@vocab
+Fable: A brief story, usually with animal characters, that teaches a lesson.
+Moral: The lesson a story teaches.
+Anthropomorphism: Giving human characteristics to non-human things.
+Parable: A short story about people that teaches a moral or spiritual truth.
+Trickster: A clever character who wins by wit instead of strength.
+Proverb: A short, well-known saying that states a piece of wisdom.
+@talk
+- Is it more effective to tell someone "do not be lazy" or to tell them a story about a grasshopper? Why?
+- Fables give each animal one trait. Is that fair to real foxes, or to real people?
+- Can two good morals contradict each other? Compare "Look before you leap" with "He who hesitates is lost."
+
+@lesson 5 languages Latin & Greek Number Roots II
+@hook October has the root for eight but is the tenth month. December has the root for ten but is the twelfth. Did the Romans forget how to count?
+@goals
+- Recall the Latin and Greek roots for six to ten, one hundred and one thousand.
+- Use the roots for "half" and "many".
+- Explain the names of the months September to December.
+- Explain how the metric prefixes use Greek and Latin differently.
+@section Six to ten
+| Number | Latin root | Examples | Greek root | Examples |
+| 6 | sex- | sextet, sextuplets | hexa- | hexagon, hexapod |
+| 7 | sept- | September, septet | hepta- | heptagon, heptathlon |
+| 8 | oct- | October, octave, octet | octo-, octa- | octopus, octagon |
+| 9 | nov-, non- | November, nonagon | ennea- | enneagon (rare) |
+| 10 | dec- | December, decimal, decade | deca- | decathlon, decagon |
+An **octopus** is "eight-foot": *octo-* plus *pous*, the Greek for foot, which also gives *-pod*. An **octave** is a span of eight musical notes. A **hexapod** is a six-footed creature, which is to say an insect.
+@section Hundred, thousand, half and many
+| Meaning | Latin root | Examples | Greek root | Examples |
+| 100 | cent- | century, cent, per cent, centipede | hecto- | hectare, hectolitre |
+| 1,000 | mill- | millennium, millipede, mile | kilo- | kilometre, kilogram |
+| half | semi- | semicircle, semifinal | hemi- | hemisphere |
+| many | multi- | multiply, multicoloured | poly- | polygon, polyglot |
+**Per cent** means "for each hundred". A **mile** was once *mille passus*, a thousand paces of a Roman soldier. A **polyglot** speaks many tongues. Centipedes do not really have a hundred feet, and millipedes do not have a thousand. The names are exaggerations.
+@section The mystery of the months
+The earliest Roman calendar began in **March**, when the campaigning and farming year opened. Count from March:
+| Month | Root | Position counting from March |
+| September | septem, seven | 7th |
+| October | octo, eight | 8th |
+| November | novem, nine | 9th |
+| December | decem, ten | 10th |
+Later the Romans moved the start of the civil year to January, and the names became wrong by two but were never changed. The fifth and sixth months, once *Quintilis* and *Sextilis*, were renamed **July** and **August** in honour of Julius Caesar and the emperor Augustus.
+@section The metric secret
+Look again at the prefixes from Science in Week 1. The inventors of the metric system used a deliberate rule:
+| Bigger than the unit: Greek | Smaller than the unit: Latin |
+| deca- (× 10) | deci- (÷ 10) |
+| hecto- (× 100) | centi- (÷ 100) |
+| kilo- (× 1,000) | milli- (÷ 1,000) |
+So a **kilo**metre is a thousand metres, while a **milli**metre is a thousandth of a metre. Both prefixes mean "thousand". The language tells you whether to multiply or divide.
+@example Decode "hemisphere", "polygon" and "centimetre".
+- hemi- is Greek for half, and sphere is a ball. Half a ball.
+- poly- is Greek for many, and -gon is angle. A shape with many angles.
+- centi- is Latin, so it divides: a hundredth of a metre.
+= Half of a sphere; a many-angled shape; one hundredth of a metre.
+@activity The Root Calendar and Polygon Zoo | paper, ruler, coloured pencils
+- Draw the old Roman year as a circle starting in March. Label each month with its number and, where it has one, its root.
+- Draw and label a triangle, quadrilateral, pentagon, hexagon, heptagon, octagon, nonagon and decagon.
+- Under each polygon write the Latin and Greek roots for its number.
+- Make a metric ladder from kilo- down to milli-. Colour the Greek rungs one colour and the Latin rungs another.
+- Invent three imaginary animals using number roots and *-pod* or *-ped*, and draw them.
+@practice
+? How many sides does a heptagon have, and which language is the root from?
+= Seven sides. Greek.
+! *hepta-* is the Greek root for seven. The Latin root is *sept-*.
+? Why is October the tenth month when *octo* means eight?
+= The Roman year originally began in March, making October the eighth month.
+! The start of the year was later moved to January, but the old names were kept.
+? What does "per cent" literally mean?
+= "For each hundred"
+! Latin *per* means for each and *centum* means hundred, so 25 per cent is 25 for each hundred.
+? Which is bigger, a hectolitre or a centilitre? How do you know from the language?
+= A hectolitre
+! Greek prefixes multiply: hecto- is 100 litres. Latin prefixes divide: centi- is a hundredth of a litre.
+? What is a polyglot?
+= A person who speaks many languages.
+! *poly-* means many and *glotta* is Greek for tongue.
+? How many years are in a decade, a century and a millennium?
+= 10, 100 and 1,000
+! The roots are *dec-* (ten), *cent-* (hundred) and *mill-* (thousand).
+@challenge
+? A decathlon has ten events and a heptathlon has seven. Build correct names, from Greek roots, for contests with two, three, five and eight events. Which of them really exist?
+= Biathlon, triathlon, pentathlon and octathlon. The first three are well-known sports.
+! The contest root is *-athlon*. "Biathlon" breaks the pattern by using the Latin *bi-* where Greek would give *di-*: real languages are not perfectly tidy. An octathlon exists in some youth athletics but is rare.
+@vocab
+Century: A period of one hundred years.
+Millennium: A period of one thousand years.
+Hemisphere: Half of a sphere; half of the Earth.
+Polygon: A flat shape with many straight sides and angles.
+Per cent: Out of each hundred.
+Prefix: A word part added to the front of a root.
+@talk
+- The month names have been "wrong" for over two thousand years. Should they be corrected? Why do people keep old names?
+- Is it helpful or confusing that English has both "semi-" and "hemi-" for half?
+- If you were naming a new unit a million times smaller than a metre, how would you decide which language to use?

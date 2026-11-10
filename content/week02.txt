@@ -1,0 +1,400 @@
+@lesson 2 math Divisibility & Primes
+@hook Every whole number greater than 1 can be built by multiplying prime numbers, and in only one way. What are these "atoms" of arithmetic, and how do you find them?
+@goals
+- Use divisibility rules for 2, 3, 4, 5, 6, 9 and 10 without dividing.
+- Decide whether a number is prime or composite.
+- Write the prime factorisation of a number with a factor tree.
+- Use prime factors to find the greatest common factor and least common multiple.
+@section Factors, multiples and divisibility
+If 3 × 8 = 24, then 3 and 8 are **factors** of 24, and 24 is a **multiple** of 3 and of 8. We say 24 is **divisible** by 3 because the division leaves no remainder.
+Divisibility rules let you test large numbers in seconds.
+| Divisible by | Test | Example |
+| 2 | Last digit is even | 1,358 ✓ |
+| 3 | Digit sum is divisible by 3 | 4,356: 4+3+5+6 = 18 ✓ |
+| 4 | Last two digits form a multiple of 4 | 7,316: 16 ✓ |
+| 5 | Last digit is 0 or 5 | 2,945 ✓ |
+| 6 | Passes both the 2 test and the 3 test | 4,356 ✓ |
+| 9 | Digit sum is divisible by 9 | 4,356: 18 ✓ |
+| 10 | Last digit is 0 | 7,310 ✓ |
+**Why the 9 rule works:** 10, 100 and 1,000 are each one more than a multiple of 9 (9 + 1, 99 + 1, 999 + 1). So each digit leaves behind exactly itself as a remainder, and only the digit sum matters. The 3 rule works for the same reason.
+@section Primes and composites
+A **prime number** has exactly two factors: 1 and itself. A **composite number** has more than two. The number 1 is neither, because it has only one factor.
+The primes below 30 are 2, 3, 5, 7, 11, 13, 17, 19, 23 and 29. Two is the only even prime.
+**To test whether a number is prime**, try dividing by primes in order. You may stop once the prime times itself is bigger than your number. To test 97, try 2, 3, 5 and 7. The next prime is 11, and 11 × 11 = 121 is more than 97, so you can stop. None divide 97, so it is prime.
+@section Prime factorisation
+The **Fundamental Theorem of Arithmetic** says every whole number greater than 1 is either prime or a product of primes in exactly one way (apart from order). A **factor tree** finds that product: keep splitting until every branch ends in a prime.
+We collect repeated primes with **exponents**: 2 × 2 × 2 = 2³.
+@section GCF and LCM from prime factors
+- The **greatest common factor (GCF)** uses each shared prime the *fewest* times it appears.
+- The **least common multiple (LCM)** uses every prime the *most* times it appears.
+@example Find the prime factorisation of 360.
+- 360 = 36 × 10
+- 36 = 6 × 6 = 2 × 3 × 2 × 3
+- 10 = 2 × 5
+- Collect: three 2s, two 3s, one 5.
+- Check: 8 × 9 × 5 = 360. ✓
+= 360 = 2³ × 3² × 5
+@example Find the GCF and LCM of 84 and 126.
+- 84 = 2² × 3 × 7
+- 126 = 2 × 3² × 7
+- GCF takes the fewest of each shared prime: 2 × 3 × 7 = 42.
+- LCM takes the most of each prime: 2² × 3² × 7 = 252.
+- Check: GCF × LCM = 42 × 252 = 10,584, and 84 × 126 = 10,584. ✓
+= GCF = 42, LCM = 252
+@activity The Sieve of Eratosthenes | a 1–100 number grid, four coloured pencils
+- Cross out 1. It is not prime.
+- Circle 2, then cross out every other multiple of 2 in one colour.
+- Circle 3, then cross out its remaining multiples in a second colour. Do the same for 5 and 7.
+- Circle every number still standing. These are the 25 primes below 100.
+- Explain why you did not need to sieve with 11. (Hint: 11 × 11.)
+@practice
+? Without dividing, is 7,236 divisible by 4? By 9?
+= Yes to both.
+! The last two digits, 36, are a multiple of 4. The digit sum 7+2+3+6 = 18 is a multiple of 9.
+? Is 91 prime?
+= No. 91 = 7 × 13.
+! Testing primes in order: 2, 3 and 5 fail, but 7 divides 91 exactly 13 times. It is a famous "looks prime" number.
+? Write the prime factorisation of 84.
+= 2² × 3 × 7
+! 84 = 4 × 21 = 2 × 2 × 3 × 7. Every factor is prime, so the tree is finished.
+? Find the missing digit so that 5▢2 is divisible by 9.
+= 2 (the number is 522)
+! The known digits add to 7. The next multiple of 9 is 9, so the missing digit is 2. Check: 522 ÷ 9 = 58.
+? Why is 1 not a prime number?
+= It has only one factor, and a prime needs exactly two.
+! If 1 were prime, factorisations would no longer be unique: 6 could be 2 × 3 or 1 × 2 × 3 or 1 × 1 × 2 × 3.
+? Two lighthouses flash every 12 seconds and every 18 seconds. They flash together now. When do they next flash together?
+= After 36 seconds
+! We need the LCM. 12 = 2² × 3 and 18 = 2 × 3², so LCM = 2² × 3² = 36.
+? Is 4,356 divisible by 6?
+= Yes
+! It is even (passes the 2 test) and its digit sum 18 is a multiple of 3. A number divisible by both 2 and 3 is divisible by 6.
+@challenge
+? What is the smallest number divisible by every whole number from 1 to 10?
+= 2,520
+! Take each prime the most times it is needed: 2³ (for 8), 3² (for 9), 5 and 7. Then 8 × 9 × 5 × 7 = 2,520.
+@vocab
+Factor: A whole number that divides another exactly.
+Multiple: The result of multiplying a number by a whole number.
+Prime: A number with exactly two factors, 1 and itself.
+Composite: A number with more than two factors.
+Exponent: A small raised number showing how many times a factor is repeated.
+@talk
+- Euclid proved over 2,000 years ago that the primes never end. How could anyone prove something about infinitely many numbers?
+- Why might huge prime numbers be useful for keeping secrets on the internet?
+- Is mathematics invented or discovered? Use the primes as your evidence.
+
+@lesson 2 science Particle Theory
+@hook Ice, water and steam are the same substance. If nothing is added or taken away, what actually changes when ice melts?
+@goals
+- State the main ideas of the particle theory of matter.
+- Describe how particles are arranged and move in solids, liquids and gases.
+- Explain melting, boiling, condensing, freezing and sublimation in terms of particles and energy.
+- Use the theory to explain diffusion and expansion.
+@section The four big ideas
+**Matter** is anything that has mass and takes up space. The **particle theory** says:
+- All matter is made of tiny particles, far too small to see.
+- The particles are always moving.
+- There are forces of attraction between particles.
+- When matter is heated, its particles gain energy and move faster.
+**Temperature** is a measure of how fast the particles are moving, on average.
+@section Three states
+| | Solid | Liquid | Gas |
+| Arrangement | Close together in a regular pattern | Close together, no pattern | Far apart |
+| Movement | Vibrate in place | Slide past each other | Fly fast in all directions |
+| Shape | Fixed | Takes the shape of its container | Fills its container |
+| Volume | Fixed | Fixed | Changes; can be squeezed |
+| Attraction | Strong | Medium | Very weak |
+A gas can be compressed because there is empty space between its particles. Solids and liquids cannot easily be compressed because their particles already touch.
+@section Changing state
+Heating gives particles energy. In a solid they vibrate harder until they break out of their fixed places: the solid **melts**. Heat the liquid further and particles escape completely: it **boils** into a gas. Cooling reverses each step: gas **condenses** to liquid, and liquid **freezes** to solid. A few solids, such as dry ice, turn straight into gas. This is **sublimation**.
+During a change of state the temperature stays the same. Melting ice stays at 0 °C until the last crystal is gone, because the energy is being used to pull particles apart, not to speed them up.
+The particles themselves never change. Water particles in ice, water and steam are identical. Only their spacing and speed differ, so the mass stays the same.
+@section Two things the theory explains
+**Diffusion** is the spreading of particles from where there are many to where there are few. It happens because particles move randomly. It is why you can smell cooking from another room.
+**Thermal expansion** happens because faster particles push each other further apart. The particles do not grow. This is why bridges have expansion gaps and why a tight metal lid loosens under hot water.
+@example Explain, using particles, why a puddle disappears on a warm day even though it never reaches 100 °C.
+- Particles in a liquid move at many different speeds.
+- Some of the fastest ones at the surface have enough energy to escape as gas.
+- This is evaporation. It happens at any temperature, only from the surface.
+- Warmth gives more particles enough energy, so the puddle dries faster.
+= The fastest surface particles escape one by one. Boiling is not required.
+@activity The Race of the Drops | two clear glasses, hot and cold water, food colouring, a balloon, an empty plastic bottle, a bowl of hot water
+- Fill one glass with cold water and one with hot. Let them stand until still.
+- Add one drop of colouring to each at the same moment. Do not stir. Sketch each glass after 30 seconds, 2 minutes and 5 minutes.
+- Explain the difference using the word *diffusion* and the speed of particles.
+- Stretch the balloon over the mouth of the empty bottle. Stand the bottle in the bowl of hot water and watch.
+- Explain what happened to the air particles. Did their number change?
+@practice
+? Why can you squeeze air in a syringe but not water?
+= Gas particles are far apart, with space to be pushed into. Liquid particles already touch.
+! Compression needs empty space between particles, and only gases have much of it.
+? What happens to the particles of a solid when it melts?
+= They gain enough energy to break out of their fixed positions and slide past each other.
+! Heating makes them vibrate harder until the attraction can no longer hold the regular pattern.
+? 50 g of ice melts completely. What is the mass of the water?
+= 50 g
+! No particles were added or removed. Only their arrangement changed.
+? Why does the temperature of boiling water stay at 100 °C however strongly you heat it?
+= The extra energy is used to separate particles into gas, not to make them faster.
+! Temperature measures particle speed. During a change of state the energy goes into overcoming attraction.
+? A metal railway track is longer in summer than in winter. Did its particles get bigger?
+= No. They moved further apart.
+! Hotter particles vibrate more widely and push their neighbours away. The particles themselves are unchanged.
+? Why does a smell spread faster in a warm room than a cold one?
+= Particles move faster at higher temperature, so they diffuse faster.
+! Diffusion is caused by random particle motion, and temperature is a measure of the speed of that motion.
+@challenge
+? On a cold morning, drops of water appear on the outside of a glass of iced juice. The glass is not leaking. Where did the water come from, and why did it appear there?
+= From water vapour in the air, which condensed on the cold glass.
+! Air contains invisible water gas. Particles that hit the cold surface lose energy, slow down and are pulled together into liquid drops.
+@vocab
+Matter: Anything that has mass and takes up space.
+Particle: A tiny piece of matter, such as an atom or molecule.
+Diffusion: The spreading of particles from a crowded region to a less crowded one.
+Sublimation: A change directly from solid to gas.
+Condensation: A change from gas to liquid.
+Evaporation: A change from liquid to gas at the surface, below the boiling point.
+@talk
+- Nobody has seen a water particle with their eyes. What makes it reasonable to believe in them?
+- Is sand a solid or a liquid? It pours and takes the shape of a bucket. Defend your answer with the particle theory.
+- If particles never stop moving, what would "the coldest possible temperature" mean?
+
+@lesson 2 history Topography
+@hook Mexico City stands 2,240 metres above the sea, ringed by volcanoes. Why would millions of people choose to live so high, and how does the shape of the land decide where cities grow?
+@goals
+- Name and describe the major landforms.
+- Read elevation from contour lines on a topographic map.
+- Explain how mountains create a rain shadow.
+- Explain how landforms shape where and how people live.
+@section The shape of the land
+**Topography** is the study of the shape of the Earth's surface. **Elevation** is height above sea level. **Relief** is the difference between the highest and lowest points of an area.
+| Landform | What it is | Example |
+| Mountain | High, steep land rising well above its surroundings | Himalaya, Andes, Sierra Madre |
+| Plateau | High land with a mostly flat top | Tibetan Plateau, Mexican Plateau |
+| Plain | Wide, low, flat land | North China Plain, the Pampas |
+| Valley | Low land between hills, often carved by a river | Nile Valley |
+| Delta | Fan of mud dropped where a river meets the sea | Nile Delta, Mekong Delta |
+| Peninsula | Land surrounded by water on three sides | Baja California, Yucatán |
+| Isthmus | Narrow strip joining two larger lands | Isthmus of Panama |
+The highest point on Earth is the summit of Mount Everest at 8,849 m. The lowest dry land is the shore of the Dead Sea, more than 400 m below sea level.
+@section Reading contour lines
+A **topographic map** shows height with **contour lines**. Every point on one line is at the same elevation. The **contour interval** is the height difference between neighbouring lines.
+- Lines close together mean a **steep** slope.
+- Lines far apart mean a **gentle** slope.
+- Closed rings, one inside another, show a hill. The smallest ring is the top.
+- Contour lines never cross.
+@section Mountains make their own weather
+When wet wind from the sea meets a mountain range, the air is forced up. Rising air cools, its water vapour condenses, and rain falls on the **windward** side. The air that crosses the top is dry. The far, **leeward** side receives little rain. This dry zone is a **rain shadow**. The Atacama Desert behind the Andes and the deserts of northern Mexico are partly rain-shadow deserts.
+@section Land shapes history
+People settle where the land helps them: flat plains for farming, river valleys for water and transport, natural harbours for trade. Mountains protect and isolate. Egypt was guarded by deserts. Greece, cut up by mountains, grew into many small independent cities. In the tropics, highlands are cooler and healthier than the hot lowlands, which is one reason great cities such as Mexico City, Bogotá and Addis Ababa stand high.
+@example A map has a contour interval of 20 m. A hiker walks from a line marked 340 m, crossing four more contour lines uphill. What is her elevation?
+- Each line crossed uphill adds one interval of 20 m.
+- Four lines add 4 × 20 = 80 m.
+- 340 + 80 = 420.
+= 420 m
+@activity Build a Contour Mountain | modelling clay or salt dough, dental floss or thread, pencil, paper, ruler
+- Shape a mountain about 8 cm tall with one steep side and one gentle side.
+- Mark a vertical scale on a pencil every 2 cm and score matching rings round the mountain.
+- Slice the mountain along each ring with the floss, from the bottom up.
+- Trace the base of each slice onto paper, largest first, keeping them lined up.
+- You have drawn a topographic map. Where are the lines closest together? Label the contour interval.
+@practice
+? What is the difference between a plateau and a plain?
+= Both are flat, but a plateau is high and a plain is low.
+! Landforms are sorted by both shape and elevation. A plateau is sometimes called a tableland.
+? Contour lines on one side of a hill are very close together. What does this tell a hiker?
+= That side is steep.
+! Close lines mean the height changes a lot over a short horizontal distance.
+? Why can two contour lines never cross?
+= A single point cannot have two different elevations.
+! Each line stands for one height. A crossing would claim the same spot is at both heights at once.
+? Which side of a mountain range is usually wetter, windward or leeward?
+= Windward
+! Air rising up the windward side cools and drops its rain there, leaving dry air to descend on the leeward side.
+? The lowest point of a region is 150 m and the highest is 2,900 m. What is the relief?
+= 2,750 m
+! Relief is the difference between highest and lowest: 2,900 − 150.
+? Give two reasons why ancient people often built cities in river valleys.
+= Fresh water and fertile soil (also transport and flat land for building).
+! Rivers supply drinking water, irrigation and rich mud for crops, and boats move heavy goods cheaply.
+@challenge
+? Ancient Greece became many small city-states, while ancient Egypt became one long kingdom. Use topography to explain the difference.
+= Greece's mountains and islands separated communities. The Nile linked Egypt into one strip.
+! Mountains make travel hard, so each Greek valley governed itself. The Nile was an easy highway through flat land, so one ruler could reach and control the whole valley.
+@vocab
+Topography: The shape of the land surface, and the study of it.
+Elevation: Height above sea level.
+Relief: The difference between the highest and lowest points in an area.
+Contour line: A map line joining points of equal elevation.
+Rain shadow: A dry region on the sheltered side of mountains.
+Delta: Land built from sediment where a river enters the sea or a lake.
+@talk
+- Do people shape the land, or does the land shape people? Find one example of each.
+- If you had to found a new city, what three features of the land would you look for first?
+- Mountains have often protected small nations. Is isolation a blessing or a cost?
+
+@lesson 2 literature The Hero's Journey
+@hook A shepherd boy, a farm girl and a small creature who loves his armchair all leave home, face a great danger and return changed. Why do stories from every corner of the world follow the same road?
+@goals
+- Name the main stages of the Hero's Journey.
+- Identify those stages in a story.
+- Recognise the archetypes of hero, mentor, herald and shadow.
+- Explain why the hero must return changed.
+@section One story, a thousand faces
+In 1949 the scholar Joseph Campbell compared myths from many cultures and found a shared pattern. He called it the **monomyth**. We know it as the **Hero's Journey**. It has three great movements: **Departure**, **Initiation** and **Return**.
+Storytellers did not copy each other. The pattern keeps appearing because it mirrors growing up: we leave what is safe, are tested, and come back as someone new.
+@section The road, stage by stage
+| Stage | What happens |
+| 1. Ordinary World | We meet the hero at home, before anything changes. |
+| 2. Call to Adventure | A problem or invitation arrives. |
+| 3. Refusal of the Call | The hero hesitates out of fear or duty. |
+| 4. Meeting the Mentor | A wiser figure gives advice, training or a gift. |
+| 5. Crossing the Threshold | The hero leaves the known world. No turning back. |
+| 6. Tests, Allies, Enemies | Trials teach the rules of the new world. |
+| 7. The Ordeal | The greatest danger. The hero faces death or deepest fear. |
+| 8. The Reward | The hero wins something: an object, knowledge, or courage. |
+| 9. The Road Back | The journey home, often with a final chase or test. |
+| 10. Return with the Gift | The hero comes home changed and shares what was won. |
+Not every story uses every stage, and the order can bend. The pattern is a map, not a cage.
+@section Archetypes
+An **archetype** is a kind of character that appears again and again across stories.
+- **Hero:** the one who must change.
+- **Mentor:** the guide, who often cannot finish the journey with the hero.
+- **Herald:** the one who brings the call.
+- **Threshold guardian:** someone who blocks the way and tests whether the hero is ready.
+- **Shadow:** the great enemy, often a dark mirror of what the hero could become.
+@section Why the return matters
+A hero who wins and keeps the prize is only an adventurer. The journey is complete when the hero brings something home that heals the community. The outward journey always stands for an inward one: the dragon outside is the fear inside.
+@example Map this tale: "Lina, a baker's daughter, has never left her village. When the river dries up, an old traveller says its source is blocked high in the mountains. Lina says she is only a baker. But the traveller gives her a brass compass, and she sets out. She crosses the pass, outwits a toll-keeper, befriends a goatherd, and at the source faces the landslide alone at night. She frees the water, nearly drowning. She follows the stream home, and teaches the village to guard the source."
+- Ordinary World: Lina in the village bakery.
+- Call: the river dries up. Herald and mentor: the old traveller.
+- Refusal: "I am only a baker."
+- Mentor's gift: the brass compass. Threshold: crossing the pass.
+- Tests, allies, enemies: the toll-keeper (a threshold guardian) and the goatherd (an ally).
+- Ordeal: the landslide at night, nearly drowning. Reward: the freed water.
+- Road Back and Return with the Gift: she follows the stream home and teaches the village.
+= Every major stage is present. Lina returns with water and with knowledge, and she is no longer "only a baker".
+@activity Chart a Journey You Know | a favourite book or film, a large sheet of paper
+- Draw a big circle. Mark "Home" at the top. The upper half is the known world and the lower half is the unknown.
+- Place the ten stages round the circle, clockwise.
+- Beside each stage write the matching moment from your story in a few words.
+- Label any archetypes you can find.
+- Mark any stage that is missing or out of order. Why might the author have changed the pattern?
+@practice
+? What are the three great movements of the Hero's Journey?
+= Departure, Initiation and Return
+! The hero leaves the known world, is tested and transformed in the unknown, and comes back with something of value.
+? Why do heroes often refuse the call at first?
+= Fear, doubt or duty holds them back.
+! The refusal shows the danger is real and the hero is ordinary, which makes the later courage mean something.
+? What is the mentor's job?
+= To prepare the hero with advice, training or a gift.
+! The hero begins unready. The mentor supplies what is missing but usually steps aside so the hero must face the ordeal alone.
+? What is an archetype?
+= A character type that recurs across many stories and cultures.
+! Shared human experiences produce shared kinds of characters: the guide, the enemy, the messenger.
+? In the tale of Lina, what is the "gift" she returns with?
+= The flowing river, and the knowledge of how to protect its source.
+! The gift heals the community's original problem, which is what completes the journey.
+? Why is the Ordeal placed near the middle or end, not at the start?
+= The hero must first gain skills, allies and courage through earlier tests.
+! A victory only convinces us if we have watched the hero earn the strength to win it.
+@challenge
+? Invent a hero's journey in exactly ten sentences, one for each stage. Your hero must be an ordinary person from your own town, and the "gift" must be something other than treasure.
+= Answers will vary. Check that each sentence matches its stage and that the hero has changed by the end.
+! Compressing the pattern into ten sentences proves you understand what each stage is for. The best gifts are knowledge, courage or healing, because they can be shared.
+@vocab
+Monomyth: Campbell's name for the single story pattern shared by many myths.
+Archetype: A recurring character type or symbol.
+Mentor: A wise guide who prepares the hero.
+Threshold: The boundary between the known and unknown worlds.
+Ordeal: The hero's greatest test.
+@talk
+- Can a hero's journey happen without leaving home? What would the "unknown world" be?
+- Is the shadow always evil, or can it be a part of the hero?
+- Think of a real person you admire. Did their life follow this road?
+
+@lesson 2 languages Phonetics
+@hook English has 26 letters but about 44 sounds. The letters "ough" are said differently in *though*, *through*, *cough* and *bough*. If spelling cannot be trusted, how can we write down exactly what a word sounds like?
+@goals
+- Explain the difference between a letter and a sound.
+- Describe consonants by voicing, place and manner.
+- Read simple words written in the International Phonetic Alphabet.
+- Count the sounds in a word, ignoring its spelling.
+@section Letters are not sounds
+**Phonetics** is the study of speech sounds. A single speech sound is called a **phone**, and a sound that can change the meaning of a word in a language is a **phoneme**. Swap one phoneme and *ship* becomes *sheep*, *pat* becomes *bat*.
+Spelling is an old and imperfect record. One sound can have many spellings (the "f" sound in *fish*, *phone*, *laugh*), and one spelling can have many sounds ("ough"). Spanish spelling is far more regular: it has five clear vowel sounds, a e i o u, while English has about twenty vowel sounds.
+@section The International Phonetic Alphabet
+In 1888 language teachers created the **International Phonetic Alphabet (IPA)**. Its rule is simple: **one symbol, one sound**, for every language on Earth. IPA is written between slashes.
+| IPA | Sound | As in | IPA | Sound | As in |
+| /ʃ/ | sh | **sh**ip | /tʃ/ | ch | **ch**ip |
+| /θ/ | th (quiet) | **th**in | /dʒ/ | j | **j**udge |
+| /ð/ | th (buzzing) | **th**is | /ŋ/ | ng | si**ng** |
+| /iː/ | long ee | sh**ee**p | /ɪ/ | short i | sh**i**p |
+| /j/ | y | **y**es | /ə/ | weak "uh" | **a**bout |
+The symbol /ə/ is called **schwa**. It is the most common vowel sound in English.
+@section How consonants are made
+Every consonant can be described by three facts.
+- **Voicing.** Put your fingers on your throat. Say "zzzz", then "ssss". If your throat buzzes, the sound is **voiced**. If not, it is **voiceless**.
+- **Place.** Where the air is blocked: both lips (p, b, m), teeth and lip (f, v), tongue behind the teeth (t, d, n, s, z), back of the mouth (k, g).
+- **Manner.** How the air is blocked: stopped completely and released (**stops**: p, t, k), squeezed with friction (**fricatives**: f, s, sh), or sent through the nose (**nasals**: m, n, ng).
+| Voiceless | Voiced |
+| p | b |
+| t | d |
+| k | g |
+| f | v |
+| s | z |
+Each pair is made in the same place and manner. Only the voicing differs.
+@section Vowels
+**Vowels** are made with an open mouth and no blocking. They differ by how high the tongue is, whether it is forward or back, and whether the lips are rounded. Say "ee … oo" slowly and feel the tongue slide back and the lips round.
+@example How many sounds are in the word "through"?
+- Ignore the seven letters. Say the word slowly.
+- "th" is one sound: /θ/.
+- "r" is one sound: /r/.
+- "ough" here is one long vowel: /uː/.
+= Three sounds: /θruː/
+@example How many sounds are in "box"?
+- b is /b/. o is one vowel.
+- The letter x hides two sounds: /k/ and /s/.
+= Four sounds: /bɒks/. One letter can stand for two sounds.
+@activity The Mirror and the Throat | a small mirror, a strip of thin paper, a notebook
+- Hold the paper strip in front of your lips. Say "pin", then "bin". Which makes the paper jump more? That puff of air is called aspiration.
+- Touch your throat and sort these sounds into voiced and voiceless: s, z, f, v, t, d, sh, m.
+- In the mirror, watch your lips for "ee", "ah", "oo". Draw the three lip shapes.
+- Find five **minimal pairs**: word pairs that differ by a single sound, such as ship and sheep, or fan and van.
+- Write your own name in IPA as well as you can, using the table.
+@practice
+? What is the difference between a letter and a phoneme?
+= A letter is a written symbol. A phoneme is a meaningful unit of sound.
+! Writing and speech are separate systems. English spelling often uses several letters for one sound, or one letter for several.
+? How many sounds are in "knight"?
+= Three: /naɪt/
+! The k and gh are silent. The sounds are n, the vowel "eye", and t.
+? Is /z/ voiced or voiceless? How can you check?
+= Voiced. Your throat vibrates when you say it.
+! The vocal cords buzz for /z/ and stay still for its partner /s/.
+? Which sound does the IPA symbol /ʃ/ stand for? Give two words spelled differently that contain it.
+= The "sh" sound, as in **sh**ip, na**ti**on, **s**ugar or ma**ch**ine.
+! IPA has one symbol per sound, however the sound happens to be spelled.
+? What is the only difference between the sounds /p/ and /b/?
+= Voicing: /p/ is voiceless and /b/ is voiced.
+! Both are stops made with both lips. The vocal cords vibrate only for /b/.
+? How many sounds are in "cheese"?
+= Three: /tʃiːz/
+! "ch" is one sound, "ee" is one vowel, and the final "se" is a single /z/. The last e is silent.
+@challenge
+? Spanish speakers learning English often say "sheep" and "ship" the same way, and English speakers often cannot roll the Spanish "rr". Explain both facts with what you know about phonemes.
+= Each language has its own set of phonemes, and learners hear new sounds through the set they already own.
+! Spanish has one "i" vowel where English has two, /iː/ and /ɪ/, so the difference is hard to hear at first. English has no trilled r, so the tongue has never practised it.
+@vocab
+Phonetics: The study of speech sounds.
+Phoneme: The smallest unit of sound that can change a word's meaning.
+IPA: The International Phonetic Alphabet, with one symbol per sound.
+Voiced: Made with the vocal cords vibrating.
+Minimal pair: Two words that differ by only one sound.
+Schwa: The weak vowel /ə/, as in the first sound of "about".
+@talk
+- Should English spelling be reformed so that every sound has exactly one spelling? What would be gained and what lost?
+- Babies can hear every speech sound of every language. Why might adults lose that ability?
+- Is an accent a mistake? Who decides which pronunciation is "correct"?

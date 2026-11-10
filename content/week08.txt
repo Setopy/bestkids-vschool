@@ -1,0 +1,455 @@
+@lesson 8 math Variables
+@hook Think of any number. Double it. Add 6. Halve the result. Subtract the number you first thought of. Your answer is 3. It is always 3, for every number in existence. How can anyone be sure without testing them all?
+@goals
+- Use a letter to stand for an unknown or changing number.
+- Write and evaluate algebraic expressions.
+- Simplify expressions by collecting like terms.
+- Solve one-step and two-step equations by keeping the balance.
+@section A name for the unknown
+In the bar models of Weeks 4 and 5 you drew a box and called it "1 unit". A **variable** is the same idea with a shorter name: a letter that stands for a number we do not yet know, or one that can change.
+| Word | Meaning | In 3n + 5 = 17 |
+| Variable | A letter standing for a number | n |
+| Coefficient | The number multiplying a variable | 3 |
+| Constant | A number on its own | 5 and 17 |
+| Term | A part separated by + or − | 3n, 5, 17 |
+| Expression | Terms with no equals sign | 3n + 5 |
+| Equation | A statement that two expressions are equal | 3n + 5 = 17 |
+In algebra we do not write the × sign. **3n** means 3 × n, and **ab** means a × b. Division is written as a fraction: n ÷ 4 is written n/4.
+@section From words to symbols
+| Words | Expression |
+| 7 more than a number | n + 7 |
+| a number decreased by 4 | n − 4 |
+| 5 times a number | 5n |
+| a number divided by 3 | n/3 |
+| 2 less than three times a number | 3n − 2 |
+| twice the sum of a number and 5 | 2(n + 5) |
+To **evaluate** an expression, replace the letter with its value and follow the order of operations from Week 3. This is called **substitution**.
+@section Like terms
+Terms with exactly the same letter part are **like terms**, and they can be added or subtracted, just as 4 apples and 2 apples make 6 apples.
+4a + 2a = 6a. But 4a + 2b cannot be combined, and neither can 4a + 3, because apples are not bananas or plain numbers.
+@section Equations are balances
+An equation is a pair of scales in balance. Whatever you do to one side you must do to the other, or the balance tips. To find the variable, **undo** each operation with its **inverse**, working in the reverse of the order of operations.
+| Operation | Inverse |
+| + | − |
+| − | + |
+| × | ÷ |
+| ÷ | × |
+Always **check** by substituting your answer into the original equation.
+@example Evaluate 3n + 5 when n = 4, and simplify 4a + 3 + 2a − 1.
+- Substitute: 3 × 4 + 5 = 12 + 5 = 17.
+- Collect the a terms: 4a + 2a = 6a.
+- Collect the constants: 3 − 1 = 2.
+= 3n + 5 = 17 when n = 4; and 4a + 3 + 2a − 1 = 6a + 2
+@example Solve 3n + 4 = 25.
+- Undo the + 4 by subtracting 4 from both sides: 3n = 21.
+- Undo the × 3 by dividing both sides by 3: n = 7.
+- Check: 3 × 7 + 4 = 25. ✓
+= n = 7
+@example Sara has 5 more than twice as many shells as Tom. Sara has 31 shells. How many does Tom have?
+- Let t be Tom's number of shells. Sara has 2t + 5.
+- Equation: 2t + 5 = 31.
+- Subtract 5 from both sides: 2t = 26. Divide both sides by 2: t = 13.
+- Check: 2 × 13 + 5 = 31. ✓
+= Tom has 13 shells.
+@activity The Mystery Bags | a ruler balanced on a pencil or a kitchen balance, small identical coins or beans, three paper bags
+- Secretly put the same number of beans in each of two bags. Place the two bags and 3 loose beans on one side, and 11 loose beans on the other. It balances.
+- Your partner writes the equation (2b + 3 = 11) and solves it by removing the same thing from both sides.
+- Open the bags to check. Swap roles and make harder puzzles, with bags on both sides.
+- Now perform the "think of a number" trick from the top of this lesson on three people.
+- Write the trick in algebra, using n for the secret number. What happens to n?
+@practice
+? Write an expression for "4 less than six times a number".
+= 6n − 4
+! "Six times a number" is 6n, and "4 less than" that means subtract 4 from it.
+? Evaluate 2(x + 3) − 4 when x = 5.
+= 12
+! Brackets first: 5 + 3 = 8. Then 2 × 8 = 16, and 16 − 4 = 12.
+? Simplify 7b + 4 − 3b + 6.
+= 4b + 10
+! The like terms 7b and −3b make 4b. The constants 4 and 6 make 10.
+? Solve x + 9 = 23.
+= x = 14
+! Subtract 9 from both sides. Check: 14 + 9 = 23.
+? Solve 5y = 45.
+= y = 9
+! Divide both sides by 5. Check: 5 × 9 = 45.
+? Solve n/4 − 2 = 3.
+= n = 20
+! Add 2 to both sides to get n/4 = 5, then multiply both sides by 4. Check: 20 ÷ 4 − 2 = 3.
+? A rectangle is 4 cm longer than it is wide. Its perimeter is 36 cm. Find its width.
+= 7 cm
+! Let the width be w, so the length is w + 4. The perimeter is 2(w + w + 4) = 4w + 8. Then 4w + 8 = 36 gives 4w = 28 and w = 7. Check: 2 × (7 + 11) = 36.
+@challenge
+? Use algebra to prove that the trick in the opening question always gives 3. Then invent a trick of your own that always gives 5.
+= Starting with n: doubling gives 2n; adding 6 gives 2n + 6; halving gives n + 3; subtracting n leaves 3.
+! The variable n stands for every possible number at once, so one line of algebra proves the result for all of them. For a trick that always gives 5, add 10 in place of 6: (2n + 10) ÷ 2 − n = 5.
+@vocab
+Variable: A letter that stands for a number.
+Expression: Numbers, variables and operations with no equals sign.
+Equation: A statement that two expressions are equal.
+Coefficient: The number multiplying a variable.
+Like terms: Terms with the same variable part.
+Inverse operation: An operation that undoes another.
+@talk
+- Testing a million numbers cannot prove the trick always works. One line of algebra can. What is the difference between evidence and proof?
+- Is x in an equation "unknown" or "variable"? Can it be both?
+- The word algebra comes from the Arabic *al-jabr*, "restoring", in the title of a book by al-Khwarizmi written about AD 820. What is being restored when you solve an equation?
+
+@lesson 8 science The pH Scale
+@hook Lemon juice and stomach acid are both acids, but you can drink one and the other would burn your skin. Soap and oven cleaner are both bases, but only one is safe on your hands. How do scientists measure how strong an acid or a base is?
+@goals
+- Describe the properties of acids and bases.
+- Read the pH scale and place common substances on it.
+- Use indicators to test whether a substance is acidic, neutral or basic.
+- Explain neutralisation and give everyday uses for it.
+@section Acids and bases
+Many substances that dissolve in water fall into two opposite families.
+| | Acids | Bases (alkalis when dissolved) |
+| Taste | Sour | Bitter |
+| Feel | Sharp, stinging | Slippery, soapy |
+| In water they release | Hydrogen ions, H⁺ | Hydroxide ions, OH⁻ |
+| Examples | Lemon juice, vinegar, stomach acid | Baking soda, soap, bleach |
+**Never taste or touch a chemical to test it.** Strong acids and strong bases are both **corrosive**: they destroy skin and other materials. Taste and feel are described only so that you can recognise the families in foods and soaps you already know.
+@section The pH scale
+In 1909 the Danish chemist **Søren Sørensen** introduced the **pH scale**, which measures how acidic or basic a solution is. It runs from 0 to 14.
+| pH | Substance | Class |
+| 1 to 2 | Stomach acid | Strong acid |
+| 2 | Lemon juice | Acid |
+| 3 | Vinegar | Acid |
+| 4 | Tomato juice | Acid |
+| 5.6 | Clean rain | Weak acid |
+| 6.5 | Milk | Very weak acid |
+| 7 | Pure water | **Neutral** |
+| 7.4 | Blood | Very weak base |
+| 8 | Sea water | Weak base |
+| 9 | Baking soda solution | Base |
+| 10 | Soapy water | Base |
+| 12 to 13 | Bleach | Strong base |
+| 14 | Drain cleaner | Very strong base |
+Below 7 is acidic, 7 is neutral, and above 7 is basic. The further from 7, the stronger.
+The scale has a hidden power. **Each step of 1 is a tenfold change.** A solution of pH 3 is ten times more acidic than one of pH 4 and a hundred times more acidic than one of pH 5. This is why stomach acid at pH 1 is so much fiercer than tomato juice at pH 4: it is 10 × 10 × 10 = 1,000 times more acidic.
+@section Indicators
+An **indicator** is a substance that changes colour according to pH.
+| Indicator | In acid | Neutral | In base |
+| Litmus | Red | Purple | Blue |
+| Universal indicator | Red, orange, yellow | Green | Blue, purple |
+| Red cabbage juice | Red, pink | Purple | Green, yellow |
+Litmus tells you only acid or base. Universal indicator shows a range of colours, so it tells you the approximate pH.
+@section Neutralisation
+When an acid and a base are mixed in the right amounts they cancel each other. This reaction is **neutralisation**:
+**acid + base → salt + water**
+The hydrogen ions and hydroxide ions join to make water, H₂O. The remaining ions form a **salt**. Table salt is one example of a salt, but there are many others.
+| Problem | Neutralised with |
+| Too much stomach acid (indigestion) | An antacid tablet, a mild base |
+| Soil too acidic for crops | Lime, a base |
+| Acids made by bacteria on teeth | Toothpaste, mildly basic |
+| Acidic waste from a factory | A base, before the water is released |
+@example A solution has pH 2 and another has pH 5. Which is more acidic, and by how many times?
+- A lower pH means more acidic, so the pH 2 solution is more acidic.
+- The difference is 3 steps.
+- Each step is a factor of 10: 10 × 10 × 10.
+= The pH 2 solution is 1,000 times more acidic.
+@activity Red Cabbage Rainbow | a quarter of a red cabbage, hot water, a sieve, six clear glasses, a dropper or spoon, lemon juice, white vinegar, tap water, baking soda, soapy water, a clear fizzy drink. An adult handles the hot water.
+- Chop the cabbage, cover it with hot water and leave for 15 minutes. Strain the purple liquid. This is your indicator.
+- Put a little of each test liquid in its own glass. Predict whether each is an acid or a base.
+- Add a spoonful of indicator to each. Record the colours and arrange the glasses from most acidic to most basic.
+- Take the vinegar glass. Add baking soda solution one spoonful at a time, stirring. Watch the colour travel back toward purple. What reaction is taking place?
+- Draw your own colour chart, with an estimated pH for each liquid.
+@practice
+? What pH is neutral? Give an example.
+= pH 7, pure water
+! At pH 7 the hydrogen ions and hydroxide ions are in balance.
+? A liquid turns litmus paper blue. Is it an acid or a base?
+= A base
+! Litmus is red in acids and blue in bases.
+? Which is more acidic, vinegar at pH 3 or milk at pH 6.5?
+= Vinegar
+! The lower the pH, the more acidic the solution.
+? How many times more acidic is pH 4 than pH 6?
+= 100 times
+! Two steps of the scale, each a factor of ten: 10 × 10.
+? Complete the word equation: acid + base → ___ + ___.
+= salt + water
+! The acid's hydrogen ions join the base's hydroxide ions to make water, and the remaining ions form a salt.
+? Why does an antacid tablet relieve indigestion?
+= It is a mild base that neutralises excess stomach acid.
+! Neutralisation raises the pH of the stomach contents toward neutral.
+@challenge
+? A farmer tests her soil and finds pH 5. Her beans grow best at about pH 6.5. What should she add, what reaction will take place, and why must she add it gradually and test again?
+= She should add a base such as lime. It neutralises some of the acid, raising the pH. Too much would make the soil basic.
+! Acid plus base gives salt and water, moving the pH toward 7. Because each pH step is a tenfold change, small additions have large effects, and plants are harmed by soil that is too basic as well as too acidic.
+@vocab
+Acid: A substance that releases hydrogen ions in water; pH below 7.
+Base: A substance that neutralises acids; pH above 7.
+pH scale: A scale from 0 to 14 measuring acidity.
+Indicator: A substance that changes colour with pH.
+Neutralisation: The reaction of an acid with a base to give a salt and water.
+Corrosive: Able to destroy skin, metal or other materials chemically.
+@talk
+- Why is a tenfold scale more useful here than an ordinary one? Where else might such a scale be used?
+- Burning coal and oil can make rain more acidic. Who should be responsible for the lakes and forests it damages?
+- Your blood must stay very close to pH 7.4. What does that suggest about how carefully a living body is balanced?
+
+@lesson 8 history The Indus Valley
+@hook Four and a half thousand years ago a city in what is now Pakistan had straight streets, covered drains and a bathroom in almost every house. No palace has been found, no royal tomb, and nobody can read a word its people wrote. How do you study a civilisation that cannot speak?
+@goals
+- Locate the Indus Valley civilisation and its main cities.
+- Describe its urban planning and technology.
+- Explain what historians can and cannot conclude from the evidence.
+- Evaluate theories about why the civilisation declined.
+@section A forgotten giant
+The **Indus Valley civilisation**, also called the **Harappan** civilisation, flourished from about **2600 to 1900 BC** along the Indus River and its neighbours, in today's Pakistan and north-west India. It covered more land than Egypt and Mesopotamia combined, with over a thousand known settlements.
+It was forgotten for almost four thousand years. In the 1920s archaeologists excavating at **Harappa** and **Mohenjo-daro** realised they had found a third great river civilisation, as old as the other two.
+Like Egypt and Mesopotamia, it depended on a river that flooded each year and left fertile silt. Its farmers grew wheat and barley and were among the first people to grow and weave **cotton**.
+@section The planned city
+Indus cities were not built at random. They were **planned**.
+| Feature | Evidence |
+| Grid streets | Main streets run north–south and east–west, crossing at right angles |
+| Standard bricks | Baked bricks in the same proportions, 1 : 2 : 4, in cities hundreds of kilometres apart |
+| Sanitation | Houses with bathing rooms and toilets, linked to covered drains along the streets |
+| Water supply | Hundreds of brick-lined wells |
+| Public buildings | The Great Bath at Mohenjo-daro, a waterproofed pool; large storehouses |
+| Standard weights | Stone cubes in a precise system, used throughout the region |
+No other people of that age built drainage so advanced. Many cities did not match it until the 1800s.
+Standard bricks and weights across so wide an area show strong shared rules. Someone was organising, yet we do not know who.
+@section The silent script
+The Indus people carved small stone **seals** with animals, such as bulls, elephants and a one-horned creature, and with a line of signs. More than 400 different signs are known. Seals were probably pressed into clay to mark ownership of goods.
+The script is **undeciphered**. The inscriptions are very short, about five signs on average, and no "Rosetta Stone" with a known language beside it has been found.
+Indus seals and beads have been discovered in Mesopotamia, and Mesopotamian texts mention trade with a land called **Meluhha**, which was probably the Indus region. The two civilisations traded by sea through the Persian Gulf.
+@section Reading without words
+With no readable texts, historians reason from objects. This is **inference**, the skill you practised in Literature in Week 1.
+| Evidence | A reasonable inference | Still unknown |
+| No palaces or grand royal tombs found | Power may have been shared, or rulers lived modestly | Who governed, and how |
+| Few weapons and no pictures of war | Life may have been fairly peaceful | Whether they had armies |
+| Houses of similar size, all with drains | Less extreme inequality than in Egypt | Whether there were slaves |
+| Uniform bricks and weights | A shared authority or strong shared customs | Whether it was one state or many |
+A careful historian says "the evidence suggests", never "we know".
+@section The slow ending
+By about 1900 BC the great cities were being abandoned, and people moved east into smaller villages. An older theory blamed invaders, but excavation has found no layer of destruction or mass of battle victims. Most scholars now point to **environment**: the monsoon rains weakened, and rivers shifted course or dried up, including one great river that vanished. Trade with Mesopotamia also faded. The cities were not destroyed. They were left, and many of the people's skills and customs continued in later Indian life.
+@example An archaeologist finds the same set of stone weights in two Indus cities 800 km apart. What can she infer, and what can she not?
+- The weights match, so both cities followed one system of measurement.
+- A shared system makes trade between them fair and simple.
+- Something must have spread and enforced the standard: a government, a merchants' agreement, or long custom.
+= She can infer regular trade and a common standard. She cannot tell from the weights alone who set the standard or whether the cities had one ruler.
+@activity Plan Your City and Carve a Seal | squared paper, ruler, coloured pencils, a bar of soap or a slab of clay, a blunt pencil or toothpick
+- On squared paper lay out a city on a grid: main streets, side lanes, housing blocks, wells, a public bath and a storehouse.
+- Draw your drainage system in blue. Where does the waste water go? Which way must the ground slope?
+- Decide one standard brick size and one standard weight. Write the rule that all builders and traders must follow.
+- Carve a seal in soap or clay: one animal and four signs of your own invention. Remember that a seal prints in mirror image.
+- Give your city plan and seal to a parent. What can they infer about your city's values without being told anything?
+@practice
+? Where and when did the Indus Valley civilisation flourish?
+= Along the Indus River, in modern Pakistan and north-west India, from about 2600 to 1900 BC.
+! It grew on the fertile floodplain of the Indus and its neighbouring rivers.
+? Name its two best-known cities.
+= Harappa and Mohenjo-daro
+! These were the first to be excavated, in the 1920s. Harappa gives the civilisation its other name.
+? Give two pieces of evidence that Indus cities were planned.
+= Grid streets, standard bricks, and covered drains (any two).
+! Features that repeat across a whole city, and between cities, cannot have arisen by chance.
+? Why has the Indus script not been deciphered?
+= The inscriptions are very short, and none appears beside a known language.
+! Decipherment needs either long texts to reveal patterns or a bilingual text like the Rosetta Stone.
+? What evidence shows trade between the Indus Valley and Mesopotamia?
+= Indus seals and beads found in Mesopotamia, and Mesopotamian records of a land called Meluhha.
+! Objects found far from where they were made are direct evidence of exchange.
+? What do most scholars now believe caused the decline of the Indus cities?
+= Environmental change: weaker monsoon rains and rivers shifting or drying up.
+! There is little evidence of violent destruction, and people appear to have moved away gradually.
+@challenge
+? Egypt left giant pyramids and statues of kings. The Indus Valley left drains, wells and standard bricks. Write a paragraph on what each civilisation's remains suggest about what its people valued, and explain why you must be cautious.
+= Egypt's monuments suggest it valued the power and afterlife of its rulers. The Indus remains suggest a concern for order, cleanliness and everyday life.
+! A strong answer uses specific evidence for each claim, then adds the caution: we can read Egypt's own explanations but not the Indus people's, so our view of them rests on inference, and what survives may not be what mattered most to them.
+@vocab
+Harappan: Another name for the Indus Valley civilisation.
+Urban planning: Designing the layout of a city in advance.
+Sanitation: Systems that keep a place clean, especially drains and sewers.
+Seal: A carved stamp used to mark ownership.
+Undeciphered: Not yet able to be read.
+Monsoon: A seasonal wind that brings heavy summer rain to South Asia.
+@talk
+- Which tells you more about a people: their greatest monument or their drains?
+- Is it possible for a large civilisation to work without kings? What would it need instead?
+- If our own civilisation's writing became unreadable, what would future archaeologists infer about us from our objects?
+
+@lesson 8 literature Setting as Character
+@hook Move a story from a sunlit beach to a locked house in a snowstorm and you have a different story, even if every character stays the same. Is the setting only a background, or can a place act on a story the way a person does?
+@goals
+- Identify the four parts of a setting.
+- Explain how setting creates mood and conflict.
+- Recognise personification and sensory detail in descriptions of place.
+- Write a setting that affects the characters within it.
+@section More than a place
+**Setting** is where and when a story happens. It has four parts.
+| Part | Questions |
+| Place | Which country, landscape, building, room? |
+| Time | Which era, season, hour? |
+| Social environment | What are the customs, rules and ways of life? |
+| Atmosphere | What is the weather, the light, the feeling in the air? |
+A weak writer names the setting and moves on. A strong writer makes the setting **do** something.
+@section Four jobs a setting can do
+- **It creates mood.** **Mood** is the feeling a passage produces in the reader. "Fog pressed against the windows" produces unease before anything has happened.
+- **It creates conflict.** A desert, a storm or a frozen sea can be the antagonist. This is the conflict of a person against nature.
+- **It reveals character.** A bedroom, a desk or a garden tells us about its owner. A character's reaction to a place tells us even more.
+- **It carries meaning.** A place can be a **symbol**, standing for an idea. A walled garden may stand for safety, or for a prison.
+When a setting shapes events, resists the characters and seems to have a will of its own, we say it works **like a character**.
+@section The writer's tools
+**Sensory detail.** Use all five senses, not only sight. What does the place sound, smell and feel like?
+**Personification.** Give the place human actions or feelings: "The old house groaned." "The city never slept." "The forest swallowed the path."
+**Precise verbs.** Wind can *whisper*, *moan*, *shriek* or *bully*. The verb sets the mood.
+**Selection.** Do not list everything. Choose the two or three details that produce the feeling you want.
+When the weather or landscape matches a character's emotions, such as rain at a funeral or sunshine at a reunion, writers call it the **pathetic fallacy**. Here "pathetic" means "to do with feeling".
+@example Compare two descriptions of the same forest. (A) "Sunlight fell in coins through the leaves. Somewhere a stream was laughing, and the path ran ahead like a friendly dog." (B) "The trees stood close, shoulder to shoulder, and let no light through. The path had given up. Something dripped."
+- Both describe trees, light and a path. The facts are nearly the same.
+- A uses "coins", "laughing" and "friendly dog": bright images and playful personification. The mood is welcoming.
+- B personifies the trees as a silent crowd ("shoulder to shoulder", "let no light through") and the path as defeated ("had given up"). The unexplained sound "Something dripped" adds threat.
+- In B the forest acts against a traveller. It blocks, hides and refuses.
+= The same place produces opposite moods through the writer's choice of details, verbs and personification. In B the setting behaves like an antagonist.
+@activity One Room, Three Moods | notebook, pencil, a room in your home
+- Sit in one room for five minutes. List what you notice with each of the five senses.
+- Write four sentences describing the room so that it feels **safe and happy**. You may not use the words safe, happy or nice.
+- Describe the same room in four sentences so that it feels **frightening**. Change no facts, only the details and verbs you choose.
+- Describe it a third time as **sad or lonely**.
+- Read all three aloud without saying which is which. Can your listener name each mood and point to the words that created it?
+@practice
+? What are the four parts of a setting?
+= Place, time, social environment and atmosphere
+! Together they answer where, when, among what customs, and in what conditions the story happens.
+? What is mood?
+= The feeling a piece of writing creates in the reader.
+! Authors build it through their choice of details, images and verbs, often in descriptions of setting.
+? Identify the personification: "The wind shouldered the door open and wandered through the hall."
+= "shouldered" and "wandered"
+! Both give the wind human actions, making it seem like an uninvited visitor.
+? How can a setting create conflict? Give an example.
+= By standing in the way of what a character wants, such as a blizzard trapping travellers on a mountain.
+! When nature or place opposes the protagonist, it plays the role of antagonist.
+? What is the pathetic fallacy?
+= Making the weather or landscape reflect a character's feelings.
+! A storm during an argument, for example, strengthens the mood by matching the outer world to the inner one.
+? A story describes a boy's room: "maps on every wall, a telescope at the window, a suitcase never fully unpacked." What does the setting reveal about him?
+= He longs to travel or explore, and does not feel settled.
+! Maps and a telescope look outward, and the half-packed suitcase suggests someone ready to leave.
+@challenge
+? Write a paragraph of six to eight sentences in which a place is the antagonist. A character must want something, and the setting must actively prevent it. Use at least two examples of personification and three different senses. No other characters may appear.
+= Answers will vary.
+! Check four things: the character has a clear goal; the place blocks it through its own "actions"; personification and three senses are present; and the mood stays the same from the first sentence to the last.
+@vocab
+Setting: The time, place and conditions in which a story happens.
+Mood: The feeling a text creates in the reader.
+Atmosphere: The weather, light and emotional air of a scene.
+Personification: Giving human qualities to something that is not human.
+Sensory detail: Description that appeals to sight, sound, smell, taste or touch.
+Symbol: Something that stands for an idea beyond itself.
+@talk
+- Could your favourite story happen anywhere else? What would be lost?
+- Does where you grow up shape who you become, the way a setting shapes a character?
+- Why do so many frightening stories take place at night? Could you write a frightening scene at noon on a sunny day?
+
+@lesson 8 languages French Immersion III: Daily Life
+@hook In French, Tuesday is *mardi* and Friday is *vendredi*. In English they are named after Tyr and Frigg. Both languages are naming the same two planets. What do the days of the week remember?
+@goals
+- Name the days of the week and the parts of the day in French.
+- Ask and tell the time.
+- Conjugate regular *-er* verbs and the verb *être* in the present tense.
+- Describe a daily routine and make a sentence negative.
+@section Les jours de la semaine
+| French | Say it | Named after | English |
+| lundi | lun-DEE | the Moon (*Luna*) | Monday |
+| mardi | mar-DEE | Mars | Tuesday |
+| mercredi | mehr-kruh-DEE | Mercury | Wednesday |
+| jeudi | zhuh-DEE | Jupiter (*Jove*) | Thursday |
+| vendredi | von-druh-DEE | Venus | Friday |
+| samedi | sam-DEE | the Sabbath | Saturday |
+| dimanche | dee-MONSH | the Lord's day (*dies Dominica*) | Sunday |
+The Romans named the days after the Sun, the Moon and five planets, which carried the names of their gods. French kept the Roman names. English replaced four of them with the matching Norse gods from Week 4: Mars became Tyr, Mercury became Woden, Jupiter became Thor, and Venus became Frigg.
+French does not use capital letters for days or months. The week begins on *lundi*.
+@section Quelle heure est-il ?
+| French | English |
+| Quelle heure est-il ? | What time is it? |
+| Il est sept heures. | It is seven o'clock. |
+| Il est une heure. | It is one o'clock. |
+| Il est huit heures et quart. | It is quarter past eight. |
+| Il est huit heures et demie. | It is half past eight. |
+| Il est neuf heures moins le quart. | It is quarter to nine. |
+| Il est midi. / Il est minuit. | It is noon. / It is midnight. |
+| le matin, l'après-midi, le soir | morning, afternoon, evening |
+"Quarter to nine" is literally "nine hours less the quarter". French timetables use the 24-hour clock: *quinze heures* is 3 p.m.
+@section The verb être: to be
+| French | English |
+| je suis | I am |
+| tu es | you are |
+| il est / elle est | he is / she is |
+| nous sommes | we are |
+| vous êtes | you are |
+| ils sont / elles sont | they are |
+*Être* is irregular and must be memorised. Compare the Spanish *soy, eres, es, somos, sois, son*.
+@section Regular -er verbs
+Most French verbs end in **-er** and follow one pattern. Remove the *-er* to find the **stem**, then add the ending.
+| Person | Ending | parler (to speak) | Sounds like |
+| je | -e | je parle | parl |
+| tu | -es | tu parles | parl |
+| il / elle | -e | il parle | parl |
+| nous | -ons | nous parlons | par-LON |
+| vous | -ez | vous parlez | par-LAY |
+| ils / elles | -ent | ils parlent | parl |
+The endings *-e, -es* and *-ent* are **silent**, so four of the six forms sound exactly alike. That is why French must always state the subject pronoun, while Spanish can leave it out.
+| Verb | Meaning | Verb | Meaning |
+| manger | to eat | écouter | to listen to |
+| regarder | to watch | jouer | to play |
+| aimer | to like, to love | habiter | to live (in a place) |
+| travailler | to work | étudier | to study |
+Before a vowel or silent h, *je* shortens to **j'**: *j'aime*, *j'habite*, *j'écoute*.
+@section Saying no
+To make a sentence negative, wrap the verb in **ne … pas**.
+*Je parle français.* I speak French. *Je **ne** parle **pas** français.* I do not speak French.
+Before a vowel, *ne* becomes *n'*: *Je n'aime pas le lundi.* I do not like Mondays.
+@example Conjugate *jouer* for "we" and "they", and translate: "Le samedi, nous jouons au football. Mes frères ne jouent pas."
+- Stem: jou-. With *nous* add -ons: nous jouons. With *ils* add -ent: ils jouent.
+- *Le samedi* means "on Saturdays".
+- *ne jouent pas* is the negative.
+= nous jouons, ils jouent. "On Saturdays we play football. My brothers do not play."
+@example Say in French: "It is half past six in the morning. I eat and I listen to the radio."
+- Half past six: *six heures et demie*. In the morning: *du matin*.
+- I eat: *je mange*. I listen: *j'écoute*, with *j'* before the vowel.
+= Il est six heures et demie du matin. Je mange et j'écoute la radio.
+@activity Ma Journée | paper, coloured pens, a clock with movable hands or a drawn clock face
+- Draw six clock faces showing six moments of your day.
+- Under each write the time in French and one sentence about what you do: *À sept heures, je mange.* *À neuf heures, j'étudie.*
+- Make a weekly timetable with the seven days in French across the top. Fill in one activity for each day.
+- Write three things you like and three you do not like, using *J'aime …* and *Je n'aime pas …*
+- Present your day aloud. A parent moves the clock hands and asks *Quelle heure est-il ?* five times.
+@practice
+? Which planet is *vendredi* named after, and which English day matches it?
+= Venus; Friday
+! French kept the Roman name. English substituted Frigg, the Norse goddess matched with Venus.
+? Say "It is quarter past three" in French.
+= Il est trois heures et quart.
+! *et quart* means "and a quarter". Time is always given with *Il est … heures*.
+? Conjugate *regarder* with *tu* and with *vous*.
+= tu regardes, vous regardez
+! Add -es for *tu* and -ez for *vous* to the stem regard-.
+? Translate: "Elle est française et elle habite au Mexique."
+= "She is French and she lives in Mexico."
+! *est* is the "she is" form of *être*, and *habite* is the "she" form of *habiter*.
+? Make this sentence negative: "Nous travaillons le dimanche."
+= Nous ne travaillons pas le dimanche.
+! *ne* goes before the verb and *pas* after it: "We do not work on Sundays."
+? Why must French always state the subject pronoun?
+= Because several verb forms sound identical.
+! *parle, parles* and *parlent* are all pronounced "parl", so only the pronoun shows who is speaking.
+@challenge
+? Write six sentences in French describing a perfect Saturday. Include two times, at least four different *-er* verbs, one sentence with *être*, and one negative sentence.
+= Answers will vary. Example: "Le samedi, je ne travaille pas. À neuf heures, je mange avec ma famille. Je suis content."
+! Check each verb ending against the table, check that *je* becomes *j'* before a vowel, and check that *ne … pas* surrounds the verb.
+@vocab
+La semaine: The week.
+Quelle heure est-il ?: What time is it?
+Être: To be.
+Parler: To speak.
+Ne … pas: Not.
+Stem: The part of a verb that remains when the ending is removed.
+@talk
+- The days of the week preserve gods that hardly anyone has worshipped for over a thousand years. Why do such names survive?
+- French verbs sound alike but are spelled differently. Would it be better to spell them as they sound?
+- Which is easier for you so far, French grammar or French pronunciation? What does Spanish help with, and where does it mislead you?

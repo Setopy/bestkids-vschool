@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sequences · Week 7 Mathematics · BestKids V-School</title>
+<meta name="description" content="A world-class Grade 5 curriculum: 36 weeks of mathematics, science, history, literature and languages.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body class="">
+<header class="top">
+  <a class="brand" href="../index.html"><span class="crest">B</span><span>BestKids <em>V-School</em></span></a>
+  <nav><a href="../index.html#map">Curriculum</a><a href="../guide.html">Parent guide</a></nav>
+</header>
+<main class="lesson subj-math" data-lesson="w07-math">
+<div class="crumbs"><a href="../index.html#map">Curriculum</a> › <a href="../weeks/week-07.html">Week 7</a> › Mathematics</div>
+<div class="lhead">
+  <span class="badge">∑ Mathematics · Week 7</span>
+  <h1>Sequences</h1>
+  <blockquote class="hook"><span>The big question</span>A teacher once told a class of small boys to add every number from 1 to 100, hoping for a quiet hour. Seven-year-old Carl Gauss wrote down 5,050 within moments. He did not add faster than the others. What did he see?</blockquote>
+</div>
+<section class="goals"><h2>By the end of this lesson you will be able to</h2><ol>
+<li>Recognise arithmetic and geometric sequences and state their rules.</li>
+<li>Find a position-to-term rule (the nth term) for an arithmetic sequence.</li>
+<li>Describe the square, triangular and Fibonacci numbers.</li>
+<li>Add a long run of consecutive numbers using Gauss's pairing method.</li>
+</ol></section>
+<section class='core'><h2><span class='num'>1</span>Patterns with rules</h2><p>A <strong>sequence</strong> is an ordered list of numbers that follows a rule. Each number is a <strong>term</strong>.</p>
+<ul><li>In an <strong>arithmetic sequence</strong> you <strong>add</strong> the same number each time. That number is the <strong>common difference</strong>. Example: 5, 8, 11, 14 … adds 3.</li><li>In a <strong>geometric sequence</strong> you <strong>multiply</strong> by the same number each time. That number is the <strong>common ratio</strong>. Example: 3, 6, 12, 24 … multiplies by 2.</li></ul>
+<p>To test a sequence, subtract neighbours. If the differences are equal, it is arithmetic. If not, divide neighbours. If the quotients are equal, it is geometric.</p></section>
+<section class='core'><h2><span class='num'>2</span>Two kinds of rule</h2><p>A <strong>term-to-term rule</strong> tells you how to get the next term from the one before: "add 3". It is easy to find, but to reach the 100th term you would need 99 steps.</p>
+<p>A <strong>position-to-term rule</strong> gives any term directly from its position, n. It is called the <strong>nth term</strong>.</p>
+<p>For 5, 8, 11, 14 … the sequence rises by 3 each time, like the 3 times table: 3, 6, 9, 12. Each term is 2 more than the matching multiple of 3. So the nth term is <strong>3n + 2</strong>.</p>
+<div class='tablewrap'><table><thead><tr><th>Position n</th><th>1</th><th>2</th><th>3</th><th>4</th><th>n</th></tr></thead><tbody><tr><td>3 × n</td><td>3</td><td>6</td><td>9</td><td>12</td><td>3n</td></tr><tr><td>Term</td><td>5</td><td>8</td><td>11</td><td>14</td><td>3n + 2</td></tr></tbody></table></div>
+<p><strong>Method:</strong> the common difference becomes the multiplier of n. Then adjust by whatever makes the first term correct.</p></section>
+<section class='core'><h2><span class='num'>3</span>Famous sequences</h2><div class='tablewrap'><table><thead><tr><th>Name</th><th>Terms</th><th>Rule</th></tr></thead><tbody><tr><td>Square numbers</td><td>1, 4, 9, 16, 25 …</td><td>n × n</td></tr><tr><td>Triangular numbers</td><td>1, 3, 6, 10, 15 …</td><td>Add 2, then 3, then 4 …; the nth is n × (n + 1) ÷ 2</td></tr><tr><td>Fibonacci numbers</td><td>1, 1, 2, 3, 5, 8, 13 …</td><td>Each term is the sum of the two before it</td></tr><tr><td>Powers of 2</td><td>1, 2, 4, 8, 16 …</td><td>Double each time</td></tr></tbody></table></div>
+<p>The Fibonacci numbers appear in the spirals of sunflowers, pine cones and pineapples. The differences between neighbouring square numbers are the odd numbers: 3, 5, 7, 9 …</p></section>
+<section class='core'><h2><span class='num'>4</span>Gauss's trick</h2><p>To add 1 + 2 + 3 + … + 100, Gauss paired the first with the last, the second with the second-last, and so on.</p>
+<p>1 + 100 = 101, 2 + 99 = 101, 3 + 98 = 101 …</p>
+<p>There are 50 pairs, each worth 101, and 50 × 101 = 5,050.</p>
+<p>In general, the sum of 1 to n is <strong>n × (n + 1) ÷ 2</strong>. This is the formula for the triangular numbers, because the nth triangular number is exactly 1 + 2 + … + n.</p></section>
+<section class='examples'><h2>Worked examples</h2><p class='hint'>Cover the steps. Predict each line before you read it.</p>
+<div class='ex'><h3>Example 1</h3><p class='exq'>Find the nth term of 4, 9, 14, 19 … and use it to find the 50th term.</p><ol><li>The common difference is 5, so the rule starts with 5n.</li><li>The 5 times table gives 5, 10, 15, 20. Each term of our sequence is 1 less.</li><li>The nth term is 5n − 1.</li><li>50th term: 5 × 50 − 1 = 249.</li></ol><p class='exa'><strong>Answer:</strong> nth term 5n − 1; the 50th term is 249</p></div>
+<div class='ex'><h3>Example 2</h3><p class='exq'>Is 100 a term of the sequence 3, 7, 11, 15 …?</p><ol><li>The common difference is 4, and the first term is 3, so the nth term is 4n − 1.</li><li>If 100 is a term, then 4n − 1 = 100, so 4n = 101.</li><li>101 is not a multiple of 4.</li></ol><p class='exa'><strong>Answer:</strong> No. (99 and 103 are terms, but 100 is not.)</p></div>
+</section>
+<section class='activity'><h2>Hands-on: Matchstick Patterns</h2><p class='materials'><strong>You need:</strong> 60 matchsticks, toothpicks or cotton buds, squared paper</p><ol><li>Build a row of 1 square, then 2 joined squares, then 3, sharing sides. Count the sticks each time: 4, 7, 10 …</li><li>Record the results in a table. Find the common difference and explain it by pointing at the sticks.</li><li>Write the nth term. Use it to predict the sticks for 10 squares, then build and check.</li><li>Repeat with a row of joined triangles.</li><li>On squared paper, draw the first five triangular numbers as dot triangles. Put two copies of one together to make a rectangle. How does that show n × (n + 1) ÷ 2?</li></ol></section>
+<section class='practice'><div class='phead'><h2>Practice</h2><button class='ghost' data-toggle-answers>Show all answers</button></div><p class='hint'>Write your full working in your notebook before opening an answer.</p><ol class='qs'>
+<li><p>Write the next three terms of 7, 13, 19, 25 …</p><details><summary>Answer and why</summary><p><strong>31, 37, 43</strong></p><p class='why'><span>Why</span>The common difference is 6, so add 6 each time.</p></details></li>
+<li><p>Write the next two terms of 2, 6, 18, 54 … and name the type of sequence.</p><details><summary>Answer and why</summary><p><strong>162 and 486; geometric</strong></p><p class='why'><span>Why</span>Each term is 3 times the one before, so the common ratio is 3.</p></details></li>
+<li><p>Find the nth term of 10, 13, 16, 19 …</p><details><summary>Answer and why</summary><p><strong>3n + 7</strong></p><p class='why'><span>Why</span>The difference is 3, so start with 3n. The first term must be 10, and 3 × 1 + 7 = 10.</p></details></li>
+<li><p>What is the 10th Fibonacci number, if the sequence begins 1, 1?</p><details><summary>Answer and why</summary><p><strong>55</strong></p><p class='why'><span>Why</span>1, 1, 2, 3, 5, 8, 13, 21, 34, 55. Each term is the sum of the two before.</p></details></li>
+<li><p>Find 1 + 2 + 3 + … + 20.</p><details><summary>Answer and why</summary><p><strong>210</strong></p><p class='why'><span>Why</span>Pair the ends: ten pairs of 21 make 210. The formula gives 20 × 21 ÷ 2.</p></details></li>
+<li><p>What is the 12th square number, and what is the difference between it and the 11th?</p><details><summary>Answer and why</summary><p><strong>144, and the difference is 23</strong></p><p class='why'><span>Why</span>12 × 12 = 144 and 11 × 11 = 121. Square numbers grow by consecutive odd numbers, and 23 is the 12th odd number.</p></details></li>
+<li><p>A sequence has nth term 6n − 4. Write its first four terms.</p><details><summary>Answer and why</summary><p><strong>2, 8, 14, 20</strong></p><p class='why'><span>Why</span>Put n = 1, 2, 3, 4 into the rule: 6 − 4, 12 − 4, 18 − 4, 24 − 4.</p></details></li>
+</ol></section>
+<section class='challenge'><h2>★ Scholar's challenge</h2><p>A row of n joined squares needs 3n + 1 matchsticks. Explain why the rule is 3n + 1. Then find how many squares can be made in a row with exactly 100 matchsticks.</p><details><summary>Answer and why</summary><p><strong>33 squares</strong></p><p class='why'><span>Why</span>The first square needs 4 sticks and each further square shares a side, so it needs only 3 more. That is one starting stick plus 3 for every square: 3n + 1. Then 3n + 1 = 100 gives 3n = 99 and n = 33.</p></details></section>
+<section class='vocab'><h2>Words to own</h2><dl><div><dt>Sequence</dt><dd>An ordered list of numbers that follows a rule.</dd></div><div><dt>Term</dt><dd>One number in a sequence.</dd></div><div><dt>Common difference</dt><dd>The fixed amount added in an arithmetic sequence.</dd></div><div><dt>Common ratio</dt><dd>The fixed multiplier in a geometric sequence.</dd></div><div><dt>nth term</dt><dd>A rule that gives any term from its position n.</dd></div><div><dt>Triangular number</dt><dd>A number of dots that can be arranged in a triangle: 1, 3, 6, 10 …</dd></div></dl></section>
+<section class='talk'><h2>Socratic table talk</h2><p class='hint'>Discuss aloud. There is no answer key: defend your thinking with reasons.</p><ul><li>Gauss did not calculate faster. He looked for structure first. When has stopping to think saved you work?</li><li>A sequence begins 2, 4 … What could the third term be? Give three different rules. What does that tell you about "guess the next number" questions?</li><li>Why might the Fibonacci numbers turn up in plants? Is mathematics hiding in nature, or do we put it there?</li></ul></section>
+<section class='done'><button class='primary' data-complete>Mark lesson complete</button><button class='ghost' onclick='window.print()'>Print this lesson</button></section>
+<nav class='pn'><a href='w06-languages.html'>← French Immersion I: Greetings</a><a href='w07-science.html'>Separation Techniques →</a></nav></main>
+<footer class="foot">
+  <p><strong>BestKids V-School</strong> · Grade 5 · Built on Cambridge International, Singapore Primary Mathematics and the Classical Trivium.</p>
+  <p class="small">Ask why. Show your working. Check your answer.</p>
+</footer>
+<script src="../assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,395 @@
+@lesson 1 math Non-Decimal Bases
+@hook When you count 1, 2, 3 … up to 9, the next number suddenly needs two digits. Why does that happen at 9 and not at 7 or 15? Who decided?
+@goals
+- Explain what a base is and why base ten is only one choice among many.
+- Convert a number from base ten into base two, five or twelve, and back again.
+- Spot other bases hiding in daily life: clocks, egg cartons, computers.
+- Check every conversion by working backwards.
+@section What a base really is
+A **base** is the size of the bundle. It tells you how many objects you must collect before you trade them for one object in the next column. In **base ten** we bundle at ten: ten ones become one ten, ten tens become one hundred.
+We almost certainly use ten because humans have ten fingers. That is an accident of biology, not a law of mathematics. A creature with eight fingers would write "10" to mean *one bundle of eight and nothing left over*.
+The value of a digit depends on where it sits. This is **place value**. In base ten the columns are worth 1, 10, 100, 1000. Each column is ten times the one on its right.
+| Base | Bundle size | Column values (right to left) | Digits allowed |
+| Two (binary) | 2 | 1, 2, 4, 8, 16, 32 | 0, 1 |
+| Five | 5 | 1, 5, 25, 125, 625 | 0, 1, 2, 3, 4 |
+| Ten (decimal) | 10 | 1, 10, 100, 1000 | 0 to 9 |
+| Twelve (dozenal) | 12 | 1, 12, 144, 1728 | 0 to 9, then A = ten, B = eleven |
+Notice the pattern: a base never has a digit equal to itself. Base five has no digit 5, just as base ten has no single digit for ten.
+@section Where other bases hide
+- **Base two** runs every computer. A switch is either off (0) or on (1), so a machine made of switches must count in twos.
+- **Base twelve** survives in 12 hours on a clock face, 12 months, and eggs by the dozen. Twelve divides evenly by 2, 3, 4 and 6. Ten divides evenly only by 2 and 5.
+- **Base sixty** came from ancient Mesopotamia and still gives us 60 seconds in a minute and 60 minutes in an hour.
+We write the base as a small number after the numeral: 111₂ means "one-one-one in base two". With no small number, assume base ten.
+@section The two methods
+**From base ten to another base: repeated division.** Divide by the new base, write the remainder, and repeat with the quotient until the quotient is 0. Read the remainders from the **last to the first**.
+**From another base to base ten: expand by place value.** Multiply each digit by the value of its column and add.
+A scholar never trusts a conversion until it has been checked in the opposite direction.
+@example Convert 13 to base two.
+- 13 ÷ 2 = 6 remainder 1
+- 6 ÷ 2 = 3 remainder 0
+- 3 ÷ 2 = 1 remainder 1
+- 1 ÷ 2 = 0 remainder 1
+- Read the remainders from last to first: 1, 1, 0, 1.
+- Check: 1×8 + 1×4 + 0×2 + 1×1 = 13. ✓
+= 13 = 1101₂
+@example Convert 2301₅ to base ten.
+- The columns in base five are worth 125, 25, 5 and 1.
+- 2×125 = 250, 3×25 = 75, 0×5 = 0, 1×1 = 1.
+- Add: 250 + 75 + 0 + 1 = 326.
+= 2301₅ = 326
+@example Convert 100 to base twelve.
+- 100 ÷ 12 = 8 remainder 4
+- 8 ÷ 12 = 0 remainder 8
+- Read from last to first: 8, 4.
+- Check: 8×12 + 4 = 100. ✓
+= 100 = 84₁₂
+@activity The Five-Egg Farm | 60 dried beans or coins, small cups, a sheet of paper ruled into three columns labelled 25s, 5s and 1s
+- Count out 47 beans. The farm rule: you may never leave five or more loose beans.
+- Bundle the beans into cups of five. Count the cups and the loose beans.
+- Now you may never leave five or more loose cups. Stack five cups into a "crate" of 25.
+- Record crates, cups and loose beans in the three columns. You have written 47 in base five.
+- Repeat with 38 and 112. Then invent a Three-Egg Farm and write 20 in base three.
+@practice
+? Convert 47 to base five.
+= 142₅
+! 47 ÷ 5 = 9 r 2, 9 ÷ 5 = 1 r 4, 1 ÷ 5 = 0 r 1. Reading last to first gives 1, 4, 2. Check: 25 + 20 + 2 = 47.
+? Convert 10110₂ to base ten.
+= 22
+! The columns are 16, 8, 4, 2, 1. The 1s sit in the 16, 4 and 2 columns, and 16 + 4 + 2 = 22.
+? Convert 59 to base two.
+= 111011₂
+! 59 = 32 + 16 + 8 + 2 + 1. Put a 1 in each of those columns and a 0 in the 4 column.
+? What is 3A₁₂ in base ten? (A stands for ten.)
+= 46
+! 3 twelves is 36, plus ten ones gives 46.
+? Why is 728₅ not a real base-five number?
+= Because the digits 7 and 8 do not exist in base five.
+! In base five you bundle as soon as you reach five, so the only digits you can ever have left over are 0, 1, 2, 3 and 4.
+? Write 144 in base twelve.
+= 100₁₂
+! 144 is exactly one bundle of twelve twelves. That fills the third column with 1 and leaves nothing in the other two.
+? Add in binary without converting: 1011₂ + 110₂.
+= 10001₂
+! Work right to left and carry whenever a column reaches two. Check in base ten: 11 + 6 = 17, and 17 = 16 + 1 = 10001₂.
+@challenge
+? A number is written 121 in some unknown base, and it equals 36 in base ten. What is the base?
+= Base five
+! In base b, 121 means b×b + 2×b + 1. Try b = 5: 25 + 10 + 1 = 36. (That expression is also (b + 1)×(b + 1), and 6×6 = 36, so b = 5.)
+@vocab
+Base: The bundle size of a number system; how many of one column you trade for one of the next.
+Place value: The value a digit has because of the column it sits in.
+Binary: Base two, using only the digits 0 and 1.
+Remainder: What is left over after dividing into equal groups.
+Digit: A single symbol used to write numbers.
+@talk
+- If humans had twelve fingers, would mathematics be easier or harder? Give two reasons.
+- Is the number thirteen the same thing as the symbols "13"? What is the difference between a number and a numeral?
+- Why can a computer, which only knows 0 and 1, still show colours, music and words?
+
+@lesson 1 science Metrology & SI Units
+@hook In 1999 a spacecraft worth 125 million dollars was lost at Mars because two teams used different units. How can a unit destroy a spacecraft?
+@goals
+- Explain why science needs one shared system of measurement.
+- Name the seven SI base units and what each one measures.
+- Use the prefixes kilo, centi, milli and micro to convert measurements.
+- Tell the difference between accuracy and precision, and between mass and weight.
+@section Why measurement needs a standard
+**Metrology** is the science of measurement. To measure is to compare something with an agreed standard, called a **unit**.
+For most of history, units were local. A "foot" was the length of a king's foot, and a new king meant a new foot. Trade and science were full of arguments. During the 1790s French scientists designed the metric system, built on tens. Its modern form is the **International System of Units**, or **SI**, used by scientists in every country.
+The Mars Climate Orbiter shows what is at stake. One team sent thruster data in pound-force seconds. The navigation software expected newton seconds. Nobody converted. The spacecraft flew too low into the Martian atmosphere and was lost.
+@section The seven base units
+| Quantity | SI base unit | Symbol |
+| Length | metre | m |
+| Mass | kilogram | kg |
+| Time | second | s |
+| Temperature | kelvin | K |
+| Electric current | ampere | A |
+| Amount of substance | mole | mol |
+| Brightness of light | candela | cd |
+Every other unit is built from these. Speed is metres per second. Volume is cubic metres. Since 2019 every base unit is defined by a constant of nature. A metre, for example, is the distance light travels in a vacuum in 1/299,792,458 of a second, so any laboratory on Earth can reproduce it.
+@section Prefixes: the power of ten
+| Prefix | Symbol | Means | Example |
+| mega | M | × 1,000,000 | 1 megametre = 1,000,000 m |
+| kilo | k | × 1,000 | 1 km = 1,000 m |
+| (none) | | × 1 | 1 m |
+| centi | c | ÷ 100 | 1 cm = 0.01 m |
+| milli | m | ÷ 1,000 | 1 mm = 0.001 m |
+| micro | µ | ÷ 1,000,000 | 1 µm = 0.000001 m |
+To convert to a **smaller** unit you need **more** of them, so multiply. To convert to a **larger** unit you need **fewer**, so divide.
+@section Accuracy, precision, mass and weight
+**Accuracy** is how close a measurement is to the true value. **Precision** is how close repeated measurements are to each other. A scale that always reads 2 kg too heavy is precise but not accurate.
+**Mass** is the amount of matter in an object, measured in kilograms. **Weight** is the pull of gravity on that mass, measured in newtons. On the Moon your mass is unchanged, but your weight is about one sixth of your weight on Earth.
+@example Convert 3.5 km to metres.
+- Kilo means × 1,000.
+- Metres are smaller than kilometres, so we expect more of them: multiply.
+- 3.5 × 1,000 = 3,500.
+= 3.5 km = 3,500 m
+@example Convert 250 mL to litres.
+- Milli means ÷ 1,000.
+- Litres are larger, so we expect fewer: divide.
+- 250 ÷ 1,000 = 0.25.
+= 250 mL = 0.25 L
+@activity The Body-Unit Problem | string, scissors, a metre rule or tape measure, notebook
+- Cut a string as long as your own foot. Cut another as long as a parent's foot.
+- Measure the length of a room in "child feet" and then in "parent feet". Record both.
+- Explain in one sentence why two honest people got different numbers.
+- Measure the room again with the metre rule, three times. Are your three results precise? How could you tell whether they are accurate?
+- Estimate, then measure: the width of a fingernail (cm), the height of a door (m), the mass of an apple (g).
+@practice
+? Convert 4,200 g to kilograms.
+= 4.2 kg
+! A kilogram is 1,000 g. Kilograms are larger, so there are fewer of them: 4,200 ÷ 1,000 = 4.2.
+? Convert 0.07 m to millimetres.
+= 70 mm
+! There are 1,000 mm in a metre. Millimetres are smaller, so multiply: 0.07 × 1,000 = 70.
+? How many seconds are in 2 hours 15 minutes?
+= 8,100 s
+! 2 h 15 min is 135 minutes, and 135 × 60 = 8,100.
+? Which SI base unit would you use for the temperature of a star?
+= The kelvin
+! The kelvin is the SI base unit of temperature. Its zero is absolute zero, the coldest possible temperature, so it never needs negative numbers.
+? A dart player hits the same spot five times, but far from the bullseye. Precise, accurate, both or neither?
+= Precise but not accurate
+! The throws agree with each other (precise) but are far from the true target (not accurate).
+? An astronaut has a mass of 70 kg on Earth. What is her mass on the Moon?
+= 70 kg
+! Mass is the amount of matter, and travelling does not remove matter. Only her weight changes, because the Moon's gravity is weaker.
+? Put in order from smallest to largest: 5 cm, 0.5 m, 55 mm, 0.0005 km.
+= 5 cm, 55 mm, 0.5 m and 0.0005 km (the last two are equal)
+! In metres they are 0.05, 0.055, 0.5 and 0.5. Converting everything to one unit is the only safe way to compare.
+@challenge
+? A human hair is about 80 µm wide. How many hairs laid side by side would span 1 cm?
+= 125 hairs
+! 1 cm = 10 mm = 10,000 µm. Then 10,000 ÷ 80 = 125.
+@vocab
+Metrology: The science of measurement.
+SI: The International System of Units, the world standard for science.
+Base unit: One of the seven units from which all other SI units are built.
+Prefix: A word-part placed before a unit to multiply or divide it by a power of ten.
+Precision: How closely repeated measurements agree with each other.
+Accuracy: How close a measurement is to the true value.
+@talk
+- Why is it better to define the metre by the speed of light than by a metal bar kept in a vault?
+- Could a society have science without agreed units? What would go wrong first?
+- Who should pay when a mistake in units destroys something valuable: the person who sent the number or the person who used it?
+
+@lesson 1 history Cartography & Map Projections
+@hook On most classroom maps Greenland looks as big as Africa. In truth Africa is about fourteen times larger. Why would a map lie?
+@goals
+- Explain why every flat map of the round Earth must distort something.
+- Locate places using latitude and longitude.
+- Compare the Mercator, equal-area and compromise projections.
+- Use a map scale to calculate real distances.
+@section The orange-peel problem
+**Cartography** is the art and science of making maps. The Earth is a sphere (very nearly), and a map is flat. Peel an orange and try to press the peel flat on a table: it tears or stretches. The same thing happens to the surface of the Earth.
+A **projection** is a method of transferring the globe onto a flat sheet. Every projection distorts at least one of four things: **shape, area, distance or direction**. A mapmaker must choose what to keep true and what to sacrifice. That choice depends on what the map is for.
+@section Three famous projections
+| Projection | Keeps true | Distorts | Best for |
+| Mercator (1569) | Compass direction and local shape | Area, badly, near the poles | Sea navigation |
+| Equal-area (for example Gall-Peters) | Area | Shape, stretched tall near the equator | Comparing sizes of countries |
+| Compromise (Robinson, Winkel Tripel) | Nothing perfectly | Everything a little | General world maps |
+Gerardus Mercator designed his map for sailors. A straight line on it is a line of constant compass bearing, so a navigator could set one heading and follow it. The price is that lands far from the equator swell. Greenland, Canada and Russia look enormous, while Africa, India and Mexico look smaller than they are.
+@section The global address system
+- **Latitude** lines run east–west and measure how far north or south you are from the **equator** (0°), up to 90° at each pole.
+- **Longitude** lines run from pole to pole and measure how far east or west you are from the **prime meridian** (0°) through Greenwich, England, up to 180°.
+Latitude is always given first. Mexico City is near 19° N, 99° W. Bangkok is near 14° N, 100° E.
+@section Scale
+A **scale** tells you how much the real world was shrunk. A scale of 1 : 50,000 means 1 cm on the map is 50,000 cm on the ground, which is 500 m.
+@example A map has a scale of 1 : 200,000. Two towns are 7 cm apart on the map. How far apart are they really?
+- 1 cm on the map is 200,000 cm on the ground.
+- 200,000 cm = 2,000 m = 2 km.
+- 7 cm on the map is 7 × 2 km.
+= 14 km
+@example Which city is farther north: one at 33° N, 117° W or one at 7° N, 100° E?
+- Latitude is the first number and tells north–south position.
+- 33° N is farther from the equator than 7° N.
+= The city at 33° N
+@activity Flatten the World | an orange or a mandarin, a marker pen, a globe or online globe, a printed Mercator world map
+- Draw the equator and rough continents on the orange with the marker.
+- Peel it carefully in as few pieces as possible and press the peel flat. Sketch what happened to your continents.
+- On the Mercator map, cut out a paper shape of Greenland and lay it over Africa. Then compare the two on the globe.
+- Find the latitude and longitude of your home, and of three cities you would like to visit.
+- Write three sentences: what did the map get wrong, and why did the mapmaker accept that?
+@practice
+? Name the four properties a map projection can distort.
+= Shape, area, distance and direction
+! A curved surface cannot be flattened without stretching or tearing, so at least one of these must give way.
+? Why did sailors prefer the Mercator projection?
+= A straight line on it is a constant compass bearing.
+! A navigator could draw a line from port to port, read one angle, and steer by it for the whole voyage.
+? A map has a scale of 1 : 100,000. How long on the map is a 5 km road?
+= 5 cm
+! 100,000 cm is 1 km, so each centimetre shows 1 km. Five kilometres need 5 cm.
+? What is the latitude of the North Pole?
+= 90° N
+! Latitude counts degrees from the equator (0°) to the pole, which is a quarter of a full circle: 90°.
+? A city sits at 0° latitude, 78° W. What can you say about it at once?
+= It lies on the equator, in the western hemisphere.
+! 0° latitude is the equator itself. (This is close to Quito, in Ecuador, a country named after the equator.)
+? Which projection would you choose to compare the size of Brazil with the size of Europe? Why?
+= An equal-area projection
+! It keeps area true, so sizes can be compared fairly even though shapes are stretched.
+@challenge
+? Aeroplanes from Mexico City to Tokyo fly north over Alaska instead of straight west across the Pacific. On a flat Mercator map this looks like a detour. Explain why it is actually the shortest route.
+= The shortest path on a sphere is a great circle, which looks curved on a Mercator map.
+! Stretch a string between the two cities on a globe and it bends north. The Mercator map distorts distance, so its "straight" lines are not the shortest ones.
+@vocab
+Cartography: The making and study of maps.
+Projection: A method for showing the curved Earth on a flat surface.
+Latitude: Distance north or south of the equator, in degrees.
+Longitude: Distance east or west of the prime meridian, in degrees.
+Scale: The ratio between a distance on a map and the real distance.
+Great circle: The shortest route between two points on a sphere.
+@talk
+- If every map distorts something, can any map be called "true"?
+- Most world maps put north at the top and Europe near the centre. Is that a fact of nature or a choice? What would change if south were at the top?
+- Can a map change how people think about which countries are important?
+
+@lesson 1 literature Active Reading
+@hook Two people read the same page. One remembers almost nothing. The other could teach it tomorrow. What did the second reader do differently?
+@goals
+- Explain the difference between passive and active reading.
+- Use six reader's moves: predict, question, clarify, connect, visualise and summarise.
+- Annotate a passage with a simple code of marks.
+- Support an idea about a text with evidence from the text.
+@section Reading is a conversation
+A **passive reader** lets the words pass by, like scenery through a bus window. An **active reader** talks back to the page: asking, guessing, arguing and checking. The author has put meaning into the text, but the reader must do the work of bringing it out.
+Great readers are not faster. They are more awake.
+@section The six moves
+| Move | What you do | What you might say |
+| Predict | Guess what comes next | "I think she will open the door because…" |
+| Question | Ask the text something | "Why did he lie?" |
+| Clarify | Stop at confusion and fix it | "I do not know this word. Let me reread." |
+| Connect | Link to your life, another book, or the world | "This is like when…" |
+| Visualise | Build the picture in your mind | "I can see the dust on the road." |
+| Summarise | Say the main idea in your own words | "So far, in one sentence…" |
+@section Annotation: thinking on paper
+To **annotate** is to mark a text with your thoughts. Use a pencil and a small code:
+- **Underline** one key sentence per paragraph, never more.
+- **?** in the margin beside anything puzzling.
+- **!** beside anything surprising or important.
+- **Circle** words you do not know, then look them up.
+- **→** beside a place where you made a prediction or connection, with two or three words of note.
+@section Evidence
+A strong reader never says only "I think". A strong reader says "I think **this**, because the text says **that**." The words you point to are your **evidence**. A conclusion you reach from clues is an **inference**.
+@example Read actively: "Amara stood at the edge of the market long after the stalls had closed. In her pocket the three coins felt lighter than they had that morning. She did not look toward the baker's shuttered window. She looked at her shoes."
+- Question: why did she stay after the stalls closed?
+- Clarify: "shuttered" means closed with shutters.
+- Infer: the coins "felt lighter", yet coins do not change weight. They now seem worth less to her, so something she hoped to buy cost more than she had.
+- Evidence: she avoids looking at the baker's window, and she looks down at her shoes.
+- Summarise: Amara could not afford what she wanted from the baker and feels ashamed or sad.
+= The passage never says "Amara was disappointed", but an active reader can prove it from the coins, the window and the shoes.
+@activity The Margin Conversation | a short story or chapter you have not read, a pencil, sticky notes if the book must stay clean
+- Before reading, look only at the title and first sentence. Write one prediction.
+- Read the first page with your pencil in your hand. Make at least one mark of each kind from the code.
+- Stop at the end of the page. Without looking, say a one-sentence summary aloud.
+- Check your prediction. Were you right? It does not matter. What matters is that you were paying attention.
+- Tell a parent one inference and point to the exact words that are your evidence.
+@practice
+? What is the difference between passive and active reading?
+= A passive reader only receives words. An active reader questions, predicts and checks while reading.
+! Understanding is built by the reader's own thinking, so a reader who does nothing with the words keeps very little of them.
+? You reach a sentence you do not understand. Which move do you use, and what do you do?
+= Clarify: stop, reread, and look up or work out the hard word.
+! Reading on while confused piles new confusion on old. Fixing it at once keeps the meaning whole.
+? "The dog's tail dropped and it crept under the table when the thunder began." What can you infer? Give your evidence.
+= The dog is afraid of thunder.
+! A dropped tail and hiding are signs of fear, and both happen exactly "when the thunder began". The text never uses the word afraid.
+? Why should you underline only one sentence in each paragraph?
+= Because underlining forces you to choose what matters most.
+! If everything is marked, nothing stands out. Choosing is itself an act of thinking.
+? Write a prediction for a story that opens: "Nobody had opened the blue door since Grandfather left."
+= Any reasoned prediction, for example: "Someone will open the door and learn why Grandfather left."
+! A good prediction grows from clues. Here the author points at the door and at Grandfather's leaving, so both are likely to matter.
+? What is evidence, in reading?
+= The exact words in the text that support your idea.
+! Evidence lets another reader check your thinking. Without it an idea is only an opinion.
+@challenge
+? Reread the Amara passage. Write two different inferences about why the coins "felt lighter", each supported by evidence. Then decide which is stronger and why.
+= Example: (1) prices rose and she cannot afford bread, supported by her avoiding the baker's window; (2) she lost or spent some coins, supported by "lighter than that morning".
+! Inference 1 is stronger because the text says there are still three coins, and it gives the baker detail a purpose. The best inference explains the most clues.
+@vocab
+Annotate: To add notes and marks to a text while reading.
+Inference: A conclusion reached from clues, not stated directly.
+Evidence: Words from the text that support an idea.
+Summarise: To restate the main idea briefly in your own words.
+Predict: To make a reasoned guess about what will happen.
+@talk
+- Is it possible to read a book "wrongly"? Who decides what a story means, the author or the reader?
+- Why might two careful readers reach different inferences from the same passage?
+- Which of the six moves do you already use without noticing? Which is hardest for you?
+
+@lesson 1 languages The Indo-European Tree
+@hook The word for "mother" is *madre* in Spanish, *Mutter* in German, *mātṛ* in ancient Sanskrit and *mat'* in Russian. These peoples lived thousands of kilometres apart. Coincidence?
+@goals
+- Explain what a language family is and how languages descend from a common ancestor.
+- Name the main branches of the Indo-European family.
+- Recognise cognates across languages.
+- Name languages that belong to other families.
+@section Languages have families
+Languages change slowly, all the time. When a group of speakers splits and the halves stop talking to each other, their speech drifts apart. After a thousand years or more the two groups can no longer understand each other. One language has become two **daughter languages**.
+Latin was spoken across the Roman Empire. When the empire broke up, the Latin of each region drifted. Today we call the results Spanish, French, Italian, Portuguese and Romanian. They are sisters, and Latin is their mother.
+@section The great tree
+In 1786 Sir William Jones, a judge in India, noticed that Sanskrit, Greek and Latin were too alike for chance. Scholars concluded that most languages of Europe, Iran and northern India descend from one lost language. We call it **Proto-Indo-European**, or **PIE**. It was spoken perhaps 5,000 to 6,000 years ago, probably on the grasslands north of the Black Sea. Nobody wrote it down. Linguists rebuilt it by comparing its descendants.
+| Branch | Some living languages |
+| Germanic | English, German, Dutch, Swedish, Norwegian |
+| Italic (Romance) | Spanish, French, Italian, Portuguese, Romanian |
+| Hellenic | Greek |
+| Indo-Iranian | Hindi, Urdu, Bengali, Persian (and ancient Sanskrit) |
+| Balto-Slavic | Russian, Polish, Czech, Lithuanian |
+| Celtic | Irish, Welsh, Scottish Gaelic |
+Today nearly half of all people speak an Indo-European language as their first language.
+@section Cognates: family resemblance
+**Cognates** are words in different languages that grew from the same ancestor word.
+| English | German | Spanish | French | Latin | Greek |
+| mother | Mutter | madre | mère | mater | mētēr |
+| three | drei | tres | trois | tres | treis |
+| night | Nacht | noche | nuit | nox | nyx |
+| new | neu | nuevo | nouveau | novus | neos |
+Sound changes follow rules. Where Latin has **p**, English often has **f**: *pater* and father, *pes/pedis* and foot, *piscis* and fish. This pattern is part of **Grimm's Law**, worked out by Jacob Grimm, the same man who collected the fairy tales.
+@section Not every language is on this tree
+Many of the world's languages belong to other families entirely: Mandarin (Sino-Tibetan), Arabic and Hebrew (Afro-Asiatic), Swahili and Yoruba (Niger-Congo), Thai (Kra-Dai), Nahuatl, the language of the Aztecs (Uto-Aztecan), and Finnish and Hungarian (Uralic). Basque, in Spain and France, has no known relatives at all.
+@example Are English "fish" and Spanish "pez" cognates?
+- Find the Latin: *piscis*.
+- Spanish descends from Latin: *piscis* became *pez*.
+- English is Germanic. Apply Grimm's Law: Latin p matches English f, so *pisc-* matches *fisc-*, which became "fish".
+= Yes. Both descend from the same PIE word. They are cousins, not borrowed copies.
+@activity Grow the Tree | large sheet of paper, coloured pens, a dictionary or translation tool
+- Draw a thick trunk labelled Proto-Indo-European and six large branches for the six groups in the table.
+- Hang at least three languages on each branch as leaves.
+- Choose the words *two*, *star* and *name*. Find each in six languages from at least three branches, and write them along the branches.
+- Circle the sounds that stay the same in one colour and the sounds that change in another.
+- Off to the side, draw three separate small trees for three non-Indo-European languages.
+@practice
+? What is a language family?
+= A group of languages descended from one common ancestor language.
+! Languages drift when speakers separate, so related languages keep shared words and patterns, just as relatives share features.
+? Name the mother language of Spanish, French and Italian.
+= Latin
+! These grew from the everyday Latin spoken in different regions of the Roman Empire after it broke apart.
+? To which branch does English belong?
+= Germanic
+! Its core words (mother, water, house, three) match German and Dutch. English later borrowed many words from French and Latin, but its skeleton is Germanic.
+? Latin *pater* and English "father" are cognates. Which rule explains the different first letter?
+= Grimm's Law: PIE p became f in the Germanic languages.
+! The change is regular, and appears again in pes/foot and piscis/fish. Regular patterns are how linguists prove kinship.
+? Is Mandarin an Indo-European language?
+= No. It belongs to the Sino-Tibetan family.
+! Its basic words and grammar show no regular match with Indo-European languages.
+? Nobody ever wrote Proto-Indo-European. How can we know anything about it?
+= By comparing its daughter languages and working backwards.
+! When many related languages share a word with regular sound differences, linguists can reconstruct the likely original, like rebuilding a grandparent's face from the grandchildren.
+@challenge
+? English has both "foot" and "pedal", both "father" and "paternal", both "fish" and "Pisces". Why does English often have two related words, one with f and one with p?
+= One is the inherited Germanic word, and the other was borrowed later from Latin.
+! The inherited words went through Grimm's Law (p to f). The Latin borrowings arrived after that change was finished, so they kept their p.
+@vocab
+Language family: Languages that share a common ancestor.
+Proto-Indo-European: The reconstructed ancestor of most languages of Europe, Iran and northern India.
+Cognate: A word related to a word in another language by common descent.
+Linguist: A scientist who studies language.
+Reconstruct: To rebuild something lost from the evidence that remains.
+@talk
+- If languages keep changing, will the English or Spanish of the year 3000 be understandable to us?
+- Is a language that has borrowed many words from others weaker or richer?
+- When a language loses its last speaker, what exactly is lost?

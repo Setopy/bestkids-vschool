@@ -1,0 +1,452 @@
+@lesson 9 math Q1 Synthesis
+@hook For eight weeks you have collected tools: bases, primes, the order of operations, bar models, deduction, sequences and variables. A real problem never tells you which tool to pick up. How does a mathematician decide where to begin?
+@goals
+- Choose a suitable strategy for an unfamiliar problem.
+- Combine two or more Quarter 1 skills in a single solution.
+- Follow Pólya's four steps and write a complete, checked solution.
+- Identify your own strengths and gaps before Quarter 2.
+@section The toolbox
+| Week | Tool | Use it when |
+| 1 | Bases and place value | A number is written in an unusual system, or grouping matters |
+| 2 | Divisibility, primes, GCF, LCM | Questions about factors, sharing equally, or events repeating together |
+| 3 | Order of operations | An expression has several operations |
+| 4–5 | Bar models | A word problem compares quantities or describes a change |
+| 6 | Deduction by cases | Digits or values are hidden and rules restrict them |
+| 7 | Sequences and nth terms | Something grows by a pattern |
+| 8 | Variables and equations | An unknown must be named and found |
+Most real problems need two tools at once. Often a bar model and an equation are the same solution written in two languages.
+@section Pólya's four steps
+The Hungarian mathematician **George Pólya** described how good problem-solvers think in his 1945 book *How to Solve It*.
+- **Understand.** What is known? What is unknown? What are the conditions? Say the problem in your own words.
+- **Plan.** Have you seen something like it? Can you draw it, name a variable, look for a pattern, try a simpler case, or work backwards?
+- **Carry out.** Work carefully, one line at a time, with a reason for each step.
+- **Look back.** Check the answer against the original problem. Is it sensible? Is there another way? What did you learn?
+Most pupils skip the first and last steps. Scholars do not.
+@section When you are stuck
+Being stuck is a normal part of mathematics, not a sign of failure. Try these in order: reread the question slowly; draw a diagram; make the numbers smaller; list what you know; ask what the answer would have to look like; leave the problem and come back to it.
+@example In base five, the number 3▢4 equals 99 in base ten. Find the missing digit.
+- Understand: the columns in base five are 25, 5 and 1. The missing digit sits in the fives column.
+- Plan: name it x and write an equation from place value.
+- Carry out: 3 × 25 + 5x + 4 = 99, so 79 + 5x = 99, so 5x = 20 and x = 4.
+- Look back: 4 is an allowed digit in base five. 344₅ = 75 + 20 + 4 = 99. ✓
+= The missing digit is 4. (Tools: Week 1 and Week 8.)
+@example Lia thinks of a number, multiplies it by 3 and subtracts 7. The result is a prime between 20 and 30 that is 2 more than a multiple of 9. What was her number?
+- The primes between 20 and 30 are 23 and 29.
+- Multiples of 9 near them: 18 and 27. Two more gives 20 or 29. So the result is 29.
+- Let her number be n: 3n − 7 = 29, so 3n = 36 and n = 12.
+- Look back: 3 × 12 − 7 = 29, which is prime and equals 27 + 2. ✓
+= Her number was 12. (Tools: Week 2 and Week 8.)
+@example Solve the cryptarithm AB + BA = CAC.
+- Two two-digit numbers add to less than 200, so C = 1.
+- By place value, AB + BA = 10A + B + 10B + A = 11 × (A + B). So CAC is a multiple of 11.
+- CAC is 1A1. Its value is 101 + 10A, and it must equal 11 × (A + B).
+- The three-digit multiples of 11 of the form 1A1 are 121 only (11 × 11). So A = 2 and A + B = 11, giving B = 9.
+- Look back: 29 + 92 = 121. ✓
+= A = 2, B = 9, C = 1. (Tools: Weeks 1, 2 and 6.)
+@activity The Quarter 1 Portfolio | your mathematics notebook, coloured pencils, one sheet of card
+- Look back through all eight weeks. Mark one problem from each week that you are proud of.
+- For each week, rate yourself: I can teach it, I can do it, or I need to revisit it.
+- Choose your weakest week. Rework three of its practice questions without looking at the answers.
+- On the card, write and illustrate one problem of your own that uses tools from at least three different weeks. Solve it on the back.
+- Give the card to a parent to solve, and mark their work with reasons.
+@practice
+? Convert 77 to base two.
+= 1001101₂
+! 77 = 64 + 8 + 4 + 1, so put 1 in those columns and 0 in the 32, 16 and 2 columns.
+? Find the prime factorisation of 420, and the GCF of 420 and 126.
+= 420 = 2² × 3 × 5 × 7; the GCF is 42
+! 126 = 2 × 3² × 7. The shared primes, each taken the fewest times, are 2 × 3 × 7 = 42.
+? Evaluate 6 + 3 × (10 − 4)² ÷ 9.
+= 18
+! Brackets give 6, the exponent gives 36, then 3 × 36 = 108 and 108 ÷ 9 = 12, and finally 6 + 12 = 18.
+? Ana, Ben and Cal share $156. Ben gets twice as much as Ana, and Cal gets three times as much as Ana. How much does each get?
+= Ana $26, Ben $52, Cal $78
+! Ana is 1 unit, Ben 2 and Cal 3, making 6 units. 156 ÷ 6 = 26.
+? A sequence has nth term 7n − 3. Which term is equal to 137?
+= The 20th term
+! 7n − 3 = 137 gives 7n = 140, so n = 20.
+? Solve 4(x − 2) + 3 = 27.
+= x = 8
+! Subtract 3: 4(x − 2) = 24. Divide by 4: x − 2 = 6. Add 2: x = 8. Check: 4 × 6 + 3 = 27.
+? Write the fifth triangular number in base two.
+= 1111₂
+! The fifth triangular number is 1 + 2 + 3 + 4 + 5 = 15, and 15 = 8 + 4 + 2 + 1.
+? The sum of three consecutive odd numbers is 75. Find them.
+= 23, 25 and 27
+! Call the middle number m. The three are m − 2, m and m + 2, which add to 3m. So 3m = 75 and m = 25.
+? Three buses leave a station together at 9:00. They then leave every 8, 12 and 15 minutes. When do all three next leave together?
+= At 11:00
+! The LCM of 8 = 2³, 12 = 2² × 3 and 15 = 3 × 5 is 2³ × 3 × 5 = 120 minutes, which is two hours.
+@challenge
+? The sum 1 + 2 + 3 + … + n equals 231. Find n.
+= n = 21
+! The sum is n × (n + 1) ÷ 2, so n × (n + 1) = 462. We need two consecutive numbers with product 462. Since 462 = 2 × 3 × 7 × 11 = 21 × 22, n = 21. (Tools: Weeks 2, 7 and 8.)
+@vocab
+Strategy: A planned method for attacking a problem.
+Heuristic: A rule of thumb that helps you find a solution.
+Synthesis: Combining separate ideas into a whole.
+Condition: A requirement that an answer must satisfy.
+Verify: To check that an answer is correct.
+@talk
+- Which of Pólya's four steps do you most often skip? What does skipping it cost you?
+- Is it better to know many methods a little or a few methods deeply?
+- Describe a time this quarter when you were stuck and then were not. What changed?
+
+@lesson 9 science Experiment Design
+@hook A boy waters one plant with cola and one with water. The cola plant dies and he declares that cola kills plants. But the cola plant was also in a darker corner, in a smaller pot, and was a different kind of plant. What has he actually proved?
+@goals
+- Write a testable question and a hypothesis.
+- Identify independent, dependent and controlled variables.
+- Design a fair test with repeated trials and a control.
+- Record data in a table, find a mean, and write an honest conclusion.
+@section How science decides
+Science is a method for finding out what is true by testing ideas against the world. Its steps form a cycle.
+- **Observe** something and ask a **question**.
+- Form a **hypothesis**: a testable prediction with a reason.
+- **Design and carry out** an experiment.
+- **Record and analyse** the data.
+- Draw a **conclusion**, and ask a new question.
+A good scientific question can be answered by measuring. "Which paper towel is best?" is vague. "Which brand of paper towel absorbs the most water in ten seconds?" can be tested.
+A hypothesis is often written: **If** (I change this), **then** (this will happen), **because** (reason). A hypothesis that turns out wrong is not a failure. It is a result.
+@section Variables
+A **variable** is anything that can change in an experiment.
+| Type | Meaning | How many |
+| Independent variable | The one thing you change on purpose | One |
+| Dependent variable | What you measure to see the effect | One or more |
+| Controlled variables | Everything you keep the same | All the rest |
+A **fair test** changes only one variable. If two things change at once you cannot tell which caused the result. That was the boy's mistake: liquid, light, pot size and species all differed.
+A **control** is a set-up with no treatment, used for comparison. To test a fertiliser you need plants with none.
+@section Reliable results
+- **Repeat.** One result may be a fluke. Run at least three **trials** for each condition.
+- **Average.** Add the trials and divide by how many there are. This is the **mean**.
+- **Watch for anomalies.** An **anomalous result** is one far from the others. Investigate it. Never hide it.
+- **Measure precisely**, with suitable instruments and SI units from Week 1.
+- **Keep safe.** Identify hazards before you begin.
+@section Recording and concluding
+Put the independent variable in the first column of the table and the dependent variable, with its unit, in the next columns. On a graph, the independent variable goes along the bottom (the x-axis) and the dependent variable up the side (the y-axis).
+A conclusion must do four things: state what happened, quote the data, say whether the hypothesis was supported, and mention at least one limitation or source of error. Scientists write "the data support the hypothesis". They do not write "I proved it", because later evidence may change the picture.
+@example Design a fair test for the question "Does water temperature affect how fast sugar dissolves?"
+- Hypothesis: if the water is hotter, the sugar will dissolve faster, because faster-moving water particles strike the sugar more often and harder.
+- Independent variable: water temperature (10 °C, 30 °C, 50 °C).
+- Dependent variable: time for the sugar to disappear, in seconds.
+- Controlled variables: volume of water, mass and type of sugar, the same glass, no stirring or the same stirring.
+- Run three trials at each temperature and find the mean.
+= One variable is changed, one is measured, the rest are held constant, and every condition is repeated three times.
+@example The three trials at 30 °C gave 42 s, 45 s and 39 s. Find the mean.
+- Add the results: 42 + 45 + 39 = 126.
+- Divide by the number of trials: 126 ÷ 3.
+= The mean time is 42 s.
+@activity Your First Investigation: the Paper Helicopter | paper, scissors, paper clips, a ruler, a stopwatch, a safe high place from which to drop (an adult helps)
+- Cut a strip 20 cm by 5 cm. Cut 8 cm down the middle from one end to make two blades, and fold them opposite ways. Add one paper clip to the bottom.
+- Choose one question: does blade length, the number of paper clips, or the drop height change the time to fall?
+- Write your hypothesis as "If … then … because …". List your independent, dependent and controlled variables.
+- Test at least three values of your independent variable, with three trials each. Record everything in a table and calculate each mean.
+- Draw a graph. Write a four-part conclusion. What would you improve if you repeated it?
+@practice
+? What is a hypothesis?
+= A testable prediction, with a reason, about what will happen.
+! It turns a question into something an experiment can support or contradict.
+? In an experiment on whether the amount of light affects how tall a plant grows, name the independent and dependent variables.
+= Independent: the amount of light. Dependent: the height of the plant.
+! The independent variable is what you change on purpose. The dependent variable is what you measure in response.
+? Name three variables that should be controlled in that plant experiment.
+= The type of plant, the amount of water, and the soil or pot size (others include temperature).
+! If any of these differed, they might cause the difference in height instead of the light.
+? Why should an experiment be repeated several times?
+= To make sure the result is reliable and not a fluke.
+! Repeated trials reveal the usual result and expose anomalies caused by error or chance.
+? Four trials gave 18 cm, 22 cm, 20 cm and 20 cm. What is the mean?
+= 20 cm
+! The total is 80, and 80 ÷ 4 = 20.
+? Explain why the boy in the opening question cannot conclude that cola kills plants.
+= He changed several variables at once, so the test was not fair.
+! The liquid, the light, the pot and the species all differed, and any of them might have caused the plant's death.
+@challenge
+? A company claims: "Nine out of ten people who took our vitamin did not catch a cold this winter." Give three questions a scientist would ask before believing that the vitamin prevents colds.
+= How many people were tested? Was there a control group that took no vitamin? Were the two groups otherwise alike?
+! With only ten people the result could be chance. Without a control we do not know how many would have stayed healthy anyway, and it may also be nine in ten. If the vitamin-takers were younger, fitter or less exposed, the vitamin may not be the cause.
+@vocab
+Hypothesis: A testable prediction with a reason.
+Independent variable: The factor an experimenter deliberately changes.
+Dependent variable: The factor that is measured.
+Controlled variable: A factor kept the same to make a test fair.
+Control: An untreated set-up used for comparison.
+Mean: The average: the total divided by the number of values.
+@talk
+- A scientist's hypothesis is shown to be wrong. Has the experiment failed?
+- Why do scientists say "the evidence supports" where other people say "it has been proved"?
+- Can everything be tested by experiment? Think of one question that cannot.
+
+@lesson 9 history Geographic Determinism
+@hook The first civilisations all arose in river valleys within a narrow band of latitude. Was that because of the land, or because of the people? How much of history is decided by a map?
+@goals
+- Explain the idea of geographic determinism and the opposing idea of possibilism.
+- Compare Mesopotamia, Egypt and the Indus Valley using geographic evidence.
+- Evaluate the strengths and dangers of geographic explanations.
+- Write a thesis supported by evidence and tested against a counter-argument.
+@section The claim
+**Geographic determinism** is the view that the physical environment, meaning climate, landforms, rivers, plants and animals, decides how human societies develop.
+The opposing view is **possibilism**: geography sets limits and offers opportunities, but people choose among them, using their ideas, culture and technology. Most historians today hold a position between the two. Geography **shapes** history but does not **dictate** it.
+@section The evidence from Quarter 1
+Over eight weeks you have gathered the facts needed to test the claim.
+| | Mesopotamia | Egypt | Indus Valley |
+| River | Tigris and Euphrates | Nile | Indus |
+| Flood | Violent, unpredictable | Gentle, regular | Regular, monsoon-fed |
+| Natural defences | None: open plains | Deserts and sea | Mountains, desert, sea |
+| Political form | Rival city-states, then empires | One kingdom | Many planned cities; ruler unknown |
+| Outlook | Anxious; gods hard to please | Confident; order (ma'at) | Unknown; orderly and practical |
+| Great works | Ziggurats, law codes, writing | Pyramids, temples | Drains, baths, standard bricks |
+**In favour of determinism:** all three began on fertile floodplains in dry lands, where irrigation gave a surplus (Weeks 4 and 5). Egypt's shelter and steady river match its unity and confidence. Mesopotamia's exposure and wild floods match its wars and worries (Weeks 6 and 7).
+**Against determinism:** the three rivers offered much the same gifts, yet one people built pyramids for kings and another built drains for citizens (Week 8). Many other river valleys produced no early civilisation at all. And the same Nile flowed past Egypt for thousands of years before the pyramids, and still flows now that they are ruins.
+@section A larger pattern
+The scientist **Jared Diamond** argued in 1997 that the continents were unequal from the start. Eurasia happened to have more wild plants and animals suitable for domestication, such as wheat, barley, cattle, sheep and horses. It also stretches east to west along similar latitudes, so crops, animals and inventions could spread across the same climates and biomes (Week 3). The Americas and Africa stretch north to south, across many biomes, which made spreading harder.
+On this view, differences between peoples come from differences in their starting materials, not from differences in ability. Critics reply that the theory leaves too little room for human decisions, ideas, leaders and chance.
+@section A warning from history
+In the 1800s some writers used a crude determinism to claim that people from hot climates were lazy and that people from cool climates were born to rule. They used it to excuse conquest and slavery. The claim was false, and its results were cruel. The great early civilisations you have studied, in Iraq, Egypt, Pakistan and Mexico, all lay in hot lands.
+A sound geographic argument explains **opportunities and obstacles**. It never ranks the worth of peoples.
+@section Building a historical argument
+| Part | What it does | Example |
+| Thesis | States your claim in one sentence | "Geography explains where civilisation began but not what form it took." |
+| Evidence | Gives specific facts | "All three early civilisations arose on irrigated floodplains." |
+| Reasoning | Links the facts to the claim | "Because only such land produced a large surplus…" |
+| Counter-argument | Faces the best objection | "Yet the Indus cities and Egypt, with similar rivers, built very different societies." |
+| Conclusion | Weighs both and decides | "So geography set the stage, and people wrote the play." |
+@example Use geography to explain one difference between Egypt and Mesopotamia, then give one limit of your explanation.
+- Claim: Egypt's geography favoured unity and Mesopotamia's favoured division.
+- Evidence: Egypt had one river, a natural highway, and deserts on both sides. Mesopotamia had two rivers, separate canal networks and open borders.
+- Reasoning: a single protected valley is easy for one ruler to control and hard to invade, while exposed rival cities compete and are conquered in turn.
+- Limit: Egypt did break apart at times, between the Old, Middle and New Kingdoms, although its geography had not changed. Something else, such as weak rulers or famine, must also matter.
+= Geography explains the tendency, but not every event.
+@activity The Great Debate | notebook, the comparison table above, two or more people, a timer
+- Motion for debate: "Geography decided the fate of the first civilisations."
+- Prepare both sides. For each, list three pieces of evidence from Weeks 1 to 8.
+- Toss a coin to decide which side you argue. Speak for two minutes. Your opponent replies for two minutes. Each of you then has one minute to answer the other's best point.
+- Afterwards, drop your assigned side. Write your real opinion as a thesis sentence.
+- Develop it into a paragraph with evidence, reasoning, a counter-argument and a conclusion.
+@practice
+? What is geographic determinism?
+= The view that the physical environment decides how societies develop.
+! It holds that climate, land and resources are the main causes of historical differences.
+? What is possibilism?
+= The view that geography offers possibilities and limits, and people choose among them.
+! It gives human culture, ideas and technology a real share in the outcome.
+? Give one piece of evidence from Quarter 1 that supports determinism.
+= All three early civilisations arose on fertile floodplains in dry regions.
+! Only there could irrigation farming produce the surplus that cities need.
+? Give one piece of evidence that weakens determinism.
+= Egypt and the Indus Valley had similar river settings but built very different societies.
+! If geography alone decided, similar environments should produce similar results.
+? Why did the east–west shape of Eurasia help crops and ideas to spread, according to Diamond?
+= Places at the same latitude share similar climates and day lengths.
+! A crop bred in one place could grow thousands of kilometres east or west, but not far north or south.
+? Why must geographic explanations be used carefully?
+= They have been misused to claim that some peoples are superior to others.
+! Geography explains opportunities and obstacles. It says nothing about the worth or ability of the people.
+@challenge
+? Modern Singapore has almost no farmland, fresh water or natural resources, yet it is among the richest countries in the world. Japan lacks oil and iron and became an industrial power. What do these cases suggest about determinism today, and what has changed since ancient times?
+= Geography binds modern societies far less tightly, because trade, technology and education let people overcome local shortages.
+! Ships, desalination and global trade bring in what the land lacks, and wealth now comes largely from skills and ideas. A strong answer also notes that geography still matters: Singapore's position on a major sea route is itself a geographic advantage that its people chose to use.
+@vocab
+Determinism: The belief that outcomes are fixed by prior causes.
+Possibilism: The view that environment limits but does not decide human choices.
+Thesis: The main claim of an argument.
+Counter-argument: An objection to your own claim, which you must answer.
+Evidence: Facts that support a claim.
+Diffusion: The spread of crops, inventions or ideas from one place to another.
+@talk
+- If you had been born in ancient Sumer, how much of your life would have been decided by the rivers?
+- Does technology free people from geography, or only hide their dependence on it?
+- Is it fair to judge a civilisation as "advanced" or "backward"? Advanced at what?
+
+@lesson 9 literature Comparative Myth
+@hook Peoples in Mesopotamia, Greece, India and Mexico, who never met, all told of a great flood that drowned the world and of a few survivors in a boat. How can the same story appear on opposite sides of the Earth?
+@goals
+- Define motif and identify motifs shared across traditions.
+- Compare two stories systematically, noting similarities and differences.
+- Explain three theories for why distant cultures tell similar stories.
+- Write a comparative paragraph supported by evidence.
+@section Reading side by side
+**Comparative mythology** studies the stories of different peoples next to each other. A **motif** is an element that recurs from story to story: a flood, a forbidden box, a trickster, a hero's descent to the underworld. In Week 2 you met the largest recurring pattern of all, the Hero's Journey.
+To compare well, ask the same questions of each story.
+- Who acts, and why?
+- What goes wrong, and who is to blame?
+- How is it resolved, and at what cost?
+- What does the story suggest about the divine, about nature, and about how people should live?
+The differences are usually more revealing than the likenesses.
+@section Case study: the flood
+| | Mesopotamia | The Bible | Greece | India |
+| Source | *Epic of Gilgamesh* | Genesis | Myth of Deucalion | Story of Manu |
+| Survivor | Utnapishtim | Noah | Deucalion and Pyrrha | Manu |
+| Warned by | The god Ea, in secret | God | The Titan Prometheus | A fish he had protected |
+| Cause | A decision of the gods | Human wickedness | Human wickedness | The end of an age |
+| Vessel | A huge cube-shaped boat | An ark | A chest | A ship towed by the fish |
+| Afterwards | He is granted eternal life | A covenant, with the rainbow as its sign | Stones thrown behind them become people | Manu becomes father of humankind |
+The Aztecs of Mexico also told that an earlier world, the fourth "Sun", ended in a flood.
+Now look at the differences. In the Mesopotamian version the gods quarrel among themselves, and one of them saves a man against the will of the rest. In Genesis there is one God, the flood is a judgement on wrongdoing, and it ends with a **covenant**, a solemn promise. Each account reflects the beliefs of the people who kept it. The Mesopotamian story matches a land of violent, unpredictable rivers, which you studied in Week 6.
+@section Case study: the trickster
+| Trickster | Tradition | Typical act |
+| Loki | Norse | Gets the gods into trouble and out of it |
+| Hermes | Greek | Steals Apollo's cattle on the day of his birth |
+| Anansi | West African and Caribbean | The spider who wins all the world's stories by his wits |
+| Coyote | Native North American | Clever, greedy and foolish by turns |
+Tricksters break rules. They are small or weak and defeat the strong by cleverness. They cause chaos, and sometimes bring gifts such as fire or stories. Through them a society can laugh at power and think about its own rules.
+@section Greek and Norse, compared
+| | Greek | Norse |
+| Gods | Immortal | Mortal; doomed at Ragnarök |
+| Central warning | Against hubris | Against cowardice and oath-breaking |
+| Mood | Bright, proud, often playful | Grim, brave, darkly humorous |
+| Fate | Punishes those who overreach | Binds even the gods |
+| Homeland | Warm sea, islands, city-states | Cold, dark winters, dangerous seas |
+Here Literature meets History: a people's landscape leaves its mark on the stories they tell.
+@section Why do the stories match?
+| Theory | Claim | Evidence for it |
+| Shared experience | All humans face birth, death, danger and floods, so similar stories arise independently | Flood stories are commonest among peoples living near rivers and coasts |
+| Diffusion | Stories travelled with traders, migrants and conquerors | The Greek and Mesopotamian flood stories share precise details, and the regions traded |
+| Common origin | Related peoples inherited stories from shared ancestors | Greek, Norse and Indian myths share sky-father gods, and their languages are related (Week 1 Languages) |
+Many believers also hold that a flood tradition found among so many peoples preserves the memory of a real event. The theories do not exclude each other, and more than one may be true of a single story.
+@example Write a comparative paragraph on Loki and Anansi.
+- Similarity: both are tricksters who rely on wit instead of strength, and both cause trouble for the powerful.
+- Evidence: Loki's schemes endanger the gods and he must then repair the damage. Anansi captures fierce creatures by trickery to win the sky god's stories.
+- Difference: Loki's tricks grow darker and lead at last to Baldr's death and Ragnarök. Anansi's tricks usually end in laughter and a lesson.
+- Meaning: the Norse trickster shows how cleverness without loyalty destroys a community. The Akan trickster shows how the weak can outwit the strong.
+= "Both Loki and Anansi win by cunning, but while Anansi's cleverness is celebrated as the weapon of the small, Loki's becomes a warning, because it finally destroys the very gods he lives among."
+@activity The Myth Matrix | large paper, ruler, coloured pens, a library or online collection of world myths
+- Choose one motif: creation of the world, the theft of fire, a great flood, or a journey to the land of the dead.
+- Find the motif in three traditions from three different continents.
+- Draw a matrix with the three stories across the top and the questions from "Reading side by side" down the side. Fill in every box.
+- Shade the similarities in one colour and the differences in another.
+- Write one paragraph that states a claim about what the differences reveal, with evidence from your matrix.
+@practice
+? What is a motif?
+= An element that recurs in many stories.
+! Motifs such as floods, tricksters and forbidden objects let us compare stories from different cultures.
+? Name the flood survivor in the Epic of Gilgamesh and in the Greek myth.
+= Utnapishtim; Deucalion (with his wife Pyrrha)
+! Each tradition has its own survivor who rebuilds the human race.
+? Give one important difference between the Mesopotamian flood story and the account in Genesis.
+= In the Mesopotamian story many gods disagree. In Genesis one God judges wickedness and afterwards makes a covenant.
+! The difference reflects each people's understanding of the divine.
+? Name two tricksters from different traditions and one thing they share.
+= Loki and Anansi (or Hermes, or Coyote). They win by cleverness and break rules.
+! The trickster motif appears worldwide as a way to explore the limits of rules and power.
+? What is the "diffusion" theory of similar myths?
+= Stories spread from one people to another through trade, migration and conquest.
+! Peoples in contact borrow tales as readily as they borrow goods and words.
+? How does the homeland of the Norse differ from that of the Greeks, and how does this appear in their myths?
+= The north was cold, dark and dangerous. Its myths are grimmer and prize courage against certain loss.
+! Stories reflect the conditions and fears of the people who tell them.
+@challenge
+? Choose two of the three theories for why myths match. For each, describe one piece of evidence that would strengthen it and one that would weaken it.
+= Example: Diffusion is strengthened if two matching stories share rare, precise details and the peoples traded. It is weakened if they had no possible contact. Shared experience is strengthened if the motif appears among isolated peoples. It is weakened if the match is so detailed that chance is unlikely.
+! A good answer treats each theory as a hypothesis, as in Science this week, and asks what observations would support or contradict it.
+@vocab
+Comparative mythology: The study of myths from different cultures side by side.
+Motif: A recurring element in stories.
+Trickster: A clever rule-breaker who wins by wit.
+Covenant: A solemn, binding promise.
+Diffusion: The spread of stories or ideas from one culture to another.
+Tradition: Beliefs and stories handed down within a people.
+@talk
+- When two stories match, how can you tell whether one was borrowed or both were invented separately?
+- What do the heroes and tricksters a people admire tell you about that people?
+- Which stories of today might be compared across cultures in two thousand years?
+
+@lesson 9 languages Etymology Mapping
+@hook The word "chocolate" was born in Mexico, "algebra" in Baghdad, "window" on a Viking ship and "school" in ancient Athens. Every word you speak has travelled. Can you read a word's passport?
+@goals
+- Define etymology and read an etymology in a dictionary.
+- Describe the main historical layers of English vocabulary.
+- Trace loanwords to their source languages, including Nahuatl and Arabic.
+- Explain why English often has several words for one idea.
+@section Every word has a history
+**Etymology** is the study of where words come from and how their form and meaning have changed. The word is Greek: *etymon* (true sense) and *-logia* (study).
+Words reach a language in two ways. Some are **inherited**, passed down from the parent language, like "mother" and "three" (Week 1). Others are **borrowed** from other languages. A borrowed word is called a **loanword**, though it is never given back.
+A dictionary shows etymology in brackets, working backwards. For example: **muscle** [from French *muscle*, from Latin *musculus*, "little mouse"]. The Romans thought a flexing muscle looked like a mouse moving under the skin.
+@section The layers of English
+English is like a cliff face made of layers laid down one after another.
+| Layer | When | Kinds of word | Examples |
+| Old English (Germanic) | From about AD 450 | The everyday core | house, water, mother, eat, the, and |
+| Old Norse (Vikings) | 800s to 1000s | Plain, daily words | sky, egg, window, knife, they |
+| Norman French | After 1066 | Law, government, fine food, fashion | justice, court, beef, dinner, beauty |
+| Latin and Greek | 1400s onward | Learning and science | education, species, biology, atom |
+| The wider world | 1500s onward | Foods, animals, new ideas | chocolate, zero, tea, kangaroo |
+The hundred most common English words are almost all Old English. Yet more than half of the dictionary comes from French and Latin.
+*Window* is Old Norse *vindauga*, "wind-eye": the hole in the roof that let smoke out and wind in.
+@section One idea, three words
+Because of these layers, English often has a set of near-synonyms with different flavours.
+| Old English (plain) | French (polished) | Latin (learned) |
+| kingly | royal | regal |
+| ask | question | interrogate |
+| rise | mount | ascend |
+| holy | sacred | consecrated |
+After the Normans conquered England in 1066, French-speaking lords ruled English-speaking farmers. The farmers who raised the animals used the English names. The lords who ate them used the French names.
+| The animal (Old English) | The meat (from French) |
+| cow | beef (*bœuf*) |
+| pig | pork (*porc*) |
+| sheep | mutton (*mouton*) |
+| deer | venison (*venaison*) |
+@section Words from afar
+| Word | From | Original |
+| chocolate | Nahuatl, by way of Spanish | *chocolatl* |
+| tomato | Nahuatl | *tomatl* |
+| avocado | Nahuatl | *ahuacatl* |
+| coyote | Nahuatl | *coyotl* |
+| algebra | Arabic | *al-jabr* |
+| zero | Arabic, from Sanskrit | *sifr*, from *shunya*, "empty" |
+| sugar | Arabic, from Sanskrit | *sukkar* |
+| shampoo | Hindi | *champo* |
+| tsunami | Japanese | "harbour wave" |
+Spanish has layers too. Its core is Latin. About eight centuries of Arabic-speaking rule in Spain left some four thousand words, many beginning with *al-*, the Arabic for "the": *almohada* (pillow), *azúcar* (sugar), *aceite* (oil), and *ojalá* (God willing). In Mexico, Spanish took in Nahuatl words such as *tomate*, *aguacate* and *chocolate*, and then passed them to the world.
+@section Stories inside words
+| Word | Parts | Hidden story |
+| companion | *com-* (with) + *panis* (bread) | Someone you share bread with |
+| salary | *sal* (salt) | Linked to salt, once precious enough to be part of a soldier's pay |
+| disaster | *dis-* (bad) + *astrum* (star) | An "ill-starred" event, blamed on the stars |
+| quarantine | Italian *quaranta* (forty) | Ships were kept apart for forty days during plague |
+| alphabet | *alpha* + *beta* | The first two Greek letters |
+@example Map the journey of the word "zero".
+- Sanskrit, in India: *shunya*, "empty", the name for the place-holder invented by Indian mathematicians.
+- Arabic: translated as *sifr*, "empty", when scholars in Baghdad adopted Indian numerals.
+- Medieval Latin, in Italy: *zephirum*.
+- Italian: shortened to *zero*. Then French and English.
+= India, then the Arab world, then Italy, then France and England. The word followed the same road as the number system itself. (The same Arabic word also gave English "cipher".)
+@activity The Word Atlas | a printed or drawn world map, coloured thread or pens, pins or stickers, a dictionary with etymologies (printed or online)
+- Choose twelve words: three foods, three science words, three everyday words, and three from your own home or kitchen.
+- Look up each etymology. Write it on a small label with the source language.
+- Place each label on the map where the word was born. Draw its route to where you live.
+- Add five Spanish words of Arabic origin and five of Nahuatl origin.
+- Study the finished map. Which regions gave you the most words, and what kinds? What does this tell you about trade, conquest and learning?
+@practice
+? What is etymology?
+= The study of the origin and history of words.
+! It traces how a word's form and meaning have changed, and which languages it has passed through.
+? What is a loanword? Give one English example and its source.
+= A word borrowed from another language, such as "chocolate" from Nahuatl.
+! Languages in contact through trade, conquest or learning take words from each other.
+? Why does English call the animal "cow" and the meat "beef"?
+= "Cow" is Old English, used by farmers. "Beef" comes from the French spoken by the Norman lords.
+! After 1066 the people who raised the animals spoke English and the people who dined on them spoke French.
+? From which language did Spanish take *almohada* and *azúcar*, and what does *al-* mean?
+= Arabic. *al-* means "the".
+! Centuries of Arabic-speaking rule in Spain left thousands of words in Spanish.
+? "Kingly", "royal" and "regal" mean nearly the same. Match each to its layer.
+= kingly: Old English; royal: French; regal: Latin
+! English kept its own word and later added the French and Latin ones, each with a slightly different tone.
+? Which layer of English supplies most of the commonest everyday words?
+= Old English, the Germanic core
+! Words like *the, and, house, water, eat* are inherited and have been in constant use for 1,500 years.
+@challenge
+? Using roots and layers from all nine weeks, explain the origin and literal meaning of each word: (a) Mesopotamia, (b) bilingual, (c) centimetre, (d) monarch, (e) Thursday.
+= (a) Greek "between rivers"; (b) Latin "two tongues"; (c) Latin "hundredth" plus Greek "measure"; (d) Greek "one ruler"; (e) Old English "Thor's day".
+! *meso* + *potamos* (History, Week 6); *bi-* + *lingua* (Week 4); *centi-* divides, as Latin prefixes do (Week 5); *mono-* + *-arch* (Week 4); a Norse god kept in a Germanic language (Literature, Week 4).
+@vocab
+Etymology: The origin and history of a word.
+Loanword: A word taken into one language from another.
+Inherited word: A word passed down from a parent language.
+Synonym: A word with nearly the same meaning as another.
+Nahuatl: The language of the Aztecs, still spoken in Mexico.
+Layer: A body of vocabulary that entered a language in one period.
+@talk
+- Is a language with many borrowed words less "pure"? Is purity in a language worth wanting?
+- English speakers trust "ask" and "house" but are impressed by "interrogate" and "residence". Why do words from different layers feel different?
+- Which words is your own generation adding to the language, and where are they coming from?

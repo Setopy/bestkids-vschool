@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Non-Decimal Bases · Week 1 Mathematics · BestKids V-School</title>
+<meta name="description" content="A world-class Grade 5 curriculum: 36 weeks of mathematics, science, history, literature and languages.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body class="">
+<header class="top">
+  <a class="brand" href="../index.html"><span class="crest">B</span><span>BestKids <em>V-School</em></span></a>
+  <nav><a href="../index.html#map">Curriculum</a><a href="../guide.html">Parent guide</a></nav>
+</header>
+<main class="lesson subj-math" data-lesson="w01-math">
+<div class="crumbs"><a href="../index.html#map">Curriculum</a> › <a href="../weeks/week-01.html">Week 1</a> › Mathematics</div>
+<div class="lhead">
+  <span class="badge">∑ Mathematics · Week 1</span>
+  <h1>Non-Decimal Bases</h1>
+  <blockquote class="hook"><span>The big question</span>When you count 1, 2, 3 … up to 9, the next number suddenly needs two digits. Why does that happen at 9 and not at 7 or 15? Who decided?</blockquote>
+</div>
+<section class="goals"><h2>By the end of this lesson you will be able to</h2><ol>
+<li>Explain what a base is and why base ten is only one choice among many.</li>
+<li>Convert a number from base ten into base two, five or twelve, and back again.</li>
+<li>Spot other bases hiding in daily life: clocks, egg cartons, computers.</li>
+<li>Check every conversion by working backwards.</li>
+</ol></section>
+<section class='core'><h2><span class='num'>1</span>What a base really is</h2><p>A <strong>base</strong> is the size of the bundle. It tells you how many objects you must collect before you trade them for one object in the next column. In <strong>base ten</strong> we bundle at ten: ten ones become one ten, ten tens become one hundred.</p>
+<p>We almost certainly use ten because humans have ten fingers. That is an accident of biology, not a law of mathematics. A creature with eight fingers would write "10" to mean <em>one bundle of eight and nothing left over</em>.</p>
+<p>The value of a digit depends on where it sits. This is <strong>place value</strong>. In base ten the columns are worth 1, 10, 100, 1000. Each column is ten times the one on its right.</p>
+<div class='tablewrap'><table><thead><tr><th>Base</th><th>Bundle size</th><th>Column values (right to left)</th><th>Digits allowed</th></tr></thead><tbody><tr><td>Two (binary)</td><td>2</td><td>1, 2, 4, 8, 16, 32</td><td>0, 1</td></tr><tr><td>Five</td><td>5</td><td>1, 5, 25, 125, 625</td><td>0, 1, 2, 3, 4</td></tr><tr><td>Ten (decimal)</td><td>10</td><td>1, 10, 100, 1000</td><td>0 to 9</td></tr><tr><td>Twelve (dozenal)</td><td>12</td><td>1, 12, 144, 1728</td><td>0 to 9, then A = ten, B = eleven</td></tr></tbody></table></div>
+<p>Notice the pattern: a base never has a digit equal to itself. Base five has no digit 5, just as base ten has no single digit for ten.</p></section>
+<section class='core'><h2><span class='num'>2</span>Where other bases hide</h2><ul><li><strong>Base two</strong> runs every computer. A switch is either off (0) or on (1), so a machine made of switches must count in twos.</li><li><strong>Base twelve</strong> survives in 12 hours on a clock face, 12 months, and eggs by the dozen. Twelve divides evenly by 2, 3, 4 and 6. Ten divides evenly only by 2 and 5.</li><li><strong>Base sixty</strong> came from ancient Mesopotamia and still gives us 60 seconds in a minute and 60 minutes in an hour.</li></ul>
+<p>We write the base as a small number after the numeral: 111₂ means "one-one-one in base two". With no small number, assume base ten.</p></section>
+<section class='core'><h2><span class='num'>3</span>The two methods</h2><p><strong>From base ten to another base: repeated division.</strong> Divide by the new base, write the remainder, and repeat with the quotient until the quotient is 0. Read the remainders from the <strong>last to the first</strong>.</p>
+<p><strong>From another base to base ten: expand by place value.</strong> Multiply each digit by the value of its column and add.</p>
+<p>A scholar never trusts a conversion until it has been checked in the opposite direction.</p></section>
+<section class='examples'><h2>Worked examples</h2><p class='hint'>Cover the steps. Predict each line before you read it.</p>
+<div class='ex'><h3>Example 1</h3><p class='exq'>Convert 13 to base two.</p><ol><li>13 ÷ 2 = 6 remainder 1</li><li>6 ÷ 2 = 3 remainder 0</li><li>3 ÷ 2 = 1 remainder 1</li><li>1 ÷ 2 = 0 remainder 1</li><li>Read the remainders from last to first: 1, 1, 0, 1.</li><li>Check: 1×8 + 1×4 + 0×2 + 1×1 = 13. ✓</li></ol><p class='exa'><strong>Answer:</strong> 13 = 1101₂</p></div>
+<div class='ex'><h3>Example 2</h3><p class='exq'>Convert 2301₅ to base ten.</p><ol><li>The columns in base five are worth 125, 25, 5 and 1.</li><li>2×125 = 250, 3×25 = 75, 0×5 = 0, 1×1 = 1.</li><li>Add: 250 + 75 + 0 + 1 = 326.</li></ol><p class='exa'><strong>Answer:</strong> 2301₅ = 326</p></div>
+<div class='ex'><h3>Example 3</h3><p class='exq'>Convert 100 to base twelve.</p><ol><li>100 ÷ 12 = 8 remainder 4</li><li>8 ÷ 12 = 0 remainder 8</li><li>Read from last to first: 8, 4.</li><li>Check: 8×12 + 4 = 100. ✓</li></ol><p class='exa'><strong>Answer:</strong> 100 = 84₁₂</p></div>
+</section>
+<section class='activity'><h2>Hands-on: The Five-Egg Farm</h2><p class='materials'><strong>You need:</strong> 60 dried beans or coins, small cups, a sheet of paper ruled into three columns labelled 25s, 5s and 1s</p><ol><li>Count out 47 beans. The farm rule: you may never leave five or more loose beans.</li><li>Bundle the beans into cups of five. Count the cups and the loose beans.</li><li>Now you may never leave five or more loose cups. Stack five cups into a "crate" of 25.</li><li>Record crates, cups and loose beans in the three columns. You have written 47 in base five.</li><li>Repeat with 38 and 112. Then invent a Three-Egg Farm and write 20 in base three.</li></ol></section>
+<section class='practice'><div class='phead'><h2>Practice</h2><button class='ghost' data-toggle-answers>Show all answers</button></div><p class='hint'>Write your full working in your notebook before opening an answer.</p><ol class='qs'>
+<li><p>Convert 47 to base five.</p><details><summary>Answer and why</summary><p><strong>142₅</strong></p><p class='why'><span>Why</span>47 ÷ 5 = 9 r 2, 9 ÷ 5 = 1 r 4, 1 ÷ 5 = 0 r 1. Reading last to first gives 1, 4, 2. Check: 25 + 20 + 2 = 47.</p></details></li>
+<li><p>Convert 10110₂ to base ten.</p><details><summary>Answer and why</summary><p><strong>22</strong></p><p class='why'><span>Why</span>The columns are 16, 8, 4, 2, 1. The 1s sit in the 16, 4 and 2 columns, and 16 + 4 + 2 = 22.</p></details></li>
+<li><p>Convert 59 to base two.</p><details><summary>Answer and why</summary><p><strong>111011₂</strong></p><p class='why'><span>Why</span>59 = 32 + 16 + 8 + 2 + 1. Put a 1 in each of those columns and a 0 in the 4 column.</p></details></li>
+<li><p>What is 3A₁₂ in base ten? (A stands for ten.)</p><details><summary>Answer and why</summary><p><strong>46</strong></p><p class='why'><span>Why</span>3 twelves is 36, plus ten ones gives 46.</p></details></li>
+<li><p>Why is 728₅ not a real base-five number?</p><details><summary>Answer and why</summary><p><strong>Because the digits 7 and 8 do not exist in base five.</strong></p><p class='why'><span>Why</span>In base five you bundle as soon as you reach five, so the only digits you can ever have left over are 0, 1, 2, 3 and 4.</p></details></li>
+<li><p>Write 144 in base twelve.</p><details><summary>Answer and why</summary><p><strong>100₁₂</strong></p><p class='why'><span>Why</span>144 is exactly one bundle of twelve twelves. That fills the third column with 1 and leaves nothing in the other two.</p></details></li>
+<li><p>Add in binary without converting: 1011₂ + 110₂.</p><details><summary>Answer and why</summary><p><strong>10001₂</strong></p><p class='why'><span>Why</span>Work right to left and carry whenever a column reaches two. Check in base ten: 11 + 6 = 17, and 17 = 16 + 1 = 10001₂.</p></details></li>
+</ol></section>
+<section class='challenge'><h2>★ Scholar's challenge</h2><p>A number is written 121 in some unknown base, and it equals 36 in base ten. What is the base?</p><details><summary>Answer and why</summary><p><strong>Base five</strong></p><p class='why'><span>Why</span>In base b, 121 means b×b + 2×b + 1. Try b = 5: 25 + 10 + 1 = 36. (That expression is also (b + 1)×(b + 1), and 6×6 = 36, so b = 5.)</p></details></section>
+<section class='vocab'><h2>Words to own</h2><dl><div><dt>Base</dt><dd>The bundle size of a number system; how many of one column you trade for one of the next.</dd></div><div><dt>Place value</dt><dd>The value a digit has because of the column it sits in.</dd></div><div><dt>Binary</dt><dd>Base two, using only the digits 0 and 1.</dd></div><div><dt>Remainder</dt><dd>What is left over after dividing into equal groups.</dd></div><div><dt>Digit</dt><dd>A single symbol used to write numbers.</dd></div></dl></section>
+<section class='talk'><h2>Socratic table talk</h2><p class='hint'>Discuss aloud. There is no answer key: defend your thinking with reasons.</p><ul><li>If humans had twelve fingers, would mathematics be easier or harder? Give two reasons.</li><li>Is the number thirteen the same thing as the symbols "13"? What is the difference between a number and a numeral?</li><li>Why can a computer, which only knows 0 and 1, still show colours, music and words?</li></ul></section>
+<section class='done'><button class='primary' data-complete>Mark lesson complete</button><button class='ghost' onclick='window.print()'>Print this lesson</button></section>
+<nav class='pn'><span></span><a href='w01-science.html'>Metrology &amp; SI Units →</a></nav></main>
+<footer class="foot">
+  <p><strong>BestKids V-School</strong> · Grade 5 · Built on Cambridge International, Singapore Primary Mathematics and the Classical Trivium.</p>
+  <p class="small">Ask why. Show your working. Check your answer.</p>
+</footer>
+<script src="../assets/app.js"></script>
+</body>
+</html>

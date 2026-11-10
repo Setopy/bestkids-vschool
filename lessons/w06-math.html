@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cryptarithms · Week 6 Mathematics · BestKids V-School</title>
+<meta name="description" content="A world-class Grade 5 curriculum: 36 weeks of mathematics, science, history, literature and languages.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body class="">
+<header class="top">
+  <a class="brand" href="../index.html"><span class="crest">B</span><span>BestKids <em>V-School</em></span></a>
+  <nav><a href="../index.html#map">Curriculum</a><a href="../guide.html">Parent guide</a></nav>
+</header>
+<main class="lesson subj-math" data-lesson="w06-math">
+<div class="crumbs"><a href="../index.html#map">Curriculum</a> › <a href="../weeks/week-06.html">Week 6</a> › Mathematics</div>
+<div class="lhead">
+  <span class="badge">∑ Mathematics · Week 6</span>
+  <h1>Cryptarithms</h1>
+  <blockquote class="hook"><span>The big question</span>In the sum SEND + MORE = MONEY every letter hides a different digit, and there is exactly one solution. Nobody gives you a single number. How can pure logic find all eight digits?</blockquote>
+</div>
+<section class="goals"><h2>By the end of this lesson you will be able to</h2><ol>
+<li>State the rules of a cryptarithm.</li>
+<li>Use carries, place value and odd-even reasoning to deduce digits.</li>
+<li>Organise a search so that no case is missed.</li>
+<li>Prove that a solution is the only one.</li>
+</ol></section>
+<section class='core'><h2><span class='num'>1</span>The rules of the game</h2><p>A <strong>cryptarithm</strong> is an arithmetic sum in which digits have been replaced by letters.</p>
+<ul><li>Each letter stands for one digit from 0 to 9.</li><li>The same letter is always the same digit.</li><li>Different letters are different digits.</li><li>The first letter of a number is never 0.</li></ul>
+<p>To solve one is to <strong>deduce</strong>: to reach conclusions that must be true. Guessing is allowed only when you have narrowed the choices and test each one in an orderly way.</p></section>
+<section class='core'><h2><span class='num'>2</span>The detective's toolkit</h2><div class='tablewrap'><table><thead><tr><th>Clue</th><th>What it tells you</th></tr></thead><tbody><tr><td>The answer has one more digit than the numbers added</td><td>Its first digit is a carry. Adding two numbers, that carry is 1.</td></tr><tr><td>A column shows X + X = X</td><td>X is 0 (or X is 9 with a carry coming in).</td></tr><tr><td>A column shows X + Y = X</td><td>Y is 0 with no carry in, or Y is 9 with a carry in.</td></tr><tr><td>A column is X + X</td><td>The result is even, unless a carry of 1 came in.</td></tr><tr><td>A letter leads a number</td><td>It is not 0.</td></tr></tbody></table></div>
+<p>Always start where you know the most. Often that is the far-left column (a forced carry) or the units column (no carry can come in).</p></section>
+<section class='core'><h2><span class='num'>3</span>Writing a proof</h2><p>A scholar's solution does not just show digits that work. It shows <strong>why no other digits can</strong>. Write each deduction on its own line with its reason. When you must try cases, list them all and cross out each one that fails.</p></section>
+<section class='examples'><h2>Worked examples</h2><p class='hint'>Cover the steps. Predict each line before you read it.</p>
+<div class='ex'><h3>Example 1</h3><p class='exq'>Solve TO + GO = OUT.</p><ol><li>The answer has three digits and the numbers added have two, so the first digit of OUT is a carry: O = 1.</li><li>Units column: O + O = 1 + 1 = 2, so T = 2 with no carry.</li><li>Tens column: T + G = 2 + G must give U and carry 1, so 2 + G = 10 + U.</li><li>G = 8 gives U = 0. G = 9 gives U = 1, but 1 is already O. So G = 8 and U = 0.</li><li>Check: 21 + 81 = 102. ✓</li></ol><p class='exa'><strong>Answer:</strong> T = 2, O = 1, G = 8, U = 0, and it is the only solution.</p></div>
+<div class='ex'><h3>Example 2</h3><p class='exq'>Solve ME + ME = BEE.</p><ol><li>The answer has an extra digit, so B = 1.</li><li>Units column: E + E ends in E. Only 0 works, since 0 + 0 = 0. So E = 0, with no carry.</li><li>Tens column: M + M must equal 10, to give E = 0 and carry 1. So M = 5.</li><li>Check: 50 + 50 = 100. ✓</li></ol><p class='exa'><strong>Answer:</strong> M = 5, E = 0, B = 1</p></div>
+<div class='ex'><h3>Example 3</h3><p class='exq'>Find the missing digits: 3▢ × 7 = 2▢6.</p><ol><li>The units digit of the answer is 6. Which digit times 7 ends in 6? Only 8, since 8 × 7 = 56.</li><li>So the number is 38. Compute 38 × 7 = 266.</li><li>The answer fits the pattern 2▢6. ✓</li></ol><p class='exa'><strong>Answer:</strong> 38 × 7 = 266</p></div>
+</section>
+<section class='activity'><h2>Hands-on: Code-Maker, Code-Breaker</h2><p class='materials'><strong>You need:</strong> paper, pencil, a partner</p><ol><li>Write a simple true sum, such as 47 + 35 = 82.</li><li>Replace each digit with a letter, keeping equal digits as equal letters. Try to make real words if you can.</li><li>Before handing it over, solve your own puzzle. Does it have exactly one solution? If it has several, change it.</li><li>Swap puzzles. The solver must write a reason for every digit.</li><li>Score one point for a correct solution and a second point for proving it is the only one.</li></ol></section>
+<section class='practice'><div class='phead'><h2>Practice</h2><button class='ghost' data-toggle-answers>Show all answers</button></div><p class='hint'>Write your full working in your notebook before opening an answer.</p><ol class='qs'>
+<li><p>Solve A + A + A = BA.</p><details><summary>Answer and why</summary><p><strong>A = 5, B = 1 (5 + 5 + 5 = 15)</strong></p><p class='why'><span>Why</span>Three times A must end in A. Testing 1 to 9, only 5 works: 15 ends in 5. (A = 0 would give 0, a one-digit answer.)</p></details></li>
+<li><p>Solve AB + A = BCC.</p><details><summary>Answer and why</summary><p><strong>A = 9, B = 1, C = 0 (91 + 9 = 100)</strong></p><p class='why'><span>Why</span>A two-digit number plus one digit is at most 108, so B = 1 and C = 0, making the answer 100. Then A1 + A = 100 gives 11 × A = 99, so A = 9.</p></details></li>
+<li><p>Find every solution of A × A = BA.</p><details><summary>Answer and why</summary><p><strong>A = 5, B = 2 and A = 6, B = 3</strong></p><p class='why'><span>Why</span>A digit whose square ends in itself is 0, 1, 5 or 6. Only 5 × 5 = 25 and 6 × 6 = 36 give two-digit answers.</p></details></li>
+<li><p>Solve ON + ON + ON + ON = GO.</p><details><summary>Answer and why</summary><p><strong>O = 2, N = 3, G = 9 (23 × 4 = 92)</strong></p><p class='why'><span>Why</span>The answer has two digits, so ON is at most 24, and O is 1 or 2. Four times any number is even, so O = 2. Then 4 × N ends in 2, so N is 3 or 8, and only 23 is small enough.</p></details></li>
+<li><p>In a cryptarithm a column reads P + Q = P, and no carry comes into the column. What is Q?</p><details><summary>Answer and why</summary><p><strong>Q = 0</strong></p><p class='why'><span>Why</span>Adding Q changes nothing, and without a carry coming in only zero does that.</p></details></li>
+<li><p>Find the missing digits: ▢7 + 4▢ = 95.</p><details><summary>Answer and why</summary><p><strong>47 + 48 = 95</strong></p><p class='why'><span>Why</span>Units: 7 plus what ends in 5? 8, giving 15 and a carry of 1. Tens: the missing digit plus 4 plus 1 equals 9, so it is 4.</p></details></li>
+</ol></section>
+<section class='challenge'><h2>★ Scholar's challenge</h2><p>Solve SEND + MORE = MONEY. Start by finding M, then O, then S.</p><details><summary>Answer and why</summary><p><strong>9567 + 1085 = 10652, so S = 9, E = 5, N = 6, D = 7, M = 1, O = 0, R = 8, Y = 2</strong></p><p class='why'><span>Why</span>M is a carry, so M = 1. In the thousands column S + 1 (plus a possible carry) must reach at least 10, so S is 8 or 9 and O is 0 or 1. O cannot be 1, so O = 0. If the hundreds column carried, E would have to be 9 and N would be 0, which is taken, so it does not carry and S = 9. In the hundreds column E + 0 gives N, and E and N differ, so a carry came in: N = E + 1. The tens column then forces R = 8 with a carry from the units, and D + E = 10 + Y. Testing the digits still free gives E = 5, N = 6, D = 7, Y = 2.</p></details></section>
+<section class='vocab'><h2>Words to own</h2><dl><div><dt>Cryptarithm</dt><dd>A sum in which letters stand for digits.</dd></div><div><dt>Deduce</dt><dd>To reach a conclusion that must follow from what is known.</dd></div><div><dt>Carry</dt><dd>A digit moved to the next column when a column's total is ten or more.</dd></div><div><dt>Case</dt><dd>One of the possibilities examined separately in a proof.</dd></div><div><dt>Unique</dt><dd>Being the only one.</dd></div></dl></section>
+<section class='talk'><h2>Socratic table talk</h2><p class='hint'>Discuss aloud. There is no answer key: defend your thinking with reasons.</p><ul><li>What is the difference between finding an answer and proving it is the only answer?</li><li>A detective and a mathematician both deduce. How are their kinds of certainty different?</li><li>Is trying every possibility a form of reasoning, or only hard work? When is it the right method?</li></ul></section>
+<section class='done'><button class='primary' data-complete>Mark lesson complete</button><button class='ghost' onclick='window.print()'>Print this lesson</button></section>
+<nav class='pn'><a href='w05-languages.html'>← Latin &amp; Greek Number Roots II</a><a href='w06-science.html'>Chemical vs Physical Change →</a></nav></main>
+<footer class="foot">
+  <p><strong>BestKids V-School</strong> · Grade 5 · Built on Cambridge International, Singapore Primary Mathematics and the Classical Trivium.</p>
+  <p class="small">Ask why. Show your working. Check your answer.</p>
+</footer>
+<script src="../assets/app.js"></script>
+</body>
+</html>

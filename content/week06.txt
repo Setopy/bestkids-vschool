@@ -1,0 +1,426 @@
+@lesson 6 math Cryptarithms
+@hook In the sum SEND + MORE = MONEY every letter hides a different digit, and there is exactly one solution. Nobody gives you a single number. How can pure logic find all eight digits?
+@goals
+- State the rules of a cryptarithm.
+- Use carries, place value and odd-even reasoning to deduce digits.
+- Organise a search so that no case is missed.
+- Prove that a solution is the only one.
+@section The rules of the game
+A **cryptarithm** is an arithmetic sum in which digits have been replaced by letters.
+- Each letter stands for one digit from 0 to 9.
+- The same letter is always the same digit.
+- Different letters are different digits.
+- The first letter of a number is never 0.
+To solve one is to **deduce**: to reach conclusions that must be true. Guessing is allowed only when you have narrowed the choices and test each one in an orderly way.
+@section The detective's toolkit
+| Clue | What it tells you |
+| The answer has one more digit than the numbers added | Its first digit is a carry. Adding two numbers, that carry is 1. |
+| A column shows X + X = X | X is 0 (or X is 9 with a carry coming in). |
+| A column shows X + Y = X | Y is 0 with no carry in, or Y is 9 with a carry in. |
+| A column is X + X | The result is even, unless a carry of 1 came in. |
+| A letter leads a number | It is not 0. |
+Always start where you know the most. Often that is the far-left column (a forced carry) or the units column (no carry can come in).
+@section Writing a proof
+A scholar's solution does not just show digits that work. It shows **why no other digits can**. Write each deduction on its own line with its reason. When you must try cases, list them all and cross out each one that fails.
+@example Solve TO + GO = OUT.
+- The answer has three digits and the numbers added have two, so the first digit of OUT is a carry: O = 1.
+- Units column: O + O = 1 + 1 = 2, so T = 2 with no carry.
+- Tens column: T + G = 2 + G must give U and carry 1, so 2 + G = 10 + U.
+- G = 8 gives U = 0. G = 9 gives U = 1, but 1 is already O. So G = 8 and U = 0.
+- Check: 21 + 81 = 102. ✓
+= T = 2, O = 1, G = 8, U = 0, and it is the only solution.
+@example Solve ME + ME = BEE.
+- The answer has an extra digit, so B = 1.
+- Units column: E + E ends in E. Only 0 works, since 0 + 0 = 0. So E = 0, with no carry.
+- Tens column: M + M must equal 10, to give E = 0 and carry 1. So M = 5.
+- Check: 50 + 50 = 100. ✓
+= M = 5, E = 0, B = 1
+@example Find the missing digits: 3▢ × 7 = 2▢6.
+- The units digit of the answer is 6. Which digit times 7 ends in 6? Only 8, since 8 × 7 = 56.
+- So the number is 38. Compute 38 × 7 = 266.
+- The answer fits the pattern 2▢6. ✓
+= 38 × 7 = 266
+@activity Code-Maker, Code-Breaker | paper, pencil, a partner
+- Write a simple true sum, such as 47 + 35 = 82.
+- Replace each digit with a letter, keeping equal digits as equal letters. Try to make real words if you can.
+- Before handing it over, solve your own puzzle. Does it have exactly one solution? If it has several, change it.
+- Swap puzzles. The solver must write a reason for every digit.
+- Score one point for a correct solution and a second point for proving it is the only one.
+@practice
+? Solve A + A + A = BA.
+= A = 5, B = 1 (5 + 5 + 5 = 15)
+! Three times A must end in A. Testing 1 to 9, only 5 works: 15 ends in 5. (A = 0 would give 0, a one-digit answer.)
+? Solve AB + A = BCC.
+= A = 9, B = 1, C = 0 (91 + 9 = 100)
+! A two-digit number plus one digit is at most 108, so B = 1 and C = 0, making the answer 100. Then A1 + A = 100 gives 11 × A = 99, so A = 9.
+? Find every solution of A × A = BA.
+= A = 5, B = 2 and A = 6, B = 3
+! A digit whose square ends in itself is 0, 1, 5 or 6. Only 5 × 5 = 25 and 6 × 6 = 36 give two-digit answers.
+? Solve ON + ON + ON + ON = GO.
+= O = 2, N = 3, G = 9 (23 × 4 = 92)
+! The answer has two digits, so ON is at most 24, and O is 1 or 2. Four times any number is even, so O = 2. Then 4 × N ends in 2, so N is 3 or 8, and only 23 is small enough.
+? In a cryptarithm a column reads P + Q = P, and no carry comes into the column. What is Q?
+= Q = 0
+! Adding Q changes nothing, and without a carry coming in only zero does that.
+? Find the missing digits: ▢7 + 4▢ = 95.
+= 47 + 48 = 95
+! Units: 7 plus what ends in 5? 8, giving 15 and a carry of 1. Tens: the missing digit plus 4 plus 1 equals 9, so it is 4.
+@challenge
+? Solve SEND + MORE = MONEY. Start by finding M, then O, then S.
+= 9567 + 1085 = 10652, so S = 9, E = 5, N = 6, D = 7, M = 1, O = 0, R = 8, Y = 2
+! M is a carry, so M = 1. In the thousands column S + 1 (plus a possible carry) must reach at least 10, so S is 8 or 9 and O is 0 or 1. O cannot be 1, so O = 0. If the hundreds column carried, E would have to be 9 and N would be 0, which is taken, so it does not carry and S = 9. In the hundreds column E + 0 gives N, and E and N differ, so a carry came in: N = E + 1. The tens column then forces R = 8 with a carry from the units, and D + E = 10 + Y. Testing the digits still free gives E = 5, N = 6, D = 7, Y = 2.
+@vocab
+Cryptarithm: A sum in which letters stand for digits.
+Deduce: To reach a conclusion that must follow from what is known.
+Carry: A digit moved to the next column when a column's total is ten or more.
+Case: One of the possibilities examined separately in a proof.
+Unique: Being the only one.
+@talk
+- What is the difference between finding an answer and proving it is the only answer?
+- A detective and a mathematician both deduce. How are their kinds of certainty different?
+- Is trying every possibility a form of reasoning, or only hard work? When is it the right method?
+
+@lesson 6 science Chemical vs Physical Change
+@hook Tear a sheet of paper in half and you still have paper. Burn it and you have ash and smoke, and no power on Earth will turn them back. What is the real difference between these two changes?
+@goals
+- Distinguish physical changes from chemical changes.
+- List the signs that a chemical reaction may have taken place.
+- Name the reactants and products of a reaction and write a word equation.
+- State and apply the law of conservation of mass.
+@section Two kinds of change
+In a **physical change** the substance stays the same substance. Only its form changes: its shape, size or state. The particles are rearranged but are not altered. Melting, freezing, boiling, tearing, crushing and dissolving are physical changes, and many can be reversed.
+In a **chemical change**, also called a **chemical reaction**, bonds between atoms break and new bonds form. One or more **new substances** appear, with new properties. Burning, rusting, cooking, digesting and rotting are chemical changes. They are usually hard to reverse.
+| | Physical change | Chemical change |
+| New substance? | No | Yes |
+| What changes | Form, state, shape | The bonds between atoms |
+| Reversible? | Usually | Usually not |
+| Examples | Ice melting, sugar dissolving | Wood burning, iron rusting |
+@section Signs of a chemical change
+- A gas is produced (bubbles or fizzing).
+- The colour changes permanently.
+- Heat or light is given out, or the mixture turns cold.
+- A solid forms in a liquid. This solid is called a **precipitate**.
+- A new smell appears.
+These are **clues, not proof**. Boiling water bubbles, but it is a physical change, because the bubbles are still water. The one sure test is the question: **has a new substance been made?**
+Dissolving is the classic trap. Sugar seems to vanish in tea, but the tea is sweet, and if the water evaporates the sugar is still there. No new substance was made, so dissolving is physical.
+@section Reactants and products
+The starting substances are the **reactants**. The new substances are the **products**. A **word equation** records the reaction, with an arrow meaning "react to form".
+| Reaction | Word equation |
+| Rusting | iron + oxygen → iron oxide |
+| Burning natural gas | methane + oxygen → carbon dioxide + water |
+| Vinegar and baking soda | acid + sodium bicarbonate → a salt + water + carbon dioxide |
+| Photosynthesis | carbon dioxide + water → glucose + oxygen |
+@section Nothing is lost
+In the 1780s the French chemist **Antoine Lavoisier** weighed everything before and after reactions in sealed containers, including the gases. He found that the total mass never changed. This is the **law of conservation of mass**: in a chemical reaction, matter is neither created nor destroyed. The atoms are only rearranged.
+When wood burns, the ash weighs less than the log. Mass was not destroyed. It left as carbon dioxide and water vapour. Catch those gases, and the totals match.
+@example 12 g of carbon burns completely in 32 g of oxygen. What mass of carbon dioxide is produced?
+- Word equation: carbon + oxygen → carbon dioxide.
+- Mass is conserved, so the mass of the products equals the mass of the reactants.
+- 12 + 32 = 44.
+= 44 g of carbon dioxide
+@example Is frying an egg a physical or a chemical change?
+- Has the form changed? Yes: from a runny liquid to a solid.
+- Can it be reversed by cooling? No.
+- Is there a new substance? Yes: the proteins have changed permanently, with new colour, texture and smell.
+= A chemical change
+@activity The Balloon Reaction | a small plastic bottle, vinegar, baking soda, a balloon, a funnel, a kitchen scale, ice cubes, a saucer
+- Put an ice cube on the saucer and let it melt. Could you turn it back? Name the kind of change.
+- Pour 100 mL of vinegar into the bottle. Use the funnel to put two teaspoons of baking soda inside the balloon.
+- Stretch the balloon over the bottle's neck without spilling the powder. Weigh the whole apparatus and record the mass.
+- Lift the balloon so the powder falls in. Record every sign of change you observe.
+- When the fizzing stops, weigh it again with the balloon still attached. Compare the two masses and explain what you find.
+@practice
+? Is dissolving salt in water a physical or a chemical change? How could you show it?
+= Physical. Evaporate the water and the salt is left behind.
+! No new substance forms. The salt particles are only spread out among the water particles.
+? Name three signs that a chemical change may have happened.
+= A gas forms, the colour changes, heat or light is given out, a precipitate forms, or a new smell appears (any three).
+! Each can show that new substances with new properties have been made.
+? Water bubbles when it boils. Why is this not a chemical change?
+= The bubbles are water vapour, still the same substance.
+! Only the state has changed. Cool the vapour and it becomes liquid water again.
+? In the reaction iron + oxygen → iron oxide, name the reactants and the product.
+= Reactants: iron and oxygen. Product: iron oxide.
+! Reactants are written before the arrow and products after it.
+? 50 g of reactants are sealed in a jar and react completely. What is the mass of the contents afterwards?
+= 50 g
+! By the law of conservation of mass, atoms are rearranged but none are created or destroyed.
+? A candle weighs less after burning for an hour. Does this break the law of conservation of mass?
+= No. The missing mass left as carbon dioxide and water vapour.
+! Wax reacts with oxygen to form gases that drift away. In a sealed container the total mass would be unchanged.
+@challenge
+? An iron nail is left outside and rusts. After a month it weighs more than it did when new. Explain how a nail can gain mass, and say where the extra mass came from.
+= The iron combined with oxygen from the air, and the oxygen atoms added their mass.
+! Rusting is iron + oxygen → iron oxide. The product contains all the original iron atoms plus the oxygen atoms that bonded to them. Mass is conserved because the air lost exactly what the nail gained.
+@vocab
+Physical change: A change in form or state that makes no new substance.
+Chemical change: A change that produces one or more new substances.
+Reactant: A substance present at the start of a reaction.
+Product: A substance formed by a reaction.
+Precipitate: A solid that forms within a liquid during a reaction.
+Conservation of mass: The law that total mass is unchanged by a chemical reaction.
+@talk
+- Lavoisier's great advance was to weigh the gases too. Why had earlier scientists been misled?
+- Is cooking more like art or more like chemistry?
+- If atoms are never destroyed, where have the atoms in your body been before?
+
+@lesson 6 history Mesopotamia
+@hook The 60-minute hour, the wheel, the written word, the city and the written law all come from one strip of land between two rivers in what is now Iraq. Why there?
+@goals
+- Locate Mesopotamia and explain its name.
+- Describe how Sumerian city-states were organised.
+- Explain how and why writing was invented.
+- List Mesopotamian inventions that are still in use.
+@section The land between the rivers
+**Mesopotamia** is Greek for "between the rivers": *meso* (middle) and *potamos* (river). The rivers are the **Tigris** and the **Euphrates**, which rise in the mountains of Turkey and flow to the Persian Gulf. The land lies at the eastern end of the Fertile Crescent.
+The south, called **Sumer**, was flat, hot and almost rainless, but the rivers brought rich silt. There was a serious problem: the floods came violently and without warning, and in late spring, when they could destroy the growing crops. To survive, people had to build **canals, dykes and reservoirs** together. Large projects need organisers, records and rules. Geography pushed Sumer toward government.
+@section City-states
+By about 3500 BC Sumer had real cities, such as **Uruk** and **Ur**, each with tens of thousands of people. Each city ruled the farmland around it as an independent **city-state**, with its own king and its own guardian god.
+At the centre stood the **ziggurat**, a huge stepped tower of mud brick with a temple on top. The temple also served as a storehouse and a bank. Society had clear ranks.
+| Rank | Who |
+| Top | King, priests |
+| Upper | Scribes, officials, merchants |
+| Middle | Craftspeople, farmers |
+| Bottom | Enslaved people, often war captives or debtors |
+Sumer had almost no stone, timber or metal, so its merchants traded grain and cloth for them over long distances.
+@section The invention of writing
+Temple officials needed to record how much grain, how many sheep and how much land. At first they used small clay tokens. By about 3300 BC they were pressing signs into wet clay tablets with a cut reed, the **stylus**. Its tip left wedge-shaped marks, so we call the script **cuneiform**, from Latin *cuneus*, a wedge.
+Writing began as accounting. Over centuries the signs came to stand for sounds, and then anything that could be said could be written: laws, letters, medicine, mathematics, and stories. Learning the hundreds of signs took years, so trained **scribes** were powerful and respected.
+The greatest Mesopotamian story is the **Epic of Gilgamesh**, about a king of Uruk who seeks eternal life after his friend's death. It is among the oldest surviving works of literature in the world.
+@section Gifts that lasted
+| Invention | Still with us as |
+| Writing | Every book, message and record |
+| The wheel (about 3500 BC) | Vehicles, pottery, machinery |
+| Base-60 counting | 60 seconds, 60 minutes, 360 degrees |
+| The plough and irrigation | Large-scale farming |
+| Written law codes | Legal systems |
+| The sail | Shipping |
+| Astronomy and the calendar | The zodiac, the seven-day week |
+@section From cities to empires
+The city-states fought each other constantly over land and water. About 2334 BC **Sargon of Akkad** conquered them all and created the world's first **empire**: many peoples under one ruler. Later **Babylon** rose, and its king **Hammurabi** issued a famous code of laws, which you will study in Week 11.
+@example Use the "chain" from Week 5 to explain why writing appeared in Sumer.
+- Irrigation farming on rich silt produced a large surplus.
+- The surplus was stored in temples and had to be counted and shared out.
+- Memory was not enough for thousands of transactions, so officials made marks on clay.
+- The surplus also fed full-time scribes, who developed the marks into a complete script.
+= Writing was invented to keep accounts of a surplus. Stories and laws came later.
+@activity Be a Scribe | air-drying clay or salt dough, a chopstick or cut drinking straw, a rolling pin
+- Roll the clay into a flat tablet that fits in your palm.
+- Practise pressing the end of your stylus at an angle to make wedges. Try vertical, horizontal and slanted wedges.
+- Invent ten signs made only of wedges for things a temple would count: grain, sheep, oxen, jars of oil, and the numbers 1, 10 and 60.
+- Write a temple record on your tablet, for example "60 sheep, 10 jars of oil".
+- Let it dry. Ask a parent to read it using your sign list. What made your script easy or hard to read?
+@practice
+? What does the name "Mesopotamia" mean?
+= "The land between the rivers"
+! It comes from the Greek *meso* (middle) and *potamos* (river), referring to the Tigris and Euphrates.
+? Why did the farmers of Sumer need to cooperate on a large scale?
+= To build and maintain the canals and dykes that controlled the rivers.
+! The land had little rain and violent floods, so no single family could manage the water alone.
+? What is a city-state?
+= An independent city that governs itself and the surrounding farmland.
+! Each Sumerian city, such as Ur or Uruk, had its own ruler, army and guardian god.
+? What was writing first used for?
+= Recording goods: grain, animals and land.
+! Temple officials needed dependable accounts of what was stored, owed and paid.
+? Why is the script called cuneiform?
+= Its marks are wedge-shaped.
+! The cut reed stylus left wedges in wet clay, and *cuneus* is Latin for wedge.
+? Give two Mesopotamian inventions we still use.
+= The wheel, writing, base-60 time-keeping, the plough or the sail (any two).
+! Many basic tools of civilisation were first developed, or first recorded, in Sumer.
+@challenge
+? Mesopotamia had no natural walls. It was open to attack from mountains and deserts on every side. Egypt, as you will see next week, was protected by deserts and sea. Predict two ways in which this difference might have shaped Mesopotamian life and beliefs.
+= Frequent wars and changes of ruler, walled cities, and a view of the world as uncertain and the gods as hard to please (any two, with reasons).
+! Open borders invited invasion, so cities built walls and empires rose and fell quickly. Together with unpredictable floods, this insecurity is reflected in Mesopotamian stories such as Gilgamesh, which are anxious about death and fate.
+@vocab
+Mesopotamia: The land between the Tigris and Euphrates rivers.
+City-state: A self-governing city and the land around it.
+Ziggurat: A stepped temple tower of mud brick.
+Cuneiform: Wedge-shaped writing pressed into clay.
+Scribe: A person trained to read and write.
+Empire: Many lands and peoples ruled by one government.
+@talk
+- Writing was invented by accountants, not poets. Does that surprise you? What does it say about why people invent things?
+- If only a few people can read, who holds the power in a society?
+- Sumer lacked stone, wood and metal, yet became the first civilisation. Can a shortage be an advantage?
+
+@lesson 6 literature Oral Tradition
+@hook Before writing, a single storyteller could recite a poem of more than fifteen thousand lines from memory. Today most of us cannot remember a shopping list. How did they do it, and what did stories gain from living only in the voice?
+@goals
+- Explain what oral tradition is and who its keepers were.
+- Identify the memory devices used in oral storytelling.
+- Explain why oral stories exist in many versions.
+- Learn and perform a short piece from memory.
+@section Literature before letters
+For most of human history nobody could read. Everything a people knew, including its history, laws, family lines, prayers and stories, was carried in memory and passed on by speech. This is **oral tradition**.
+Most societies trained specialists for the task.
+| Keeper | Where | Role |
+| Bard, or rhapsode | Ancient Greece | Sang epics such as the *Iliad* and *Odyssey*, attributed to Homer |
+| Griot, or jeli | West Africa | Historian, praise-singer and adviser to kings; keeper of the epic of Sundiata |
+| Skald | Viking Scandinavia | Court poet |
+| Elder storytellers | Peoples on every continent | Keepers of law, land and ancestry |
+Among the Mande peoples of West Africa a griot is born into the role and studies for years. It is said that when a griot dies, a library burns.
+@section How to remember ten thousand lines
+Oral poets did not memorise word for word as we would a script. They composed as they performed, using tools that make language easy to hold and to rebuild.
+| Device | What it is | Example |
+| Rhythm and metre | A steady beat | The six-beat line of Greek epic |
+| Repetition | Whole lines or scenes repeated | A refrain after each episode |
+| Epithets | Fixed descriptive phrases | "swift-footed Achilles", "rosy-fingered dawn" |
+| Formulas | Ready-made phrases that fit the beat | "When early dawn appeared…" |
+| The rule of three | Events come in threes | Three wishes, three brothers, three trials |
+| Rhyme and alliteration | Repeated sounds | "Peter Piper picked…" |
+| Call and response | The audience answers the teller | Common in African and Caribbean telling |
+An **epithet** gave the poet a moment to think of the next line, and gave the listener a familiar handhold. Notice that every device is a kind of **pattern**. The mind holds patterns far better than it holds loose facts.
+@section Stories that breathe
+A written story is fixed. An oral story is **alive**: each teller shapes it for the audience in front of them. A tale may grow, shrink, change its hero's name, or swap a wolf for a tiger as it travels. This is why tales like Cinderella exist in hundreds of **versions** across the world, and why there is often no single "correct" one.
+Oral literature is also a **performance**. Voice, gesture, pauses, music and the listeners' replies are all part of the work, and the page cannot capture them.
+@section What writing changed
+Writing made stories permanent and exact, and let them travel across centuries without a human chain. But the Greek philosopher Socrates warned that writing would weaken memory, because people would trust marks on a page instead of knowledge held in the mind. He never wrote a book. We know his warning only because his student Plato wrote it down.
+@example Find the oral devices in this opening: "Long ago, when the river still spoke, there lived three sisters. The first was strong, the second was swift, and the third was small but clever. Three times the drought came, and three times the sisters went to the river."
+- Formula: "Long ago, when the river still spoke" is a ready-made opening.
+- Rule of three: three sisters, three droughts, three journeys.
+- Repetition with parallel phrasing: "The first was… the second was… the third was…"
+- Pattern with a twist: the third sister is described differently, a signal that she will be the one who succeeds.
+= A formula, the rule of three and repetition. Each one makes the passage easy to remember and to predict.
+@activity The Chain of Voices | a short folktale or poem, at least three people, a recording device if you have one
+- Learn a short folktale well enough to tell it without the page. Do not memorise the words. Memorise the pattern: who, what happens three times, how it ends.
+- Tell it privately to one person. That person tells it to a third, who tells it back to you. Record the last telling if you can.
+- List what changed, what was lost and what was added.
+- Now memorise eight to twelve lines of a poem exactly, using rhythm and repetition. Recite it standing up, from memory.
+- Which was easier to keep: the exact words or the pattern? Why?
+@practice
+? What is oral tradition?
+= The passing on of stories, history and knowledge by speech and memory, without writing.
+! Before writing was common, speech was the only way a society could keep what it knew.
+? Who are the griots?
+= The hereditary storytellers, historians and praise-singers of West Africa.
+! They preserve family lines and epics such as that of Sundiata, founder of the Mali Empire.
+? What is an epithet? Give an example.
+= A fixed descriptive phrase attached to a name, such as "swift-footed Achilles".
+! Epithets fit the rhythm of the line and help both poet and listener remember.
+? Why do many folktales use the rule of three?
+= Three is the smallest number that makes a pattern and then lets it be broken.
+! Two events set up an expectation and the third confirms or overturns it, which is satisfying and easy to remember.
+? Why are there many versions of the same oral tale?
+= Each teller adapts it, and small changes build up as it passes from person to person.
+! With no fixed written text, the story is remade at every telling.
+? Name one thing a story gains and one thing it loses when it is written down.
+= It gains permanence and exactness. It loses the performance and the freedom to change.
+! Writing fixes the words, but voice, gesture and the teller's response to the audience do not reach the page.
+@challenge
+? Socrates argued that writing would make people forgetful. Today some people say the same about the internet and artificial intelligence. Write a paragraph that takes a side, using what you have learned about memory devices and oral tradition.
+= Either side can be argued. For: skills we do not practise fade, as shown by the vast memories of oral poets. Against: writing freed the mind for new kinds of thinking and preserved knowledge that memory would have lost.
+! A strong answer makes a clear claim, uses at least one piece of evidence from the lesson, and admits what the other side gets right.
+@vocab
+Oral tradition: Knowledge and stories passed on by word of mouth.
+Bard: A poet who performs stories or songs.
+Griot: A West African oral historian and storyteller.
+Epithet: A descriptive phrase regularly attached to a name.
+Formula: A set phrase reused by oral poets.
+Version: One particular form of a story that exists in several forms.
+@talk
+- If a story changes every time it is told, is it still the same story?
+- Which do you trust more: a written record or a person's memory? When might memory be the better witness?
+- What stories does your own family pass on by voice? Who is the keeper of them?
+
+@lesson 6 languages French Immersion I: Greetings
+@hook French is an official language in 29 countries on five continents, and about a third of English words came from it. If you already know Spanish and English, how much French do you know without ever having studied it?
+@goals
+- Greet, thank and take leave of someone politely in French.
+- Introduce yourself and ask someone's name and how they are.
+- Choose correctly between *tu* and *vous*.
+- Apply four key rules of French pronunciation.
+@section A language you half know
+French is a **Romance language**, a daughter of Latin and a sister of Spanish. Compare:
+| English | Spanish | French | Latin source |
+| good | bueno | bon | bonus |
+| day | día | jour | diurnum |
+| night | noche | nuit | noctem |
+| thanks | gracias | merci | (from *mercedem*, reward) |
+| friend | amigo | ami | amicus |
+| to speak | hablar | parler | (from *parabolare*) |
+And English borrowed thousands of French words after the Norman Conquest of 1066: *table, fruit, court, justice, beef, colour, question*. Use what you know.
+@section Four pronunciation rules
+- **Final consonants are usually silent.** *Salut* is said "sa-LÜ". *Vous* is "voo". *Petit* is "puh-TEE".
+- **oi** is said "wa". *Moi* is "mwa". *Au revoir* is "oh ruh-VWAHR".
+- **ou** is "oo" as in "food". *Vous* is "voo". **u** alone is a sound English lacks: say "ee" with your lips rounded as for "oo".
+- **Nasal vowels.** When a vowel is followed by n or m at the end of a syllable, the n is not pronounced. The vowel is hummed through the nose: *bon*, *un*, *bien*, *enchanté*.
+The French **r** is made at the back of the throat, like a soft gargle. The letter **h** is always silent. **j** is the "zh" sound /ʒ/, as in the middle of "measure".
+@section Greetings and courtesies
+| French | Say it | Meaning |
+| Bonjour | bon-ZHOOR | Hello, good day |
+| Bonsoir | bon-SWAHR | Good evening |
+| Salut | sa-LÜ | Hi, or bye (informal) |
+| Au revoir | oh ruh-VWAHR | Goodbye |
+| À bientôt | ah byan-TOH | See you soon |
+| Bonne nuit | bun NWEE | Good night |
+| S'il vous plaît | seel voo PLEH | Please |
+| Merci (beaucoup) | mehr-SEE (boh-KOO) | Thank you (very much) |
+| De rien | duh RYAN | You are welcome |
+| Excusez-moi / Pardon | ex-kü-zay MWA / par-DON | Excuse me / Sorry |
+| Oui / Non | wee / non | Yes / No |
+In France it is rude to begin any conversation, even in a shop, without first saying *Bonjour*.
+@section Introducing yourself
+| French | Meaning |
+| Comment tu t'appelles ? | What is your name? (to a child or friend) |
+| Comment vous appelez-vous ? | What is your name? (polite) |
+| Je m'appelle … | My name is … (literally "I call myself") |
+| Comment ça va ? / Ça va ? | How are you? |
+| Ça va bien, merci. Et toi ? | I am well, thank you. And you? |
+| Comme ci, comme ça. | So-so. |
+| Enchanté / Enchantée | Pleased to meet you (said by a boy / by a girl) |
+| J'ai dix ans. | I am ten years old (literally "I have ten years") |
+French puts a space before ? and ! in writing.
+@section Tu or vous?
+French has two words for "you", just as Spanish has *tú* and *usted*.
+| | Use with |
+| **tu** | One person you know well: family, friends, children, pets |
+| **vous** | An adult you do not know well, a teacher, a shopkeeper; and always for more than one person |
+When in doubt, use *vous*. It is never rude to be too polite.
+@example Read this dialogue aloud and translate it. "— Bonjour ! Comment tu t'appelles ? — Salut ! Je m'appelle Léa. Et toi ? — Je m'appelle Marc. Ça va ? — Ça va bien, merci. — Au revoir, Léa ! — À bientôt !"
+- Bonjour / Salut are greetings. The speakers use *tu*, so they are children or friends.
+- Je m'appelle gives the name. Et toi ? returns the question.
+- Ça va ? asks how someone is, and Ça va bien, merci answers.
+- Au revoir and À bientôt take leave.
+= "Hello! What is your name? — Hi! My name is Léa. And you? — My name is Marc. How are you? — I am well, thanks. — Goodbye, Léa! — See you soon!"
+@activity Le Café des Amis | name badges, a table, two or more people
+- Write a French name badge for everyone at home.
+- Stand a "café" sign on the table. Each person enters, greets everyone, and introduces themselves in French.
+- One person plays an adult stranger. Greet them using *vous*. Then greet a "friend" using *tu*.
+- Record yourself reading the dialogue above. Listen for silent final letters and for the "wa" in *au revoir* and *toi*.
+- For one whole day, say *bonjour*, *merci*, *s'il vous plaît* and *bonne nuit* at home in French only.
+@practice
+? How do you say "My name is Sofia" in French?
+= Je m'appelle Sofia.
+! Literally "I call myself Sofia", built just like the Spanish "Me llamo Sofia".
+? You meet your friend's grandmother for the first time. Do you say *tu* or *vous*?
+= Vous
+! She is an adult you do not know well, so the polite form is correct.
+? How is "oi" pronounced in *moi*, *toi* and *au revoir*?
+= "wa"
+! The spelling *oi* always stands for the sound /wa/ in French.
+? Translate: "Bonsoir ! Ça va ? — Comme ci, comme ça."
+= "Good evening! How are you? — So-so."
+! *Bonsoir* is used in the evening, and *comme ci, comme ça* literally means "like this, like that".
+? Why is the final t of *salut* not pronounced?
+= Final consonants in French are usually silent.
+! The letters were once pronounced and remain in the spelling, like the k in English "knee".
+? What is the French for "please", and what does it literally mean?
+= S'il vous plaît: "if it pleases you"
+! *si* (if) + *il* (it) + *vous* (you) + *plaît* (pleases). Compare English "if you please".
+@challenge
+? Without a dictionary, work out the meaning of this sentence using Spanish, English and Latin roots: "Mon ami est très intelligent et il parle trois langues."
+= "My friend is very intelligent and he speaks three languages."
+! *ami* is like Spanish *amigo*; *intelligent* is the same in English; *trois* is the number root tri-; *langues* is like "language" and Spanish *lenguas*; *parle* resembles "parley" and "parliament", from *parler*, to speak.
+@vocab
+Bonjour: Hello; good day.
+Merci: Thank you.
+S'il vous plaît: Please.
+Je m'appelle: My name is.
+Tu / vous: Informal "you" / polite or plural "you".
+Nasal vowel: A vowel sounded through the nose, as in *bon*.
+@talk
+- Why would a language keep letters it no longer pronounces?
+- English lost its informal "thou" centuries ago. Did English lose something useful?
+- How does it feel to guess the meaning of a sentence in a language you have never studied? What does that tell you about language families?

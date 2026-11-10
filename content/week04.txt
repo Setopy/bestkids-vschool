@@ -1,0 +1,424 @@
+@lesson 4 math Bar Modeling I: Part-Whole and Comparison
+@hook Pupils in Singapore are among the best problem-solvers in the world, and one of their main tools is a simple rectangle. How can drawing a bar make a hard word problem easy?
+@goals
+- Draw a part-whole bar model for a word problem.
+- Draw a comparison model for "more than", "fewer than" and "times as many".
+- Find the value of one unit and use it to answer the question.
+- Check every answer against the story.
+@section Why draw?
+Most mistakes in word problems happen before any arithmetic: the solver has not understood how the quantities are related. A **bar model** turns the words into a picture. Each quantity becomes a rectangle whose length shows its size. Once the picture is right, the calculation is usually obvious.
+This is the middle step of the Singapore method: **concrete** objects, then **pictorial** models, then **abstract** symbols.
+@section The part-whole model
+Use it when a whole is made of parts. Draw one bar, split it into its parts, and mark what is known and what is unknown with a question mark.
+%bar Whole 1,250 | boys 585:585 | girls ?:665
+whole = part + part, and part = whole − other part.
+@section The comparison model
+Use it when two quantities are compared. Draw one bar for each, lined up on the left, so the difference can be seen.
+%bar Ali | 245:245
+%bar Ben | 245:245 | 178 more:178
+For "times as many", draw equal **units**. If Maya has 3 times as many books as Tom, Tom is 1 unit and Maya is 3 units.
+%bar Tom | 1 unit:1
+%bar Maya | 1 unit:1 | 1 unit:1 | 1 unit:1
+The key move is always the same: **find the value of one unit.**
+@section The four-step routine
+- **Read** the whole problem twice. Say what is being asked.
+- **Draw** the bars and label every known number. Put a question mark on the unknown.
+- **Compute** from the picture.
+- **Check** by putting your answer back into the story.
+@example A school has 1,250 pupils. 585 are boys. How many more girls than boys are there?
+- Part-whole: girls = 1,250 − 585 = 665.
+- Comparison: difference = 665 − 585 = 80.
+- Check: 585 + 665 = 1,250. ✓
+= There are 80 more girls than boys.
+@example Maya has 3 times as many books as Tom. Together they have 96 books. How many does each have?
+- Tom is 1 unit and Maya is 3 units, so together they are 4 units.
+- 4 units = 96, so 1 unit = 96 ÷ 4 = 24.
+- Tom has 24. Maya has 3 × 24 = 72.
+- Check: 24 + 72 = 96, and 72 is 3 times 24. ✓
+= Tom has 24 books and Maya has 72.
+@example A rope 84 m long is cut into two pieces. One piece is 18 m longer than the other. How long is the shorter piece?
+- Draw two bars. The longer one is the shorter one plus an extra 18.
+- Remove the extra 18: 84 − 18 = 66. What remains is two equal bars.
+- 66 ÷ 2 = 33.
+- Check: shorter 33, longer 51, and 33 + 51 = 84. ✓
+= The shorter piece is 33 m.
+@activity Paper-Strip Models | strips of coloured paper, scissors, glue, a notebook
+- Cut strips to stand for 1 unit. Use them to build the Maya and Tom problem on the table.
+- Write three word problems of your own: one part-whole, one "more than", and one "times as many".
+- Swap with a parent. Each of you must build the model in paper strips before writing any numbers.
+- Glue the best model in your notebook and write the solution beside it.
+- Explain aloud: what does one strip stand for in each problem?
+@practice
+? Juan saved $320. He spent $145 on a bicycle and $68 on a helmet. How much does he have left?
+= $107
+! The whole is 320 and the parts are 145, 68 and the unknown. 145 + 68 = 213, and 320 − 213 = 107.
+? Sara has 5 times as many beads as Li. Sara has 64 more beads than Li. How many does Li have?
+= 16 beads
+! Li is 1 unit and Sara is 5 units, so the difference is 4 units. 4 units = 64, so 1 unit = 16. (Sara has 80.)
+? A tank holds 3 times as much water as a bucket. Together they hold 48 L. How much does the tank hold?
+= 36 L
+! Bucket 1 unit, tank 3 units, total 4 units = 48 L. One unit is 12 L, so the tank is 36 L.
+? Ana and Beto have 130 marbles altogether. Ana has 20 fewer than Beto. How many does Beto have?
+= 75 marbles
+! Give Ana 20 more and the bars would be equal: 130 + 20 = 150, and 150 ÷ 2 = 75. Check: Ana has 55, and 55 + 75 = 130.
+? The sum of two numbers is 150. One number is 4 times the other. Find both.
+= 30 and 120
+! 1 unit plus 4 units is 5 units = 150, so 1 unit = 30 and 4 units = 120.
+? A farmer has 245 hens and 178 more ducks than hens. How many birds does he have altogether?
+= 668 birds
+! Ducks = 245 + 178 = 423. Total = 245 + 423 = 668. The comparison bar shows the hens counted twice plus the extra 178.
+@challenge
+? Three children share 180 stickers. Bela has twice as many as Aldo. Cira has 20 more than Bela. How many does each child have?
+= Aldo 32, Bela 64, Cira 84
+! Aldo is 1 unit, Bela 2 units, Cira 2 units plus 20. Remove the extra 20: 160 is 5 units, so 1 unit = 32. Check: 32 + 64 + 84 = 180.
+@vocab
+Bar model: A drawing that uses rectangles to show how quantities are related.
+Part-whole: A relationship in which parts add up to a total.
+Comparison: A relationship showing how much larger one quantity is than another.
+Unit: One of the equal pieces in a bar model.
+Difference: How much more one quantity is than another.
+@talk
+- Why might a picture help your brain more than a sentence does?
+- Is drawing a bar model "real" mathematics, or only a crutch until you learn algebra?
+- When you check an answer against the story, what kinds of mistakes can you catch that arithmetic alone would miss?
+
+@lesson 4 science The Periodic Table
+@hook In 1869 a Russian chemist left empty spaces in his chart of the elements and described three elements nobody had ever seen. Within twenty years all three were found, almost exactly as he predicted. How can a table predict the unknown?
+@goals
+- Explain how the periodic table is organised by atomic number, periods and groups.
+- Locate metals, non-metals and metalloids.
+- Describe the alkali metals, halogens and noble gases.
+- Link an element's group to its valence electrons.
+@section Mendeleev's great idea
+An **element** is a substance made of only one kind of atom. By the 1860s about sixty were known. **Dmitri Mendeleev** wrote each on a card and arranged the cards by mass. He saw that properties repeated at regular intervals, in a **periodic** pattern.
+His bold step was to trust the pattern more than the data. Where no known element fitted, he left a gap and predicted the missing element's properties. Gallium was discovered in 1875 and germanium in 1886, both matching his forecasts. A scientific idea earns belief when it makes risky predictions that come true.
+@section How the modern table is built
+Today there are **118** known elements, arranged by **atomic number** (number of protons).
+- A row is a **period**. The period number equals the number of electron shells in use.
+- A column is a **group**. Elements in one group have the same number of valence electrons, so they behave alike.
+| Period | Elements in order |
+| 1 | H, He |
+| 2 | Li, Be, B, C, N, O, F, Ne |
+| 3 | Na, Mg, Al, Si, P, S, Cl, Ar |
+| 4 (start) | K, Ca … |
+Compare with last week: sodium is 2, 8, 1. It has three shells (Period 3) and one valence electron (Group 1).
+@section Three famous families
+| Group | Family | Valence electrons | Behaviour |
+| 1 | Alkali metals (Li, Na, K) | 1 | Soft, shiny, react violently with water |
+| 17 | Halogens (F, Cl, Br, I) | 7 | Very reactive non-metals; form salts with metals |
+| 18 | Noble gases (He, Ne, Ar) | Full outer shell | Almost never react |
+A full outer shell is stable. Much of chemistry is the story of atoms gaining, losing or sharing electrons to reach that state. That is next week's lesson.
+@section Metals, non-metals and metalloids
+About three quarters of the elements are **metals**, found on the left and centre. They are shiny, conduct heat and electricity, and can be bent or hammered. **Non-metals** sit on the right. They are usually dull, brittle or gaseous, and conduct poorly. Along the zigzag border lie the **metalloids**, such as silicon, with properties in between. Silicon's in-between conduction is why computer chips are made from it.
+@section Why some symbols look strange
+Many symbols come from Latin names.
+| Symbol | Element | Latin name |
+| Na | Sodium | natrium |
+| K | Potassium | kalium |
+| Fe | Iron | ferrum |
+| Cu | Copper | cuprum |
+| Ag | Silver | argentum |
+| Au | Gold | aurum |
+| Pb | Lead | plumbum |
+A symbol is one capital letter, or a capital followed by a small letter. "Co" is cobalt. "CO" is carbon monoxide, a compound of two elements.
+@example An element has the electron arrangement 2, 8, 7. Find its period, group and family, and name it.
+- Three shells are in use, so it is in Period 3.
+- Seven valence electrons place it in Group 17, the halogens.
+- Total electrons = 2 + 8 + 7 = 17, so the atomic number is 17.
+= Chlorine: Period 3, Group 17, a halogen
+@activity Element Cards | 20 index cards, coloured pencils, a printed periodic table
+- Make a card for each of the first 20 elements: symbol, name, atomic number and electron arrangement.
+- Shuffle them. Without looking at the table, lay them out in rows so that elements with the same number of valence electrons line up in columns.
+- Check against the printed table. You have just repeated Mendeleev's discovery.
+- Remove one card while a partner looks away. Can they predict the missing element's arrangement and family from its neighbours?
+- Colour the metals, non-metals and metalloids in three colours.
+@practice
+? What does the group number tell you about an element?
+= Its number of valence electrons, and so which elements it resembles.
+! Elements in one column share an outer-shell pattern, and the outer shell controls chemical behaviour.
+? Magnesium is 2, 8, 2. Which period and group is it in?
+= Period 3, Group 2
+! It uses three shells and has two valence electrons.
+? Why are the noble gases so unreactive?
+= Their outer shells are already full.
+! Atoms react to reach a full outer shell. Noble gases have nothing to gain by gaining, losing or sharing electrons.
+? Why is the symbol for gold Au?
+= It comes from the Latin name, *aurum*.
+! Several elements known since ancient times keep symbols from their Latin names.
+? Lithium, sodium and potassium all react strongly with water. Explain why they behave alike.
+= All three have one valence electron.
+! They are in Group 1. Each readily gives up its single outer electron, which makes them very reactive.
+? What made Mendeleev's table more convincing than earlier lists of elements?
+= It predicted undiscovered elements that were later found.
+! Explaining what is already known is easy. Correctly forecasting the unknown shows the pattern is real.
+@challenge
+? Element X is in Period 2 and Group 16. Without looking at a table, give its electron arrangement, atomic number and name. Would you expect it to be a metal or a non-metal?
+= 2, 6; atomic number 8; oxygen; a non-metal
+! Period 2 means two shells and Group 16 means six valence electrons. 2 + 6 = 8 protons. Elements at the right of the table are non-metals.
+@vocab
+Element: A substance made of only one kind of atom.
+Period: A horizontal row of the periodic table.
+Group: A vertical column of the periodic table.
+Metalloid: An element with properties between those of metals and non-metals.
+Noble gas: An unreactive element of Group 18 with a full outer shell.
+Periodic: Repeating at regular intervals.
+@talk
+- Mendeleev trusted his pattern enough to say some measured masses must be wrong. When is it reasonable to doubt the data instead of the theory?
+- Is the periodic table a human invention or a discovery about nature?
+- If a new element 119 were made, where would it go, and what would you predict about it?
+
+@lesson 4 history Hydrology
+@hook Earth is called the blue planet, yet if all its water filled a 100-litre barrel, the fresh water people can easily reach would be less than a teaspoon. Where is all the water, and why did every early civilisation grow beside a river?
+@goals
+- Describe how Earth's water is divided between oceans, ice, groundwater and surface water.
+- Label the parts of a river system from source to mouth.
+- Explain what a watershed and an aquifer are.
+- Explain why rivers were essential to early civilisations.
+@section Where the water is
+**Hydrology** is the study of water on Earth: where it is, how it moves, and how people use it.
+| Store | Share of all water |
+| Oceans (salt water) | about 97% |
+| Fresh water | about 3% |
+Of that small share of fresh water:
+| Store of fresh water | Share |
+| Ice caps and glaciers | about 69% |
+| Groundwater | about 30% |
+| Lakes, rivers, swamps and air | about 1% |
+Almost all the water people drink, wash with and farm with comes from that last sliver, together with groundwater from wells.
+@section The anatomy of a river
+| Part | Meaning |
+| Source | Where a river begins: a spring, lake, or melting snow |
+| Tributary | A smaller river that flows into a larger one |
+| Confluence | The point where two rivers join |
+| Meander | A wide bend in a river on flat land |
+| Floodplain | Flat land beside a river, covered when it floods |
+| Mouth | Where a river enters the sea or a lake |
+| Delta | Land built from mud dropped at the mouth |
+A river with all its tributaries is a **river system**. The whole area of land that drains into it is its **watershed**, or drainage basin. Rain falling on one side of a ridge runs to one river, and rain on the other side runs to another. That ridge is a **divide**.
+Rivers always flow downhill, from high ground to low. They do not always flow south. The Nile flows north.
+@section Water underground
+Rain soaks down until it fills the gaps in rock and soil. This is **groundwater**. A layer of rock that holds usable water is an **aquifer**, and the top of the soaked zone is the **water table**. A well is a hole dug below the water table. If people pump water out faster than rain refills it, the water table falls and wells run dry.
+@section Rivers and the first civilisations
+| River | Civilisation |
+| Tigris and Euphrates | Mesopotamia |
+| Nile | Egypt |
+| Indus | Indus Valley |
+| Huang He (Yellow River) | Ancient China |
+A river gave drinking water, fish, and a road for boats. Above all, its floods spread fresh **silt**, fine fertile mud, over the fields each year. With **irrigation** canals, farmers could grow more food than they needed. That surplus let some people become potters, priests, soldiers and scribes, and cities were born.
+Rivers still shape politics. The Colorado River is used so heavily for farms and cities that in most years it no longer reaches the sea at its delta in Mexico.
+@example Rain falls on a mountain ridge. On the west side streams run to River A, and on the east side to River B. What is the ridge called, and what are the two areas?
+- Land draining to one river is that river's watershed.
+- The high ground separating two watersheds is a divide.
+= The ridge is a divide. West of it is River A's watershed and east of it is River B's.
+@activity Crumpled-Paper Watershed | a sheet of stiff paper, washable markers, a spray bottle of water, a tray
+- Crumple the paper, then open it out partly so it has peaks and valleys. Set it on the tray.
+- With a blue marker, draw where you predict rivers will run. With brown, trace the highest ridges.
+- Spray "rain" gently from above and watch where the colour flows and pools.
+- Mark the divides, one watershed and one lake. Were your predictions right?
+- Add a red dot for a "factory" high up. Spray again. Where does its pollution travel? Who lives downstream?
+@practice
+? About what share of Earth's water is fresh?
+= About 3%
+! Roughly 97% is salt water in the oceans.
+? Where is most of the world's fresh water stored?
+= In ice caps and glaciers
+! About 69% of fresh water is frozen, mainly in Antarctica and Greenland.
+? What is a tributary?
+= A smaller river or stream that flows into a larger river.
+! Tributaries gather water from across the watershed and deliver it to the main river.
+? Why does a river drop mud to build a delta at its mouth?
+= The water slows down when it meets the sea, so it can no longer carry its sediment.
+! Fast water carries mud and sand. When the current slows, the particles settle.
+? Explain why the yearly flood was a gift to ancient farmers.
+= It spread fertile silt over the fields and soaked the soil.
+! The fresh mud renewed the soil's nutrients, so the same land could be farmed year after year.
+? A town pumps water from its aquifer faster than rain refills it. What will happen?
+= The water table will fall and wells will run dry.
+! An aquifer is a store. Taking out more than goes in empties it over time.
+@challenge
+? A river flows through three countries before reaching the sea. The first country builds a large dam to irrigate its farms. Describe one benefit to that country and two problems for the countries downstream. Who should decide how the water is shared?
+= Benefit: a reliable supply for farms, and often electricity. Problems: less water downstream, and less silt reaching the fields and the delta.
+! Water used or held upstream cannot flow on, and a dam traps sediment. There is no single right answer to the last question, but a strong one explains a fair rule, such as sharing by need, by population or by treaty.
+@vocab
+Hydrology: The study of Earth's water.
+Watershed: All the land that drains into one river system.
+Tributary: A river that flows into a larger river.
+Aquifer: An underground layer of rock that stores usable water.
+Silt: Fine, fertile mud carried and dropped by rivers.
+Irrigation: Bringing water to crops by canals, ditches or pipes.
+@talk
+- Does a river belong to the people at its source, the people at its mouth, or nobody?
+- If fresh water is so scarce, why is it usually cheaper than cola?
+- Which is the greater invention: the wheel or the irrigation canal?
+
+@lesson 4 literature Norse Myth
+@hook The Greek gods live for ever. The Norse gods know the exact day they will die and how, and they march out to fight anyway. What kind of people tell stories in which even the gods lose?
+@goals
+- Describe the Norse cosmos: Yggdrasil and its worlds.
+- Name the main Norse gods and their roles.
+- Retell the binding of Fenrir and explain the idea of Ragnarök.
+- Compare Norse and Greek myth, and recognise a kenning.
+@section Stories from the North
+Norse myths were told by the peoples of Scandinavia and Iceland, including the Vikings, between about AD 700 and 1100. They were passed on by mouth for centuries. Most of what we know was written down in Iceland in the 1200s in two books: the **Poetic Edda**, a collection of old poems, and the **Prose Edda** by the scholar Snorri Sturluson.
+Their homeland was cold and dark for much of the year, with dangerous seas. The myths are harder and grimmer than the Greek ones. They are also funny, and they prize courage and loyalty.
+@section The world tree
+At the centre of everything stands **Yggdrasil**, an immense ash tree. Its branches and roots hold nine worlds.
+| World | Who lives there |
+| Asgard | The gods, called the Aesir |
+| Midgard | Human beings ("middle enclosure") |
+| Jotunheim | The giants, enemies of the gods |
+| Hel | The dead who did not fall in battle |
+A rainbow bridge, **Bifrost**, joins Asgard to Midgard. Warriors who die bravely are carried to **Valhalla**, Odin's hall.
+@section The gods
+| God | Role | Known for |
+| Odin | Chief god; wisdom, war, poetry | Gave an eye for a drink from the well of wisdom |
+| Thor | Thunder; defender of humans | The hammer Mjölnir |
+| Frigg | Odin's wife; marriage and foresight | Mother of Baldr |
+| Tyr | Law and courage | Lost his hand to the wolf Fenrir |
+| Freya | Love and beauty | A chariot drawn by cats |
+| Baldr | Light and goodness | His death begins the end |
+| Loki | Trickster; half giant | Causes trouble, and sometimes fixes it |
+Four English weekdays carry their names: **Tuesday** (Tyr's day), **Wednesday** (Woden's, that is Odin's, day), **Thursday** (Thor's day) and **Friday** (Frigg's day).
+@section The binding of Fenrir
+The gods learn that the wolf **Fenrir**, a child of Loki, will one day kill Odin. They raise him in Asgard, but he grows enormous. Twice they bind him with iron chains as a "game", and twice he snaps them. Then the dwarfs make a ribbon called Gleipnir, thin as silk and woven from impossible things, such as the sound of a cat's footstep.
+Fenrir suspects a trick. He will allow the ribbon only if a god places a hand in his jaws as a pledge of good faith. Only **Tyr** steps forward. The ribbon holds. Fenrir is bound, and he bites off Tyr's hand.
+The gods are safe for a time. But they won by breaking their word, and Tyr, the god of law, paid the price.
+@section Ragnarök
+**Ragnarök** is the foretold end. Fenrir will break free, the sea serpent will rise, and gods and giants will destroy each other. Odin will be swallowed by the wolf. Thor will kill the serpent and die from its venom. The world will sink into the sea, and afterwards a new green world will rise.
+The gods know all this and cannot prevent it. Their greatness lies in how they meet it. To the Norse, **courage meant doing what is right even when you know you will lose.**
+@section Kennings
+Norse poets loved the **kenning**, a two-word riddle that stands in for a plain noun.
+| Kenning | Meaning |
+| whale-road | the sea |
+| sky-candle | the sun |
+| battle-sweat | blood |
+| bone-house | the body |
+@example Compare how Greek and Norse myths treat fate.
+- Greek: the gods are immortal. Fate strikes humans, usually as punishment for hubris (Icarus, Arachne).
+- Norse: fate binds the gods too. Odin gathers wisdom and warriors although he knows he will still fall.
+- Evidence: Ragnarök is foretold, and the gods prepare for it instead of escaping it.
+= In Greek myth the lesson is "know your limits". In Norse myth the lesson is "face your fate with courage".
+@activity Kennings and the World Tree | large paper, coloured pencils
+- Draw Yggdrasil filling the page. Place Asgard, Midgard, Jotunheim and Hel, and add Bifrost.
+- Invent six kennings for modern things: a car, a phone, a school, rain, a library, a football.
+- Read them to a parent as riddles. Can they guess each one?
+- Write four lines describing a storm using at least two kennings.
+- Find out which god or thing Saturday, Sunday and Monday are named after. Are they Norse?
+@practice
+? In which two books were the Norse myths written down?
+= The Poetic Edda and the Prose Edda
+! The stories were oral for centuries and were recorded in Iceland in the 1200s, the Prose Edda by Snorri Sturluson.
+? What is Yggdrasil?
+= The world tree that holds the nine worlds.
+! It is the centre and frame of the Norse universe.
+? Which god gives English the word "Thursday"?
+= Thor
+! Thursday is "Thor's day". The English, as a Germanic people, once shared these gods.
+? Why did Tyr put his hand in Fenrir's mouth?
+= As a pledge that the gods were not tricking the wolf.
+! Fenrir demanded proof of good faith, and only Tyr was brave enough to give it, knowing he would lose his hand.
+? What does the kenning "whale-road" mean?
+= The sea
+! A kenning names something by describing it: the sea is the road along which whales travel.
+? Give one way in which Norse gods differ from Greek gods.
+= Norse gods are mortal and doomed. Greek gods live for ever.
+! Ragnarök is foretold as the death of the gods, whereas the Olympians cannot die.
+@challenge
+? The gods bound Fenrir by deceiving him. Were they right to do so? Argue your view in a paragraph with evidence from the story.
+= Either view can be defended. Right: they protected all the worlds from a known danger. Wrong: they broke faith with a creature who had not yet done harm, and their own god of law paid for it.
+! A strong answer weighs safety against honesty, uses Tyr's lost hand as evidence that the story itself sees a cost, and notes that fate was not changed in the end.
+@vocab
+Edda: Either of two Icelandic books that preserve Norse myth.
+Yggdrasil: The world tree of Norse myth.
+Ragnarök: The foretold destruction of the gods and the world.
+Kenning: A compound phrase used in place of a simple noun.
+Trickster: A clever character who breaks rules and causes change.
+Fate: What is destined to happen and cannot be avoided.
+@talk
+- Is it braver to fight when you might win, or when you know you will lose?
+- Loki causes most of the gods' problems and solves many of them. Do stories need a trickster?
+- The gods try to cheat fate by binding Fenrir, and that act helps bring fate about. Can trying to prevent something cause it?
+
+@lesson 4 languages Latin & Greek Number Roots I
+@hook A unicycle has one wheel, a bicycle two and a tricycle three. A monologue has one speaker, and a pentagon has five sides. Why does English have two complete sets of counting words hidden inside it?
+@goals
+- Recall the Latin and Greek roots for the numbers one to five.
+- Use those roots to decode unfamiliar words.
+- Explain why English uses both Latin and Greek roots.
+- Avoid a "false friend": a look-alike that is not a number root.
+@section Two toolkits
+For two thousand years the languages of learning in Europe were **Latin**, the language of Rome, and **Greek**, the language of the first great scientists and philosophers. When scholars needed a new word they built it from these, and they still do.
+As a rough guide, Latin roots are common in everyday and legal words, and Greek roots are common in science, mathematics and medicine. Knowing both sets lets you read thousands of words on sight.
+@section One to five
+| Number | Latin root | Examples | Greek root | Examples |
+| 1 | uni- | unicycle, uniform, unique, unite | mono- | monologue, monarch, monopoly |
+| 2 | bi-, du- | bicycle, bilingual, duet, duplicate | di- | dioxide, dilemma |
+| 3 | tri- | triangle, triplet | tri- | tripod, trilogy, triathlon |
+| 4 | quadr-, quart- | quadruped, quarter, quadrilateral | tetra- | tetrahedron, tetrapod |
+| 5 | quint- | quintet, quintuplets | penta- | pentagon, pentathlon |
+Three is *tri-* in both, because Latin and Greek are cousins on the Indo-European tree you met in Week 1.
+@section The second half of the word
+A number root is only half the meaning. Learn the partner roots too.
+| Root | Meaning | Number words |
+| -gon (Greek) | angle, corner | pentagon |
+| -pod, -ped | foot | tripod, biped, quadruped |
+| -lateral (Latin) | side | bilateral, quadrilateral |
+| -lingual (Latin) | tongue, language | bilingual, trilingual |
+| -logue, -logy (Greek) | speech, story | monologue, trilogy |
+| -arch (Greek) | ruler | monarch |
+| -athlon (Greek) | contest | triathlon, pentathlon |
+| -cycle (Greek) | wheel, circle | unicycle, tricycle |
+A **monarch** is one ruler. A **quadruped** has four feet. Carbon **dioxide**, CO₂, has two oxygen atoms.
+@section The living numbers
+The Latin numbers are still alive in their daughter languages.
+| | Latin | Spanish | French | Italian |
+| 1 | unus | uno | un | uno |
+| 2 | duo | dos | deux | due |
+| 3 | tres | tres | trois | tre |
+| 4 | quattuor | cuatro | quatre | quattro |
+| 5 | quinque | cinco | cinq | cinque |
+@section Beware the false friend
+Not every "di" or "bi" means two. In **dialogue**, the prefix is *dia-*, meaning "through" or "across". A dialogue is speech passing between people, and it can have more than two speakers. In **biology**, *bio-* means life. Always test your guess against the meaning of the whole word.
+@example Decode "quadrilateral" and "tetrapod".
+- quadri- is Latin for four, and -lateral means side. Four sides.
+- tetra- is Greek for four, and -pod means foot. Four feet.
+= A quadrilateral is a four-sided shape. A tetrapod is a four-footed animal.
+@activity Number-Root Hunt | a dictionary, a timer, two colours of pen, paper
+- Rule a page into five rows, for 1 to 5, and two columns: Latin and Greek.
+- Set a timer for 15 minutes. Fill every box with as many real words as you can find.
+- For each word, underline the number root in one colour and the partner root in the other.
+- Invent five new creatures or machines with names built from these roots, such as a "pentaped". Draw one.
+- Quiz a parent: say the definition and let them build the word.
+@practice
+? What does "bilingual" mean, root by root?
+= bi- (two) + lingual (tongue or language): able to use two languages.
+! Latin *lingua* means tongue, which also gives "language" and "linguist".
+? Which shape is a pentagon?
+= A shape with five angles, and so five sides.
+! Greek *penta-* is five and *-gon* is angle or corner.
+? A "monopoly" is when one company controls all sales of something. Which root tells you that?
+= mono-, the Greek root for one
+! *mono-* (one) joined to a root meaning "sell" gives "one seller".
+? What is a quadruped? Name one.
+= An animal with four feet, such as a horse.
+! Latin *quadr-* is four and *ped-* is foot.
+? Is the "di" in "dialogue" a number root?
+= No. It is *dia-*, meaning through or across.
+! A dialogue is speech between people, however many there are. Meaning must confirm a guess from spelling.
+? How many books are in a trilogy? How many events are in a pentathlon?
+= Three books, five events
+! *tri-* is three and *penta-* is five in Greek.
+@challenge
+? A "unilateral" decision is made by one side alone. Work out what "bilateral", "trilateral" and "multilateral" talks would be, and build a sensible word for a shape with four angles using Greek roots.
+= Talks between two sides, three sides and many sides. The shape is a "tetragon".
+! *-lateral* means side, and the number root counts the sides taking part. *tetra-* (four) plus *-gon* (angle) is a real word, though "quadrilateral" is more common.
+@vocab
+Root: The core part of a word that carries its main meaning.
+Prefix: A word part placed before a root.
+Latin: The language of ancient Rome, mother of the Romance languages.
+Greek: The language of ancient Greece, source of much scientific vocabulary.
+False friend: A word or word part that looks like another but has a different meaning.
+@talk
+- Why would scientists keep building new words from two languages that nobody speaks at home any more?
+- Would science be easier to learn if every language made its own science words from its own roots?
+- English has "four-sided", "quadrilateral" and "tetragon" for one idea. Is having three words a strength or a waste?

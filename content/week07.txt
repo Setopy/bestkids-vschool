@@ -1,0 +1,437 @@
+@lesson 7 math Sequences
+@hook A teacher once told a class of small boys to add every number from 1 to 100, hoping for a quiet hour. Seven-year-old Carl Gauss wrote down 5,050 within moments. He did not add faster than the others. What did he see?
+@goals
+- Recognise arithmetic and geometric sequences and state their rules.
+- Find a position-to-term rule (the nth term) for an arithmetic sequence.
+- Describe the square, triangular and Fibonacci numbers.
+- Add a long run of consecutive numbers using Gauss's pairing method.
+@section Patterns with rules
+A **sequence** is an ordered list of numbers that follows a rule. Each number is a **term**.
+- In an **arithmetic sequence** you **add** the same number each time. That number is the **common difference**. Example: 5, 8, 11, 14 … adds 3.
+- In a **geometric sequence** you **multiply** by the same number each time. That number is the **common ratio**. Example: 3, 6, 12, 24 … multiplies by 2.
+To test a sequence, subtract neighbours. If the differences are equal, it is arithmetic. If not, divide neighbours. If the quotients are equal, it is geometric.
+@section Two kinds of rule
+A **term-to-term rule** tells you how to get the next term from the one before: "add 3". It is easy to find, but to reach the 100th term you would need 99 steps.
+A **position-to-term rule** gives any term directly from its position, n. It is called the **nth term**.
+For 5, 8, 11, 14 … the sequence rises by 3 each time, like the 3 times table: 3, 6, 9, 12. Each term is 2 more than the matching multiple of 3. So the nth term is **3n + 2**.
+| Position n | 1 | 2 | 3 | 4 | n |
+| 3 × n | 3 | 6 | 9 | 12 | 3n |
+| Term | 5 | 8 | 11 | 14 | 3n + 2 |
+**Method:** the common difference becomes the multiplier of n. Then adjust by whatever makes the first term correct.
+@section Famous sequences
+| Name | Terms | Rule |
+| Square numbers | 1, 4, 9, 16, 25 … | n × n |
+| Triangular numbers | 1, 3, 6, 10, 15 … | Add 2, then 3, then 4 …; the nth is n × (n + 1) ÷ 2 |
+| Fibonacci numbers | 1, 1, 2, 3, 5, 8, 13 … | Each term is the sum of the two before it |
+| Powers of 2 | 1, 2, 4, 8, 16 … | Double each time |
+The Fibonacci numbers appear in the spirals of sunflowers, pine cones and pineapples. The differences between neighbouring square numbers are the odd numbers: 3, 5, 7, 9 …
+@section Gauss's trick
+To add 1 + 2 + 3 + … + 100, Gauss paired the first with the last, the second with the second-last, and so on.
+1 + 100 = 101, 2 + 99 = 101, 3 + 98 = 101 …
+There are 50 pairs, each worth 101, and 50 × 101 = 5,050.
+In general, the sum of 1 to n is **n × (n + 1) ÷ 2**. This is the formula for the triangular numbers, because the nth triangular number is exactly 1 + 2 + … + n.
+@example Find the nth term of 4, 9, 14, 19 … and use it to find the 50th term.
+- The common difference is 5, so the rule starts with 5n.
+- The 5 times table gives 5, 10, 15, 20. Each term of our sequence is 1 less.
+- The nth term is 5n − 1.
+- 50th term: 5 × 50 − 1 = 249.
+= nth term 5n − 1; the 50th term is 249
+@example Is 100 a term of the sequence 3, 7, 11, 15 …?
+- The common difference is 4, and the first term is 3, so the nth term is 4n − 1.
+- If 100 is a term, then 4n − 1 = 100, so 4n = 101.
+- 101 is not a multiple of 4.
+= No. (99 and 103 are terms, but 100 is not.)
+@activity Matchstick Patterns | 60 matchsticks, toothpicks or cotton buds, squared paper
+- Build a row of 1 square, then 2 joined squares, then 3, sharing sides. Count the sticks each time: 4, 7, 10 …
+- Record the results in a table. Find the common difference and explain it by pointing at the sticks.
+- Write the nth term. Use it to predict the sticks for 10 squares, then build and check.
+- Repeat with a row of joined triangles.
+- On squared paper, draw the first five triangular numbers as dot triangles. Put two copies of one together to make a rectangle. How does that show n × (n + 1) ÷ 2?
+@practice
+? Write the next three terms of 7, 13, 19, 25 …
+= 31, 37, 43
+! The common difference is 6, so add 6 each time.
+? Write the next two terms of 2, 6, 18, 54 … and name the type of sequence.
+= 162 and 486; geometric
+! Each term is 3 times the one before, so the common ratio is 3.
+? Find the nth term of 10, 13, 16, 19 …
+= 3n + 7
+! The difference is 3, so start with 3n. The first term must be 10, and 3 × 1 + 7 = 10.
+? What is the 10th Fibonacci number, if the sequence begins 1, 1?
+= 55
+! 1, 1, 2, 3, 5, 8, 13, 21, 34, 55. Each term is the sum of the two before.
+? Find 1 + 2 + 3 + … + 20.
+= 210
+! Pair the ends: ten pairs of 21 make 210. The formula gives 20 × 21 ÷ 2.
+? What is the 12th square number, and what is the difference between it and the 11th?
+= 144, and the difference is 23
+! 12 × 12 = 144 and 11 × 11 = 121. Square numbers grow by consecutive odd numbers, and 23 is the 12th odd number.
+? A sequence has nth term 6n − 4. Write its first four terms.
+= 2, 8, 14, 20
+! Put n = 1, 2, 3, 4 into the rule: 6 − 4, 12 − 4, 18 − 4, 24 − 4.
+@challenge
+? A row of n joined squares needs 3n + 1 matchsticks. Explain why the rule is 3n + 1. Then find how many squares can be made in a row with exactly 100 matchsticks.
+= 33 squares
+! The first square needs 4 sticks and each further square shares a side, so it needs only 3 more. That is one starting stick plus 3 for every square: 3n + 1. Then 3n + 1 = 100 gives 3n = 99 and n = 33.
+@vocab
+Sequence: An ordered list of numbers that follows a rule.
+Term: One number in a sequence.
+Common difference: The fixed amount added in an arithmetic sequence.
+Common ratio: The fixed multiplier in a geometric sequence.
+nth term: A rule that gives any term from its position n.
+Triangular number: A number of dots that can be arranged in a triangle: 1, 3, 6, 10 …
+@talk
+- Gauss did not calculate faster. He looked for structure first. When has stopping to think saved you work?
+- A sequence begins 2, 4 … What could the third term be? Give three different rules. What does that tell you about "guess the next number" questions?
+- Why might the Fibonacci numbers turn up in plants? Is mathematics hiding in nature, or do we put it there?
+
+@lesson 7 science Separation Techniques
+@hook Sea water is a mixture of water and salt that no sieve in the world can separate. Yet a sailor stranded on a raft could make drinking water from it with a plastic sheet and the Sun. How?
+@goals
+- Distinguish a pure substance from a mixture, and a solution from other mixtures.
+- Choose a separation method according to the properties of the substances.
+- Explain filtration, evaporation, distillation and chromatography with particles.
+- Plan a multi-step separation.
+@section Mixtures and solutions
+A **pure substance** contains only one kind of substance: one element or one compound. A **mixture** contains two or more substances that are **not chemically bonded**. Each keeps its own properties, so a mixture can be separated by **physical** means.
+A **solution** is a mixture in which one substance has dissolved in another so evenly that you cannot see the parts.
+| Term | Meaning | In salt water |
+| Solute | The substance that dissolves | Salt |
+| Solvent | The liquid it dissolves in | Water |
+| Solution | The mixture formed | Salt water |
+| Soluble | Able to dissolve | Salt is soluble in water |
+| Insoluble | Not able to dissolve | Sand is insoluble in water |
+@section Match the method to the property
+Every separation uses a **difference in a physical property**. First ask: what is different about these substances?
+| Method | Separates | Property used |
+| Sieving | Solids of different sizes | Particle size |
+| Magnetic attraction | Iron or steel from other materials | Magnetism |
+| Decanting | A liquid from a solid that has settled | Density |
+| Filtration | An insoluble solid from a liquid | Particle size |
+| Evaporation | A dissolved solid from its solution | Boiling point |
+| Distillation | A solvent from a solution, or two liquids | Boiling point |
+| Chromatography | Several dissolved substances, such as dyes | How strongly each clings to paper |
+@section How the main methods work
+**Filtration.** Filter paper has holes too small for solid grains but large enough for water particles and dissolved particles. The solid left on the paper is the **residue**. The liquid that passes through is the **filtrate**.
+**Evaporation.** Heat the solution. The solvent particles escape as gas, and the solute is left behind as crystals. You keep the solid and lose the liquid.
+**Distillation.** Heat the solution so the solvent boils, lead the vapour through a cooled tube where it condenses, and collect the pure liquid, the **distillate**. You keep the liquid. This is how fresh water is made from sea water.
+**Chromatography.** Put a spot of ink near the bottom of a strip of absorbent paper and stand the end in water. As the water climbs it carries the dyes. Dyes that dissolve well travel far. Dyes that cling to the paper lag behind. The ink separates into bands of colour.
+@section Planning a separation
+Real mixtures need several steps in the right order. Deal with one substance at a time, and ask at each step what property makes it different from the rest.
+@example Plan the separation of a mixture of sand, salt and iron filings so that all three are recovered dry.
+- Iron is magnetic and the others are not. Pass a magnet over the mixture to remove the iron filings.
+- Salt is soluble and sand is not. Add warm water and stir until the salt dissolves.
+- Filter. The sand is the residue. The salt solution is the filtrate.
+- Dry the sand. Evaporate the water from the filtrate to leave salt crystals.
+= Magnet, then dissolve, then filter, then evaporate. Each step uses a different property.
+@activity Ink Detective and the Solar Still | white coffee filters or kitchen paper, water-based felt-tip pens (include black), a glass, water, a large bowl, a small cup, cling film, a pebble, salt
+- **Chromatography.** Cut a paper strip. Draw a pencil line 2 cm from one end and put a dot of black ink on it.
+- Hang the strip in a glass with the end in 1 cm of water, the dot above the water. Watch for 10 minutes. How many colours are in "black"? Test three other pens.
+- **Solar still.** Dissolve two spoonfuls of salt in a cup of water and pour it into the large bowl. Stand the empty small cup in the middle.
+- Cover the bowl with cling film, and put the pebble on the film above the cup so it dips. Leave it in strong sunshine for several hours.
+- Taste one drop of the water collected in the cup. Name each change of state that happened, and explain where the salt is now.
+@practice
+? What is the difference between a mixture and a compound?
+= In a mixture the substances are not chemically bonded. In a compound they are.
+! A mixture's parts keep their own properties and can be separated physically. A compound needs a chemical reaction to split it.
+? In sugary tea, name the solute and the solvent.
+= Sugar is the solute and water is the solvent.
+! The solute is the substance that dissolves, and the solvent is the liquid that does the dissolving.
+? Which method would you use to get sand out of water, and what is the sand called afterwards?
+= Filtration. The sand is the residue.
+! Sand grains are too large to pass through the holes in filter paper, while water passes through as the filtrate.
+? Why can filtration not separate salt from salt water?
+= Dissolved salt particles are small enough to pass through the filter paper.
+! In a solution the solute is broken down into individual particles, far smaller than the paper's holes.
+? You want the water, not the salt, from sea water. Which method do you use?
+= Distillation
+! Evaporation would lose the water to the air. Distillation condenses and collects it.
+? In chromatography, why do some dyes travel further up the paper than others?
+= They dissolve better in the water and cling less to the paper.
+! Each dye is pulled along by the solvent and held back by the paper. The balance is different for each.
+@challenge
+? A sailor's bag has burst, mixing rice, salt, fine sand and steel pins. Using only fresh water, a cooking pot, a magnet, a cloth and a sieve whose holes are smaller than rice, write a plan to recover all four, and state the property used at each step.
+= Magnet (pins), sieve (rice), add water and filter through the cloth (sand), evaporate the filtrate (salt).
+! Pins are magnetic. Rice grains are larger than the sieve holes, while salt and sand fall through. Salt dissolves but sand does not, so the cloth holds back the sand. Boiling the water away leaves the salt.
+@vocab
+Mixture: Two or more substances together but not chemically bonded.
+Solution: A mixture in which a solute is evenly dissolved in a solvent.
+Filtrate: The liquid that passes through a filter.
+Residue: The solid left behind on a filter.
+Distillation: Separating by boiling a liquid and condensing its vapour.
+Chromatography: Separating dissolved substances by how far they travel through a material.
+@talk
+- Is the air a mixture, a compound or an element? How could you find out?
+- Tap water looks pure. Is it? What would "pure water" really mean?
+- Recycling plants must separate a mixture of rubbish. Which methods from this lesson could they use?
+
+@lesson 7 history Ancient Egypt
+@hook Egypt lasted for almost three thousand years. Cleopatra lived closer in time to us than to the builders of the Great Pyramid. What allowed one civilisation to endure so long?
+@goals
+- Explain how the Nile shaped Egyptian life and belief.
+- Describe the role of the pharaoh and the structure of Egyptian society.
+- Explain how and why the pyramids were built.
+- Describe hieroglyphs and how they were deciphered.
+@section The gift of the Nile
+Egypt is a desert with one river running through it. The **Nile** flows north for about 6,650 km from the heart of Africa to the Mediterranean, where it fans out in a delta. The Greek historian Herodotus called Egypt "the gift of the Nile".
+Each summer, rains far to the south made the river rise and flood, on almost the same dates every year. When the water went down it left a strip of rich black silt. Egyptians called this farmland **Kemet**, the Black Land, and the desert beyond **Deshret**, the Red Land. Their year had three seasons.
+| Season | Months (approx.) | What happened |
+| Akhet (flood) | July to October | Fields under water; farmers worked on royal building projects |
+| Peret (growing) | November to February | Ploughing and sowing in the fresh mud |
+| Shemu (harvest) | March to June | Reaping and storing grain |
+Compare this with Mesopotamia, where floods were violent and unpredictable. Egypt's river was regular, and the deserts and sea protected it from invasion. Egyptians came to see the world as orderly and lasting. Their word for this right order, truth and balance was **ma'at**.
+Because the Nile flows north, the south is called **Upper Egypt** (upstream) and the north **Lower Egypt** (downstream).
+@section The pharaoh
+About 3100 BC a king traditionally called **Narmer**, or Menes, united Upper and Lower Egypt. The ruler, later called **pharaoh**, wore a double crown and was believed to be a living god, responsible for keeping ma'at. He owned the land, commanded the army and directed the storing of grain against bad years.
+| Rank | Who |
+| 1 | Pharaoh |
+| 2 | Vizier (chief minister), priests, nobles |
+| 3 | Scribes and officials |
+| 4 | Craftspeople and merchants |
+| 5 | Farmers, the great majority |
+| 6 | Servants and enslaved people |
+Historians divide Egypt's history into the **Old Kingdom** (the age of pyramids), the **Middle Kingdom** and the **New Kingdom** (the age of empire, with rulers such as Hatshepsut, Tutankhamun and Ramses II).
+@section Houses of eternity
+Egyptians believed life continued after death if the body was preserved and provided for. Bodies were dried and wrapped as **mummies**, and tombs were filled with food, furniture and treasure.
+The pyramids are royal tombs of the Old Kingdom. The **Great Pyramid of Giza** was built for the pharaoh Khufu about 2560 BC. It contained about 2.3 million stone blocks, stood about 146 m tall, and was the tallest structure on Earth for nearly four thousand years. Its sides are lined up almost perfectly with north, south, east and west.
+It was not built by slaves. Archaeologists have found the workers' town, with bakeries, breweries and doctors. The builders were paid, organised crews, joined in the flood season by farmers who owed labour to the king.
+@section Sacred writing
+Egyptians wrote in **hieroglyphs**, picture signs that could stand for a whole word or for a sound. Scribes wrote with reed pens on **papyrus**, sheets made from a river reed. Our word "paper" comes from it.
+After Egypt fell under Roman and later rule, the knowledge of hieroglyphs was lost for about 1,400 years. In 1799 French soldiers found the **Rosetta Stone**, which carries one decree in three scripts: hieroglyphic, a later Egyptian script, and Greek. Scholars could read the Greek. In 1822 **Jean-François Champollion** used it to crack the code, and Egypt could speak again.
+@section Lasting knowledge
+- A **365-day calendar**, based on the flood and the star Sirius.
+- Practical **geometry**, for re-measuring fields after each flood and for building.
+- **Medicine**: written manuals on wounds, fractures and remedies.
+- Monumental **architecture** in stone.
+@example Explain how the Nile's flood helped make the pyramids possible.
+- The flood renewed the soil every year, giving large and reliable harvests.
+- The surplus grain was collected and stored by the pharaoh's officials.
+- During the flood months farmers could not work their fields.
+- The pharaoh used the stored grain to feed and pay those farmers to build.
+= The Nile supplied both the food surplus and the free labour season that great building projects required.
+@activity Cartouche and the Pyramid Problem | card, gold or yellow pencil, a hieroglyphic alphabet chart (from a book or online), squared paper
+- A **cartouche** is the oval that encloses a royal name. Draw one and write your own name inside it in hieroglyphs, sound by sound.
+- The Great Pyramid's base is a square about 230 m on each side. Work out the distance all the way round it.
+- If you walk 1 m each second, how many minutes would that walk take?
+- If 2.3 million blocks were laid over 20 years, about how many blocks were laid each year? Each day?
+- Write three sentences on what your results tell you about Egyptian organisation.
+@practice
+? Why did Herodotus call Egypt "the gift of the Nile"?
+= Without the river's water and silt, Egypt would be empty desert.
+! All of Egypt's farmland, drinking water and transport came from the one river.
+? Why is southern Egypt called Upper Egypt?
+= It is upstream. The Nile flows from south to north.
+! "Upper" refers to higher ground nearer the river's source, not to the top of the map.
+? What is ma'at?
+= The Egyptian idea of truth, justice, balance and right order.
+! The regular Nile and a secure land encouraged a belief in a stable, ordered world that the pharaoh had to maintain.
+? Who built the pyramids, and how do we know?
+= Paid, organised workers and seasonal farm labourers, not slaves. Their town has been excavated.
+! Archaeologists found housing, bakeries and medical care for the builders near Giza.
+? Why was the Rosetta Stone the key to hieroglyphs?
+= It gives the same text in hieroglyphs and in Greek, which scholars could already read.
+! Matching the known language against the unknown one let Champollion work out the values of the signs.
+? Why did Egyptians mummify their dead?
+= They believed the body was needed for life after death.
+! Preserving the body, and supplying the tomb, was meant to secure the person's survival in the afterlife.
+@challenge
+? Mesopotamia and Egypt both grew up beside rivers, yet Mesopotamia was a land of rival city-states and Egypt was one kingdom for most of 3,000 years. Using geography, give two reasons for the difference.
+= Egypt had one river acting as a single highway, and natural barriers of desert and sea. Mesopotamia had two rivers, many separate canal systems and open borders.
+! The Nile's current carried boats north and the wind blew them south, tying the whole valley together under one ruler, while deserts kept invaders out. Mesopotamian cities competed for water and were exposed on every side.
+@vocab
+Pharaoh: The king of ancient Egypt, regarded as a god.
+Ma'at: Truth, balance and order in Egyptian belief.
+Hieroglyphs: The picture-based writing of ancient Egypt.
+Papyrus: A reed, and the writing sheets made from it.
+Mummy: A body preserved by drying and wrapping.
+Delta: The fan of land where a river meets the sea.
+@talk
+- The pyramids used enormous wealth to house one dead king. Was that a waste, or did Egypt gain something from building them?
+- Egypt changed very little in 3,000 years. Is such stability a strength or a weakness?
+- If a civilisation's writing can no longer be read, how much of that civilisation is lost?
+
+@lesson 7 literature Protagonists
+@hook A good author never writes "Mara was brave." The author shows Mara's hands shaking as she opens the door anyway. Why is the second version so much stronger, and how do writers make people out of ink?
+@goals
+- Identify the protagonist and antagonist of a story.
+- Distinguish direct from indirect characterisation.
+- Analyse a character through speech, thoughts, effect on others, actions and looks.
+- Describe a character's motivation, flaw and arc.
+@section Who the story is about
+The **protagonist** is the central character, the one whose problem drives the story and whose choices we follow. The word is Greek: *protos* (first) and *agonistes* (contestant, actor). The **antagonist** is the force that stands against the protagonist. It may be a person, a society, nature, or something inside the protagonist.
+The protagonist is not always good, and the antagonist is not always evil. "Protagonist" means central, not virtuous.
+@section Telling and showing
+An author builds a character in two ways.
+**Direct characterisation** tells you the trait: "Tomás was generous."
+**Indirect characterisation** shows evidence and trusts you to infer the trait: "Tomás broke his bread in two and held out the larger piece."
+Good readers gather the evidence with five questions, remembered as **STEAL**.
+| Letter | Ask | Example |
+| **S**peech | What does the character say, and how? | "I suppose I could help," she muttered. |
+| **T**houghts | What does the character think and feel in private? | He counted the exits. |
+| **E**ffect on others | How do other characters react? | The room fell silent when she entered. |
+| **A**ctions | What does the character do? | He returned the wallet without opening it. |
+| **L**ooks | What do appearance and manner suggest? | Her boots were patched but polished. |
+Actions weigh the most. When a character's words and actions disagree, believe the actions.
+@section Depth and change
+| Term | Meaning |
+| Flat character | Built on one trait; simple |
+| Round character | Has several traits, some in conflict; feels real |
+| Static character | Stays the same from beginning to end |
+| Dynamic character | Changes in an important way |
+A **motivation** is what a character wants and why. A **flaw** is a weakness that causes trouble. The path of change from the beginning to the end is the **character arc**. In most strong stories the protagonist is round and dynamic: they want something, their flaw stands in the way, and the events of the plot force them to change.
+To describe an arc, complete this sentence: "At first ___ is ___, but after ___, they become ___."
+@example Analyse this passage with STEAL. "Old Bao arrived at the school gate an hour before the bell, as he had every day for thirty years. He straightened the crooked sign, though nobody had asked him to. When the new headmaster hurried past without a word, Bao only bowed. 'Fine morning,' he said to the empty yard. The smallest children ran to him first."
+- Speech: "Fine morning", said to an empty yard. He is cheerful and expects no reply.
+- Thoughts: none are given. We must infer everything.
+- Effect on others: the smallest children run to him first. He is trusted and loved by those who judge by kindness.
+- Actions: he comes an hour early for thirty years, straightens the sign unasked, and bows to rudeness. He is dutiful, takes pride in his work, and is patient.
+- Looks: "Old" is the only detail. The author relies on action.
+= Bao is loyal, humble and kind. The author never states any of these traits. Every one is shown.
+@activity Character Dossier | a novel you are reading, a notebook, pencils
+- Name the protagonist and the antagonist. Is the antagonist a person, a group, nature or an inner struggle?
+- Rule a page into five boxes for STEAL. Find one quotation for each, with its page number.
+- From your evidence write three trait words. Underline the evidence for each.
+- Write the protagonist's motivation in one sentence and their flaw in another.
+- Draw the arc as a line from the first chapter to where you are now. Mark the events that changed the character.
+@practice
+? What is a protagonist?
+= The central character, whose problem and choices drive the story.
+! The plot is built around what this character wants and what stands in the way.
+? Must the antagonist be a villain? Explain.
+= No. It is whatever opposes the protagonist, and may be nature, society or an inner conflict.
+! A storm, an unjust law, or the character's own fear can all block the goal.
+? Is this direct or indirect characterisation? "Lucía counted her coins twice, then pushed them all across the counter toward the old man."
+= Indirect
+! The author shows an action and leaves us to infer that Lucía is generous, or self-sacrificing.
+? What does STEAL stand for?
+= Speech, Thoughts, Effect on others, Actions, Looks
+! These are the five kinds of evidence an author uses to reveal character indirectly.
+? What is the difference between a static and a dynamic character?
+= A static character does not change. A dynamic character changes in an important way.
+! The change is usually in belief, attitude or understanding, caused by the events of the story.
+? A character says, "I am not afraid," while backing toward the door. What should the reader conclude, and why?
+= The character is afraid.
+! Actions are stronger evidence than words. When the two conflict, the action reveals the truth.
+@challenge
+? Rewrite each "telling" sentence as "showing", in two or three sentences, without using the trait word: (a) "Sam was nervous." (b) "The queen was cruel." (c) "Ada was curious."
+= Example for (a): "Sam checked his watch, then checked it again. His lines, which he had known perfectly at breakfast, had left his head."
+! A successful answer gives concrete evidence from STEAL, such as an action or speech, from which a reader could infer the exact trait. Test it by asking someone to name the trait.
+@vocab
+Protagonist: The main character of a story.
+Antagonist: The character or force opposing the protagonist.
+Characterisation: The methods an author uses to reveal character.
+Motivation: The reason behind a character's actions.
+Dynamic character: A character who changes during the story.
+Character arc: The path of a character's change across a story.
+@talk
+- Can a story have a protagonist you dislike? Would you keep reading?
+- Why do readers believe a character's actions more than the narrator's descriptions?
+- Think of yourself as the protagonist of this year. What is your motivation, and what is your flaw?
+
+@lesson 7 languages French Immersion II: Family & Numbers
+@hook In French, ninety-nine is said "four-twenty-ten-nine". Why would a language count in twenties, and what does that have to do with the bases you studied in Week 1?
+@goals
+- Name family members in French with the correct article.
+- Use *mon, ma, mes* and the verb *avoir*.
+- Count from 0 to 100 in French.
+- Say your age and describe your family in simple sentences.
+@section Every noun has a gender
+In French, as in Spanish, every noun is either **masculine** or **feminine**. You must learn each noun together with its article.
+| | Masculine | Feminine | Plural |
+| the | le | la | les |
+| a, an | un | une | des |
+| my | mon | ma | mes |
+Before a vowel or silent h, *le* and *la* both shorten to **l'**: *l'oncle*, *l'école*. Compare the Spanish *el, la, los, las*.
+@section La famille
+| French | Say it | English |
+| le père | luh PEHR | father |
+| la mère | la MEHR | mother |
+| les parents | lay pa-RON | parents |
+| le frère | luh FREHR | brother |
+| la sœur | la SUR | sister |
+| le fils | luh FEESS | son |
+| la fille | la FEE-yuh | daughter, girl |
+| le grand-père | luh gron-PEHR | grandfather |
+| la grand-mère | la gron-MEHR | grandmother |
+| l'oncle | LONK-luh | uncle |
+| la tante | la TONT | aunt |
+| le cousin / la cousine | koo-ZAN / koo-ZEEN | cousin (boy / girl) |
+Look for the Latin: *père* from *pater*, *mère* from *mater*, *frère* from *frater*. English keeps them in "paternal", "maternal" and "fraternal". In *fils* the l is silent and the s is sounded, an exception to the silent-final-letter rule.
+@section Avoir: to have
+French uses *avoir* for age and for possession.
+| French | English |
+| j'ai | I have |
+| tu as | you have (informal) |
+| il a / elle a | he has / she has |
+| nous avons | we have |
+| vous avez | you have (polite or plural) |
+| ils ont / elles ont | they have |
+*J'ai dix ans.* I am ten years old. *J'ai un frère et deux sœurs.* I have one brother and two sisters. *Mon père s'appelle David.* My father's name is David.
+@section Numbers 0 to 20
+| | | | | | |
+| 0 zéro | 1 un | 2 deux | 3 trois | 4 quatre | 5 cinq |
+| 6 six | 7 sept | 8 huit | 9 neuf | 10 dix | 11 onze |
+| 12 douze | 13 treize | 14 quatorze | 15 quinze | 16 seize | 17 dix-sept |
+| 18 dix-huit | 19 dix-neuf | 20 vingt | | | |
+Say them: *deux* "duh", *trois* "trwa", *cinq* "sank", *six* "seess", *sept* "set", *huit* "weet", *dix* "deess", *vingt* "van". From 17 to 19 French simply says "ten-seven, ten-eight, ten-nine".
+@section The tens, and a surprise
+| Number | French | Literally |
+| 30 | trente | |
+| 40 | quarante | |
+| 50 | cinquante | |
+| 60 | soixante | |
+| 70 | soixante-dix | sixty-ten |
+| 80 | quatre-vingts | four-twenties |
+| 90 | quatre-vingt-dix | four-twenty-ten |
+| 100 | cent | |
+For 21, 31, 41, 51 and 61 say *et un*: *vingt et un*. Otherwise join with a hyphen: *vingt-deux*, *trente-cinq*. After 60, keep counting on from sixty: 71 is *soixante et onze*, 75 is *soixante-quinze*. After 80, count on from four-twenties: 91 is *quatre-vingt-onze*, 99 is *quatre-vingt-dix-neuf*.
+This is a fossil of **base twenty**. The Celtic peoples who lived in France before the Romans counted in twenties, perhaps on fingers and toes. English has a fossil too: "four score and seven" means 87. In Belgium and Switzerland French speakers say *septante* for 70 and *nonante* for 90.
+@example Say 78 and 94 in French.
+- 78 is 60 + 18: *soixante* + *dix-huit*.
+- 94 is 80 + 14: *quatre-vingt* + *quatorze*.
+= soixante-dix-huit; quatre-vingt-quatorze
+@example Translate: "J'ai deux frères. Ma sœur a sept ans. Mes grands-parents ont une maison."
+- *J'ai* is "I have". *deux frères* is "two brothers".
+- *Ma sœur a sept ans*: "my sister has seven years", that is, she is seven.
+- *ont* is "they have". *une maison* is "a house".
+= "I have two brothers. My sister is seven years old. My grandparents have a house."
+@activity Mon Arbre Généalogique | large paper, photographs or drawings, pens
+- Draw your family tree with at least three generations.
+- Label every person in French with the correct article: *le père, la tante* …
+- Under each person write a sentence with their name and age: *Ma mère s'appelle … Elle a … ans.*
+- Present your tree aloud in French to your family.
+- Play *Loto* (bingo) with numbers from 60 to 99. The caller must say every number in French.
+@practice
+? How do you say "I am ten years old" in French, and what does it mean literally?
+= J'ai dix ans. "I have ten years."
+! French, like Spanish (*tengo diez años*), uses "to have" for age.
+? Choose *mon, ma* or *mes*: ___ frère, ___ sœur, ___ parents.
+= mon frère, ma sœur, mes parents
+! *mon* goes with a masculine noun, *ma* with a feminine noun, and *mes* with any plural.
+? Write 16, 21 and 45 in French.
+= seize, vingt et un, quarante-cinq
+! 16 has its own word. 21 uses *et un*. Other numbers join the ten and the unit with a hyphen.
+? What number is *soixante-douze*?
+= 72
+! *soixante* is 60 and *douze* is 12, and 60 + 12 = 72.
+? Write 80 and 95 in French.
+= quatre-vingts, quatre-vingt-quinze
+! Eighty is "four twenties". Ninety-five is four twenties plus fifteen.
+? Translate: "Mon oncle a trois fils."
+= "My uncle has three sons."
+! *a* is the "he has" form of *avoir*, and *fils* is the same in singular and plural.
+@challenge
+? Write five sentences in French introducing your family: how many brothers and sisters you have, their names, and three people's ages. Then write the year you were born as a number and work out how to say it in French.
+= Answers will vary. Example: "J'ai une sœur et un frère. Ma sœur s'appelle Ana. Elle a six ans." A year such as 2016 is *deux mille seize*.
+! Check each sentence for the right form of *avoir*, the right *mon / ma / mes*, and the correct number. *mille* is the thousand root you met in Week 5.
+@vocab
+La famille: The family.
+Le frère / la sœur: The brother / the sister.
+Avoir: To have.
+Mon, ma, mes: My (masculine, feminine, plural).
+Vingt: Twenty.
+Gender: The grouping of nouns as masculine or feminine.
+@talk
+- Does counting "four-twenties" make arithmetic harder for French children? How could you find out?
+- Why might languages give a gender to things such as tables and bridges?
+- English says "I am ten", French and Spanish say "I have ten years". Does the way we phrase age change how we think about it?
